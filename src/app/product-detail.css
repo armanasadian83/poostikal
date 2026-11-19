@@ -1,0 +1,115 @@
+/* Shared homepage identity for photograph and continuous 3D product pages. */
+.themed-product-shell{position:relative;isolation:isolate;background:var(--tone-0516)}
+.themed-product-shell .home-banner-backdrop{height:1040px;max-height:100%;mask-image:linear-gradient(var(--tone-0001) 0%,var(--tone-0001) 48%,var(--tone-0561) 73%,transparent 100%)}
+.themed-product-shell .poostikal-announcement{background:transparent;color:var(--tone-0014);font-weight:550}
+.themed-product-shell .announcement-dot{background:var(--tone-0015)}
+.themed-product-shell .navigation-wrap{background:transparent}
+.themed-product-shell .poostikal-header{background:transparent;border:1px solid var(--tone-0056);box-shadow:0 12px 35px var(--tone-0017),inset 0 1px 0 var(--tone-0018);isolation:isolate}
+.themed-product-shell .poostikal-header:before{content:'';position:absolute;inset:0;z-index:-1;border-radius:inherit;pointer-events:none;background:var(--tone-0562);backdrop-filter:blur(18px) saturate(1.15)}
+.themed-product-shell .header-navigation-row{border-top-color:var(--tone-0020)}
+.themed-product-shell .brand-identity{border-right-color:var(--tone-0021)}
+.themed-product-shell .brand-description{color:var(--tone-0022)}
+.themed-product-shell .nav-search{background:var(--tone-0023);border-color:var(--tone-0024);box-shadow:inset 0 1px 0 var(--tone-0025)}
+.themed-product-shell .nav-search:hover{background:var(--tone-0006);border-color:var(--tone-0026)}
+.themed-product-shell .nav-search>span:nth-child(2){color:var(--tone-0027)}
+.themed-product-shell .nav-search .nav-search-hint{border-right-color:var(--tone-0028);color:var(--tone-0029)}
+.themed-product-shell .nav-account{background:var(--tone-0030);border-color:var(--tone-0031)}
+.themed-product-shell .nav-account:hover{background:var(--tone-0024)}
+.themed-product-shell .desktop-nav .category-disclosure{background:var(--tone-0032);border-color:transparent}
+.themed-product-shell .desktop-nav .category-disclosure:hover,.themed-product-shell .desktop-nav .category-disclosure.is-expanded{background:var(--tone-0033);border-color:var(--tone-0034)}
+.themed-product-shell .nav-routine{background:var(--tone-0035);color:var(--tone-0036)}
+.themed-product-shell .nav-routine:hover{background:var(--tone-0037)}
+.themed-product-shell .category-mega-panel{background:var(--tone-0562)}
+.themed-product-page{--ink:var(--brand-violet);--forest:var(--brand-violet);--muted:var(--tone-0563);--line:var(--tone-0564);color:var(--theme-text);padding-top:4px;padding-bottom:72px}
+.themed-product-page .breadcrumb{display:flex;align-items:center;flex-wrap:wrap;gap:12px;font-size:11px;line-height:1.8;color:var(--tone-0565);padding-inline:4px;margin:0}
+.themed-product-page .breadcrumb>span:not(:last-child){color:var(--tone-0566)}
+.themed-product-page .breadcrumb a:hover{color:var(--theme-accent-ink,var(--tone-0567))}
+.themed-product-page .product-detail-layout{grid-template-columns:minmax(0,.94fr) minmax(0,1.06fr);gap:24px;margin-top:23px;align-items:start}
+.themed-product-page .product-detail-layout>div{min-width:0}
+.themed-product-page .detail-copy{min-width:0;border:1px solid var(--tone-0568);border-radius:30px;background:linear-gradient(135deg,var(--tone-0569),var(--tone-0025));box-shadow:inset 0 1px 0 var(--tone-0026),0 16px 45px var(--tone-0570);backdrop-filter:blur(18px) saturate(1.12)}
+.themed-product-page .detail-image{height:clamp(490px,40vw,600px);min-height:0;min-width:0;border:0;border-radius:30px;overflow:hidden;background:transparent}
+.themed-product-page .detail-image>img{object-fit:contain;object-position:center;padding:20px}
+.themed-product-page:is([data-product=mad-daily-moisturizer],[data-product=genosys-snow-o2],[data-product=genosys-snow-booster]) .detail-image>img{object-fit:cover;padding:15px 0}
+.themed-product-page .detail-image .wishlist-button{display:grid;place-items:center;top:20px;left:20px;width:46px;height:46px;z-index:2;border:1px solid var(--tone-0571);background:var(--tone-0215);color:var(--tone-0572);box-shadow:0 5px 16px var(--tone-0573);backdrop-filter:blur(12px)}
+.themed-product-page .detail-image .wishlist-button svg{width:22px;height:22px}
+.themed-product-page .detail-image .wishlist-button:hover{background:var(--tone-0545);color:var(--theme-accent-ink,var(--tone-0546))}
+.themed-product-page .detail-image .wishlist-button.is-saved{background:var(--tone-0574);border-color:var(--tone-0529);color:var(--tone-0575)}
+.themed-product-page .detail-copy{padding:25px 27px 20px;direction:rtl}
+.themed-product-page .detail-brand-row{display:flex;align-items:center;min-height:18px}
+.themed-product-page .detail-brand{color:var(--tone-0576);font-size:11px;letter-spacing:1.6px;font-weight:650;line-height:1.6}
+.themed-product-page .detail-brand:hover{color:var(--theme-accent-ink,var(--tone-0577))}
+.themed-product-page .detail-copy h1{color:var(--theme-text);font-size:clamp(23px,2vw,29px);line-height:1.7;font-weight:800;letter-spacing:-.7px;margin-top:8px;text-wrap:pretty;overflow-wrap:anywhere}
+.themed-product-page .detail-name-brand{display:inline-block;white-space:nowrap;direction:rtl;unicode-bidi:isolate;margin-right:.25em;letter-spacing:-.4px}
+.themed-product-page .detail-description{color:var(--tone-0578);font-size:13px;line-height:2.15;font-weight:450;margin-top:14px}
+.themed-product-page .skin-tags{gap:7px;margin-top:13px}
+.themed-product-page .skin-tags span{background:var(--tone-0579);border:1px solid var(--tone-0580);color:var(--tone-0581);border-radius:999px;font-size:10px;padding:3px 13px;line-height:1.8;font-weight:550}
+.themed-product-page .variant-field{margin-top:21px;min-width:0}
+.themed-product-page .variant-field legend{float:right;margin:0 0 0 15px;padding:0;color:var(--tone-0582);font-size:11px;font-weight:650;line-height:44px}
+.themed-product-page .variant-field>div{display:flex;flex-wrap:wrap;gap:8px;min-width:0}
+.themed-product-page .variant-field button{border:1px solid var(--tone-0583);background:var(--tone-0023);border-radius:12px;min-height:44px;padding:9px 14px;color:var(--tone-0584);font-size:11px;line-height:1.6;gap:16px;transition:background .18s,border-color .18s,box-shadow .18s}
+.themed-product-page .variant-field button:hover{border-color:var(--tone-0585);background:var(--tone-0024)}
+.themed-product-page .variant-field button.selected{border-color:var(--tone-0586);background:var(--tone-0587);color:var(--tone-0487);box-shadow:inset 0 1px 0 var(--tone-0228)}
+.themed-product-page .detail-price-row{padding-top:17px;margin:18px 0 13px;border-top:1px solid var(--tone-0588);gap:12px;flex-wrap:wrap}
+.themed-product-page .detail-price-row .price{display:flex;align-items:baseline;gap:8px;font-size:28px;font-weight:800;line-height:1.5;letter-spacing:-.6px;color:var(--theme-text);font-variant-numeric:tabular-nums;white-space:nowrap}
+.themed-product-page .detail-price-row .price span{color:var(--tone-0589);font-size:11px;font-weight:450;margin:0;letter-spacing:0}
+.themed-product-page .detail-price-row .subtle{font-size:9px;color:var(--tone-0590)}
+.themed-product-page .purchase-row{gap:12px;align-items:stretch}
+.themed-product-page .purchase-row>.button{background:var(--brand-violet);color:var(--theme-on-primary);border:1px solid var(--tone-0591);border-radius:14px;min-height:50px;padding:13px 19px;gap:13px;font-size:12px;font-weight:700;box-shadow:0 7px 17px var(--tone-0592);transition:background .2s,transform .2s,box-shadow .2s}
+.themed-product-page .purchase-row>.button:hover{background:var(--tone-0593);box-shadow:0 9px 20px var(--tone-0594);transform:translateY(-1px)}
+.themed-product-page .purchase-row .quantity-control{height:50px;min-width:110px;border:1px solid var(--tone-0595);border-radius:14px;background:var(--tone-0596);color:var(--tone-0597);overflow:hidden;box-shadow:inset 0 1px 0 var(--tone-0400)}
+.themed-product-page .purchase-row .quantity-control button{width:34px;min-height:44px;color:var(--tone-0598)}
+.themed-product-page .purchase-row .quantity-control button:hover:not(:disabled){background:var(--tone-0599)}
+.themed-product-page .purchase-row .quantity-control>span{font-size:13px;font-weight:600}
+.themed-product-page .detail-highlights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin-top:18px;padding:10px 4px;border:1px solid var(--tone-0600);border-radius:14px;background:var(--tone-0601);box-shadow:inset 0 1px 0 var(--tone-0425)}
+.themed-product-page .detail-highlights p{display:flex;gap:6px;align-items:center;justify-content:center;padding:0 9px;margin:0;min-height:36px;font-size:10px;line-height:1.9;color:var(--tone-0602);text-align:center;min-width:0}
+.themed-product-page .detail-highlights p+p{border-right:1px solid var(--tone-0603)}
+.themed-product-page .detail-highlights svg{color:var(--tone-0604);flex-shrink:0;width:15px;height:15px}
+.themed-product-page .detail-highlights p>span{min-width:0;overflow-wrap:anywhere}
+.themed-product-page .detail-quiz-link{border:1px solid var(--tone-0075);border-radius:13px;padding:12px 15px;margin-top:13px;background:var(--tone-0605);color:var(--tone-0606);gap:11px;font-size:11px;font-weight:600;line-height:1.8;min-height:47px;transition:background .2s,box-shadow .2s}
+.themed-product-page .detail-quiz-link:hover{background:var(--tone-0607);box-shadow:0 4px 14px var(--tone-0608)}
+.themed-product-page .detail-quiz-link>svg:first-child{color:var(--tone-0609);width:18px;height:18px}
+.themed-product-page .detail-quiz-link>svg:last-child{flex-shrink:0}
+.themed-product-page .related-section{margin-top:43px}
+.themed-product-page .related-section .section-heading{margin-bottom:23px}
+.themed-product-page .related-section .section-heading h2{color:var(--theme-text);font-size:27px;font-weight:800;line-height:1.8;letter-spacing:-.6px}
+.themed-product-page .related-section .text-link{color:var(--tone-0226);font-size:11px}
+.themed-product-page :focus-visible{outline:2px solid var(--tone-0531);outline-offset:4px}
+@media(min-width:1400px){.themed-product-page .detail-copy{padding-inline:30px}.themed-product-page .detail-image{height:600px}.themed-product-page .detail-highlights p{font-size:11px}}
+@media(max-width:1100px){.themed-product-page .product-detail-layout{gap:20px;grid-template-columns:minmax(0,.94fr) minmax(0,1.06fr)}.themed-product-page .detail-copy{padding:21px 22px 18px}.themed-product-page .detail-copy h1{font-size:24px}.themed-product-page .detail-image{height:540px}.themed-product-page .detail-description{font-size:12px}.themed-product-page .detail-highlights{grid-template-columns:1fr;padding:10px 14px;gap:7px}.themed-product-page .detail-highlights p{justify-content:flex-start;min-height:0;padding:0;font-size:10px;text-align:right}.themed-product-page .detail-highlights p+p{border:0}.themed-product-page .detail-highlights p>span{flex:1}.themed-product-page .purchase-row{gap:9px}.themed-product-page .purchase-row .quantity-control{min-width:96px}.themed-product-page .purchase-row .quantity-control button{width:29px}.themed-product-page .purchase-row>.button{font-size:11px;padding-inline:12px;gap:8px}}
+@media(min-width:761px) and (max-width:960px){.themed-product-page .product-detail-layout{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:18px}.themed-product-page .detail-copy{padding:20px 19px 17px}.themed-product-page .detail-copy h1{font-size:22px}.themed-product-page .detail-image{height:500px}.themed-product-page .detail-image>img{padding:15px}.themed-product-page:is([data-product=mad-daily-moisturizer],[data-product=genosys-snow-o2],[data-product=genosys-snow-booster]) .detail-image>img{padding:24px 0}.themed-product-page .detail-image .wishlist-button{top:15px;left:15px;width:42px;height:42px}.themed-product-page .variant-field legend{float:none;line-height:1.8;margin:0 0 8px}.themed-product-page .detail-highlights{padding:10px}.themed-product-page .detail-price-row .price{font-size:25px}.themed-product-page .detail-price-row .subtle{display:none}.themed-product-page .purchase-row{flex-wrap:wrap}.themed-product-page .purchase-row>.button{min-width:180px}.themed-product-page .detail-quiz-link{padding-inline:11px;font-size:10px}}
+@media(max-width:760px){
+  .themed-product-shell .home-banner-backdrop{height:1260px;mask-image:linear-gradient(var(--tone-0001) 0%,var(--tone-0001) 36%,var(--tone-0561) 76%,transparent 100%)}
+  .themed-product-page{padding-top:2px;padding-bottom:48px}
+  .themed-product-page .breadcrumb{font-size:10px;gap:9px}
+  .themed-product-page .product-detail-layout{display:flex;flex-direction:column;align-items:stretch;gap:16px;margin-top:18px}
+  .themed-product-page .detail-image,.themed-product-page .detail-copy{width:100%;border-radius:25px}
+  .themed-product-page .detail-image{height:clamp(290px,92vw,450px);min-height:0}
+  .themed-product-page .detail-image>img{padding:18px}
+  .themed-product-page:is([data-product=mad-daily-moisturizer],[data-product=genosys-snow-o2],[data-product=genosys-snow-booster]) .detail-image>img{padding:14px 0}
+  .themed-product-page .detail-image .wishlist-button{top:15px;left:15px;width:44px;height:44px}
+  .themed-product-page .detail-copy{padding:23px 22px 19px}
+  .themed-product-page .detail-copy h1{font-size:25px;line-height:1.75;margin-top:9px}
+  .themed-product-page .detail-brand{font-size:10px}
+  .themed-product-page .detail-description{font-size:12px;line-height:2.2;margin-top:13px}
+  .themed-product-page .skin-tags{margin-top:14px}
+  .themed-product-page .variant-field{margin-top:20px}
+  .themed-product-page .detail-price-row{margin-block:18px 14px;padding-top:16px}
+  .themed-product-page .detail-price-row .price{font-size:29px}
+  .themed-product-page .detail-price-row .subtle{font-size:8px}
+  .themed-product-page .purchase-row>.button{font-size:12px;min-height:51px;padding-inline:13px}
+  .themed-product-page .purchase-row .quantity-control{height:51px;min-width:103px}
+  .themed-product-page .purchase-row .quantity-control button{width:31px}
+  .themed-product-page .detail-highlights{padding:12px 14px;gap:7px;margin-top:16px}
+  .themed-product-page .detail-highlights p{font-size:11px;gap:8px}
+  .themed-product-page .detail-quiz-link{font-size:10px;padding:12px;margin-top:12px}
+  .themed-product-page .related-section{margin-top:31px}
+  .themed-product-page .related-section .section-heading h2{font-size:22px;max-width:230px}
+  .themed-product-page .related-section .text-link{font-size:10px}
+}
+@media(max-width:380px){.themed-product-page .detail-copy{padding-inline:18px}.themed-product-page .detail-copy h1{font-size:22px}.themed-product-page .variant-field legend{float:none;line-height:1.8;margin-bottom:8px}.themed-product-page .detail-price-row .price{font-size:26px}.themed-product-page .detail-price-row .subtle{display:none}.themed-product-page .purchase-row{gap:8px;flex-wrap:wrap}.themed-product-page .purchase-row .quantity-control{min-width:94px}.themed-product-page .purchase-row .quantity-control button{width:28px}.themed-product-page .purchase-row>.button{min-width:0;font-size:11px;padding-inline:10px;white-space:nowrap}.themed-product-page .detail-quiz-link{gap:8px;font-size:9px}.themed-product-page .related-section .section-heading h2{font-size:20px;max-width:190px}}
+@media(prefers-reduced-motion:reduce){.themed-product-page .purchase-row>.button,.themed-product-page .variant-field button,.themed-product-page .detail-quiz-link{transition:none}.themed-product-page .purchase-row>.button:hover{transform:none}}
+@supports not (backdrop-filter:blur(1px)){.themed-product-page .detail-copy{background:var(--tone-0610);border-color:var(--tone-0611)}}
+
+
+.product-thumbnails{display:flex;gap:12px;padding-top:16px;overflow:auto}.product-thumbnails button{border:1px solid var(--tone-0612);border-radius:12px;padding:5px;background:var(--tone-0613)}.product-thumbnails button.selected{border-color:var(--tone-0614)}.product-thumbnails img{object-fit:contain}.database-product-animation{display:grid;grid-template-columns:1fr 1fr;direction:ltr;gap:40px;min-height:190vh;position:relative}.database-product-animation>div:last-child{direction:rtl;padding-top:50px}.database-animation-media{position:sticky;top:190px;height:65vh;min-height:330px}.database-animation-media canvas,.database-animation-media video{width:100%;height:100%;object-fit:contain}.database-animation-media img{object-fit:contain}.catalog-pagination{display:flex;align-items:center;justify-content:center;gap:18px;margin-top:35px}@media(max-width:760px){.database-product-animation{display:flex;flex-direction:column;min-height:170vh}.database-animation-media{top:150px;height:40vh;z-index:1;background:var(--tone-0615)}.database-product-animation>div:last-child{padding-bottom:80vh}}
+.themed-product-shell:has(.unboxing-product-page)>.home-banner-backdrop{position:sticky;top:0;height:100svh;max-height:none;margin-bottom:-100svh;mask-image:none}

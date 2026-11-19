@@ -1,0 +1,31 @@
+/* A quiet lavender rail, with a luminous violet-to-rose thumb. */
+:root { --scroll-thumb:var(--tone-0643); --scroll-track:var(--tone-0644); }
+:where(html,body,body *) { scrollbar-width:thin; scrollbar-color:var(--scroll-thumb) var(--scroll-track); }
+@supports selector(::-webkit-scrollbar) {
+  :where(html,body,body *) { scrollbar-width:auto; scrollbar-color:auto; }
+  ::-webkit-scrollbar { width:9px; height:9px; }
+  ::-webkit-scrollbar-track { background:var(--scroll-track); border-radius:999px; }
+  ::-webkit-scrollbar-thumb { min-height:36px; border:2px solid transparent; border-radius:999px; background:linear-gradient(180deg,var(--tone-0645),var(--tone-0646) 55%,var(--tone-0647)) padding-box; }
+  ::-webkit-scrollbar-thumb:hover { background:linear-gradient(180deg,var(--tone-0648),var(--tone-0649) 55%,var(--tone-0650)) padding-box; }
+  ::-webkit-scrollbar-thumb:active { background:var(--tone-0651) padding-box; }
+  ::-webkit-scrollbar-button { display:none; width:0; height:0; }
+  ::-webkit-scrollbar-corner { background:transparent; }
+}
+
+.violet-cursor { position:fixed; inset:0; width:100%; height:100%; max-width:none; max-height:none; margin:0; padding:0; border:0; overflow:clip; background:transparent; pointer-events:none!important; z-index:2147483647; opacity:0; }
+.violet-cursor[data-visible] { opacity:1; }
+.violet-cursor::backdrop { display:none; pointer-events:none; }
+.violet-cursor canvas { display:block; position:absolute; inset:0; width:100%; height:100%; pointer-events:none; }
+.violet-cursor-position { position:absolute; top:0; left:0; width:0; height:0; pointer-events:none; will-change:transform; }
+.violet-cursor-dot { display:block; position:absolute; width:11px; height:11px; left:-5.5px; top:-5.5px; border:1px solid var(--tone-0026); border-radius:50%; background:radial-gradient(circle at 33% 28%,var(--tone-0026) 0 15%,var(--tone-0652) 26%,var(--tone-0653) 46%,var(--tone-0654) 73%,var(--tone-0655) 100%); box-shadow:inset 0 0 3px var(--tone-0026),0 0 4px 1px var(--tone-0656),0 0 10px 3px var(--tone-0657),0 0 22px 5px var(--tone-0658); transition:transform .17s ease,box-shadow .2s ease; }
+.violet-cursor-dot::before { content:''; position:absolute; width:3px; height:3px; left:1px; top:1px; border-radius:50%; background:var(--tone-0026); box-shadow:0 0 5px 2px var(--tone-0400); }
+.violet-cursor-dot::after { content:''; position:absolute; inset:-5px; border:1px solid var(--tone-0659); border-radius:50%; background:transparent; transition:inset .2s ease,border-color .2s ease; }
+.violet-cursor[data-interactive] .violet-cursor-dot { box-shadow:inset 0 0 3px var(--tone-0026),0 0 5px 2px var(--tone-0660),0 0 13px 4px var(--tone-0657),0 0 27px 6px var(--tone-0661); }
+.violet-cursor[data-interactive] .violet-cursor-dot::after { inset:-8px; border-color:var(--tone-0662); }
+.violet-cursor[data-pressed] .violet-cursor-dot { transform:scale(.72); }
+@media (any-hover:hover) and (any-pointer:fine) and (prefers-reduced-motion:no-preference) and (forced-colors:none) {
+  html.violet-cursor-active,html.violet-cursor-active body,html.violet-cursor-active body * { cursor:none!important; }
+}
+@media (prefers-reduced-motion:reduce),(forced-colors:active) {
+  .violet-cursor { display:none!important; }
+}

@@ -1,0 +1,14 @@
+.admin-product-audio{display:grid;gap:16px;min-width:0}
+.admin-audio-upload{display:flex;align-items:center;flex-wrap:wrap;gap:16px;padding:22px;border:1px dashed var(--tone-0839);border-radius:22px;background:linear-gradient(120deg,var(--tone-0596),var(--tone-0840));min-width:0}
+.admin-audio-symbol{display:grid;place-items:center;flex:0 0 54px;width:54px;height:54px;border-radius:18px;color:var(--tone-0841);background:linear-gradient(140deg,var(--tone-0842),var(--tone-0843));box-shadow:inset 0 1px 1px var(--tone-0026)}
+.admin-audio-file{display:grid;gap:7px;flex:1 1 180px;min-width:0}
+.admin-audio-file strong{font-size:14px;color:var(--tone-0844)}
+.admin-audio-file>span{font-size:12px;text-align:right;overflow-wrap:anywhere;color:var(--tone-0845)}
+.admin-audio-file small{font-size:11px;line-height:1.9;color:var(--tone-0846)}
+.admin-audio-status{font-size:11px;color:var(--tone-0847);line-height:1.8}
+.admin-audio-status:empty{display:none}
+.admin-audio-error{margin:0;color:var(--tone-0848);font-size:12px;line-height:1.8}
+.admin-audio-preview{padding:20px;border:1px solid var(--tone-0075);border-radius:22px;background:var(--tone-0849);min-width:0}
+.admin-audio-preview-label{display:block;color:var(--tone-0850);font-size:10px}
+.admin-audio-preview .product-audio{margin-top:12px}
+@media(max-width:600px){.admin-audio-upload{padding:16px;gap:12px}.admin-audio-upload>.admin-button{flex:1 1 auto;justify-content:center}.admin-audio-preview{padding:13px}.admin-audio-symbol{width:44px;height:44px;flex-basis:44px}.admin-audio-file{flex-basis:150px}}

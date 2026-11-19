@@ -1,0 +1,36 @@
+.admin-rich-text-field{min-width:0;gap:10px}
+.admin-rich-text-label{display:flex;justify-content:space-between;gap:12px;align-items:center;font-weight:650;color:var(--tone-1183)}
+.admin-rich-text-label>small{font-size:10px;font-weight:400;color:var(--tone-1184)}
+.admin-rich-text{overflow:hidden;border:1px solid var(--tone-1185);border-radius:17px;background:linear-gradient(135deg,var(--tone-0215),var(--tone-1186));box-shadow:inset 0 1px 0 var(--tone-0026),0 5px 20px var(--tone-1187);backdrop-filter:blur(16px);transition:border-color .2s,box-shadow .2s}
+.admin-rich-text:focus-within{border-color:var(--tone-1188);box-shadow:0 0 0 3px var(--tone-1189),inset 0 1px var(--tone-0026)}
+.admin-rich-text.is-invalid{border-color:var(--tone-1190)}.admin-rich-text.is-disabled{opacity:.65;pointer-events:none}
+.admin-rich-text-topline{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border-bottom:1px solid var(--tone-1191);background:linear-gradient(110deg,var(--tone-1192),var(--tone-0613))}
+.admin-rich-text-tabs{display:flex;gap:4px;padding:3px;background:var(--tone-1193);border:1px solid var(--tone-0400);border-radius:11px}
+.admin-rich-text-tabs>button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:33px;min-width:82px;padding:5px 12px;border:1px solid transparent;border-radius:8px;background:transparent;color:var(--tone-1194);font-size:12px;cursor:pointer}
+.admin-rich-text-tabs>button[aria-selected=true]{background:var(--tone-0400);border-color:var(--tone-1195);color:var(--tone-1196);box-shadow:0 2px 8px var(--tone-1197)}
+.admin-rich-text-tabs>button>span{font-family:Georgia,serif;font-size:13px;direction:ltr}.admin-rich-text-mode-label{font-size:10px;color:var(--tone-1198)}
+.admin-rich-text-toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:6px;padding:10px 12px;border-bottom:1px solid var(--tone-1199);background:var(--tone-1200)}
+.admin-rich-text-toolbar select{width:auto;min-width:114px;max-width:145px;min-height:34px;padding:4px 9px;border:1px solid var(--tone-1201);border-radius:8px;font-size:11px;background:var(--tone-0033);color:var(--tone-1202)}
+.admin-root .admin-rich-text-toolbar select{width:114px;min-width:114px;max-width:114px;flex:0 0 114px}
+.admin-rich-text-tools{display:flex;align-items:center;gap:2px;padding-inline-start:6px;border-inline-start:1px solid var(--tone-1203)}
+.admin-rich-text-toolbar button{display:flex;justify-content:center;align-items:center;width:33px;min-height:34px;padding:4px;border:1px solid transparent;border-radius:7px;background:transparent;color:var(--tone-1204);font-size:16px;font-family:Georgia,serif;cursor:pointer}
+.admin-rich-text-toolbar button:hover:not(:disabled){background:var(--tone-0400);color:var(--tone-1205);border-color:var(--tone-1206)}
+.admin-rich-text-toolbar button[aria-pressed=true]{background:var(--tone-1207);color:var(--tone-1208);border-color:var(--tone-1209)}
+.admin-rich-text-toolbar button:disabled{opacity:.3;cursor:default}.admin-rich-text-quote{font-size:23px;line-height:1}
+.admin-rich-text-body{padding:22px;min-height:245px;max-height:620px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--tone-1210) transparent;outline:none!important}
+.is-compact .admin-rich-text-body{min-height:145px;max-height:350px}
+.admin-rich-text-body p.is-editor-empty:first-child::before{color:var(--tone-1211);content:attr(data-placeholder);float:right;height:0;pointer-events:none;font-weight:400}
+.admin-root .admin-rich-text .admin-rich-text-code{display:block;resize:vertical;width:100%;min-height:245px;border:0;border-radius:0;background:var(--tone-0232);color:var(--tone-1212);box-shadow:none;outline:none;padding:22px;font:13px/1.9 Consolas,monospace;tab-size:2;text-align:left;white-space:pre-wrap;overflow-wrap:anywhere}
+.admin-root .is-compact .admin-rich-text .admin-rich-text-code{min-height:145px}
+.admin-rich-text-code-hint{padding:10px 17px;color:var(--tone-1213);border-bottom:1px solid var(--tone-1199);background:var(--tone-1200);font-size:11px}
+.admin-rich-text-bottom{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 15px;border-top:1px solid var(--tone-1214);color:var(--tone-1215);background:var(--tone-1216)}
+.admin-rich-text-bottom small{font-size:10px}.admin-rich-text-bottom .is-error{color:var(--tone-1217)}
+.admin-rich-text-loading{padding:24px;border-radius:14px;min-height:150px;background:var(--tone-0043);color:var(--tone-1218);font-size:12px}
+.admin-rich-text-link{padding:16px;background:linear-gradient(110deg,var(--tone-1219),var(--tone-1220));border-bottom:1px solid var(--tone-1221);color:var(--tone-1222);font-size:12px}
+.admin-rich-text-link>label{display:block;margin-bottom:7px}.admin-rich-text-link-row{display:flex;gap:8px;align-items:center}
+.admin-rich-text-link-row input{min-width:0;flex:1;font-size:12px;min-height:38px}
+.admin-rich-text-link button{border:1px solid var(--tone-1223);border-radius:9px;padding:7px 11px;min-height:36px;background:var(--tone-0569);color:var(--tone-1224);cursor:pointer;font-size:11px;white-space:nowrap}
+.admin-rich-text-link-row button:first-of-type{background:var(--tone-1225);color:var(--theme-on-primary);border-color:var(--tone-1225)}
+.admin-rich-text-link-options{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:10px}.admin-rich-text-link-options label{display:flex;align-items:center;gap:8px;font-size:11px}
+.admin-rich-text-link-options input{width:15px;height:15px;min-height:0;accent-color:var(--tone-1226)}.admin-rich-text-link p{font-size:11px;color:var(--tone-1227);margin:8px 0 0}
+@media(max-width:600px){.admin-rich-text-toolbar{padding:8px;gap:6px}.admin-rich-text-toolbar button{width:36px;min-height:38px}.admin-rich-text-toolbar select{min-height:38px}.admin-rich-text-tools{padding-inline-start:5px}.admin-rich-text-body{padding:16px;min-height:230px}.admin-rich-text-bottom{align-items:flex-start;flex-wrap:wrap;gap:2px}.admin-rich-text-link-row{flex-wrap:wrap}.admin-rich-text-link-row input{flex-basis:100%}.admin-rich-text-link-options{flex-wrap:wrap}.admin-rich-text-mode-label{display:none}.admin-rich-text-label>small{display:none}}

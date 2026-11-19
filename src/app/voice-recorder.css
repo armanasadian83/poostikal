@@ -1,0 +1,32 @@
+.chat-composer { position: relative; }
+.chat-mic-button { display: grid; flex: 0 0 44px; place-items: center; width: 44px; height: 44px; padding: 0; border: 1px solid var(--tone-0148); border-radius: 50%; color: var(--tone-0815); background: var(--tone-0232); transition: color .2s, background .2s, border-color .2s; }
+.chat-mic-button.is-recording { border-color: var(--tone-0816); color: var(--tone-0817); background: var(--tone-0818); }
+.chat-mic-button:disabled { opacity: .4; }
+.voice-recorder-panel { position: absolute; z-index: 8; right: 0; bottom: calc(100% + 12px); left: 0; min-width: 0; max-height: min(360px, calc(100dvh - 200px)); overflow-y: auto; padding: 18px 20px 15px; border: 1px solid var(--tone-0231); border-radius: 22px; color: var(--tone-0819); background: linear-gradient(135deg, var(--tone-0820), var(--tone-0821)); box-shadow: inset 0 1px 0 var(--tone-0026), 0 14px 42px var(--tone-0822); backdrop-filter: blur(18px) saturate(1.08); scrollbar-width: thin; }
+.voice-recorder-header { display: flex; min-width: 0; align-items: center; justify-content: space-between; gap: 12px; }
+.voice-recorder-status { display: flex; min-width: 0; align-items: center; gap: 8px; font-size: 12px; font-weight: 650; line-height: 1.9; }
+.voice-recorder-status > span:last-child { overflow-wrap: anywhere; }
+.voice-recorder-indicator { flex: 0 0 7px; width: 7px; height: 7px; border-radius: 50%; background: var(--tone-0823); }
+.voice-recorder-recording .voice-recorder-indicator { background: var(--tone-0824); animation: voice-recording-pulse 1s ease-in-out infinite alternate; }
+.voice-recorder-preview .voice-recorder-indicator { background: var(--tone-0825); }
+.voice-recorder-error .voice-recorder-indicator { background: var(--tone-0826); }
+.voice-recorder-time { flex-shrink: 0; padding: 3px 8px; border: 1px solid var(--tone-0827); border-radius: 9px; color: var(--tone-0828); background: var(--tone-0215); font-size: 14px; font-weight: 700; line-height: 1.6; font-variant-numeric: tabular-nums; }
+.voice-recorder-detail { margin-top: 10px; color: var(--tone-0829); font-size: 11px; line-height: 1.9; }
+.voice-recorder-note { margin-top: 10px; color: var(--tone-0830); font-size: 11px; line-height: 1.9; }
+.voice-recorder-meter { display: flex; height: 30px; align-items: center; justify-content: center; gap: 5px; margin-top: 13px; }
+.voice-recorder-meter span { width: 4px; height: 10px; border-radius: 4px; background: var(--tone-0831); animation: voice-recording-wave .8s ease-in-out infinite alternate; transform-origin: center; }
+.voice-recorder-meter span:nth-child(2n) { height: 20px; animation-delay: -.3s; }
+.voice-recorder-meter span:nth-child(3n) { height: 25px; animation-delay: -.6s; }
+.voice-recorder-meter span:nth-child(4n) { height: 14px; animation-delay: -.1s; }
+.voice-recorder-audio { display: block; width: 100%; min-width: 0; max-width: 100%; height: 42px; margin-top: 13px; border-radius: 12px; }
+.voice-recorder-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: center; gap: 9px; margin-top: 13px; }
+.voice-recorder-actions button { display: inline-flex; min-height: 35px; align-items: center; justify-content: center; gap: 8px; padding: 7px 13px; border: 1px solid var(--tone-0832); border-radius: 11px; color: var(--tone-0833); background: var(--tone-0018); font-size: 11px; font-weight: 550; line-height: 1.7; }
+.voice-recorder-actions .voice-recorder-stop { border-color: var(--tone-0834); color: var(--theme-on-primary); background: var(--tone-0834); }
+.voice-recorder-stop > span { width: 8px; height: 8px; border-radius: 2px; background: currentColor; }
+.poostikal-chat .chat-mic-button:focus-visible, .voice-recorder-panel button:focus-visible, .voice-recorder-audio:focus-visible { outline: 2px solid var(--tone-0242); outline-offset: 3px; }
+@keyframes voice-recording-pulse { from { opacity: .5; } to { opacity: 1; } }
+@keyframes voice-recording-wave { from { transform: scaleY(.5); } to { transform: scaleY(1); } }
+@media (hover: hover) and (pointer: fine) { .chat-mic-button:not(:disabled):hover { color: var(--tone-0835); border-color: var(--tone-0836); background: var(--tone-0837); } .voice-recorder-actions .voice-recorder-cancel:hover { background: var(--tone-0026); } .voice-recorder-actions .voice-recorder-stop:hover { background: var(--tone-0838); } }
+@media (max-width: 760px) { .chat-mic-button svg { width: 20px; height: 20px; } .voice-recorder-panel { bottom: calc(100% + 10px); padding: 14px; border-radius: 19px; max-height: min(330px, calc(100dvh - 190px)); } .voice-recorder-status { font-size: 11px; } .voice-recorder-detail, .voice-recorder-note { font-size: 10px; } .voice-recorder-time { font-size: 13px; } .voice-recorder-actions button { min-height: 44px; } }
+@media (max-width: 380px) { .chat-composer:has(.chat-mic-button) { gap: 5px; } .voice-recorder-panel { padding: 12px; } .voice-recorder-actions button { font-size: 10px; padding-inline: 11px; } }
+@media (prefers-reduced-motion: reduce) { .chat-mic-button, .voice-recorder-panel * { animation: none !important; transition: none !important; } .voice-recorder-meter span { transform: none; } }

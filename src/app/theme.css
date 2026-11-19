@@ -1,0 +1,44 @@
+/* Semantic colors for new UI. Legacy glass shades are derived in lib/theme.ts. */
+:root {
+  --theme-border: color-mix(in srgb, var(--theme-secondary) 22%, transparent);
+  --theme-soft: color-mix(in srgb, var(--theme-secondary) 9%, var(--theme-surface));
+  --theme-glass: color-mix(in srgb, var(--theme-surface) 63%, transparent);
+  --theme-photo-ink: white;
+  --theme-photo-muted: rgb(255 255 255 / .82);
+  --theme-photo-glass:color-mix(in srgb,color-mix(in srgb,var(--theme-primary) 28%,black) 48%,transparent);
+  --theme-wave-background: radial-gradient(ellipse at 14% 18%,color-mix(in srgb,var(--theme-secondary) 40%,var(--theme-background)),transparent 62%),radial-gradient(ellipse at 78% 50%,color-mix(in srgb,var(--theme-accent) 33%,var(--theme-background)),transparent 65%),linear-gradient(130deg,var(--theme-background),color-mix(in srgb,var(--theme-secondary) 20%,var(--theme-background)));
+  --canvas:var(--theme-background); --ink:var(--theme-text); --forest:var(--theme-primary);
+  --sage:var(--theme-soft); --sage-dark:var(--theme-secondary); --muted:var(--theme-muted); --line:var(--theme-border);
+  --soft:var(--theme-soft);
+}
+body{background:var(--theme-background);color:var(--theme-text)}
+.admin-root,.admin-dialog{--admin-ink:var(--theme-text);--admin-muted:var(--theme-muted)}
+.shop-shell{--shop-ink:var(--theme-text);--shop-muted:var(--theme-muted)}
+.banner-scenery{background:var(--theme-wave-background)}
+.banner-backdrop-image{filter:grayscale(1);mix-blend-mode:luminosity;opacity:var(--theme-wave-art-opacity)}
+.admin-root::before{background:var(--theme-wave-background)!important;opacity:.55}
+.theme-brand-filter{position:absolute;pointer-events:none;overflow:hidden}
+img[src*="poostikal-wordmark-transparent"]{filter:url(#poostikal-theme-brand)}
+.login-lip-sculpture,.chat-transition-kiss img{filter:var(--theme-lip-filter)}
+input[type=checkbox],input[type=radio],input[type=range]{accent-color:var(--theme-primary)}
+/* Photography uses a dark glass surface in every palette, so its text stays light. */
+.treatment-story-chapter,.treatment-story-card,.treatment-story-card p,.treatment-story-arrow{color:var(--theme-photo-ink)}
+.treatment-story-card-top{color:color-mix(in srgb,var(--theme-accent) 35%,white)}
+.treatment-story-chapter>span{color:color-mix(in srgb,var(--theme-accent) 35%,white)}
+.treatment-story-card{background:linear-gradient(130deg,var(--theme-photo-glass),color-mix(in srgb,color-mix(in srgb,var(--theme-secondary) 24%,black) 65%,transparent))}
+.home-shell .poostikal-header[data-over-photo=true]:before{background-color:var(--theme-photo-glass)}
+.banner-copy h1,.skin-quiz-copy h2,.section-heading h2{color:var(--theme-text)}
+.real-brand-mark img{filter:var(--theme-brand-mark-filter)}
+.real-brand-mark,.real-brand-mark img{mix-blend-mode:var(--theme-brand-mark-blend)}
+.home-shell .poostikal-header[data-over-photo=true],
+.home-shell .poostikal-header[data-over-photo=true] .poostikal-brand,
+.home-shell .poostikal-header[data-over-photo=true] .mobile-menu,
+.home-shell .poostikal-header[data-over-photo=true] .nav-category-link,
+.home-shell .poostikal-header[data-over-photo=true] .nav-account,
+.home-shell .poostikal-header[data-over-photo=true] .nav-saved,
+.home-shell .poostikal-header[data-over-photo=true] .nav-search{color:var(--theme-photo-ink)}
+.home-shell .poostikal-header[data-over-photo=true] .nav-routine{color:var(--theme-photo-ink)}
+.home-shell .poostikal-header[data-over-photo=true] .brand-description,
+.home-shell .poostikal-header[data-over-photo=true] .nav-search>span:nth-child(2),
+.home-shell .poostikal-header[data-over-photo=true] .nav-search .nav-search-hint,
+.home-shell .poostikal-header[data-over-photo=true] .mega-quiz p{color:var(--theme-photo-muted)}

@@ -1,0 +1,39 @@
+.skin-quiz-banner{position:relative;isolation:isolate;display:grid;grid-template-columns:1.12fr 1fr;align-items:center;gap:20px;min-height:420px;margin-top:78px;padding:37px 54px 34px;border:1px solid var(--tone-0738);border-radius:32px;overflow:hidden;color:var(--theme-text);background:radial-gradient(ellipse at 5% 100%,var(--tone-0739),transparent 52%),radial-gradient(ellipse at 100% 5%,var(--tone-0740),transparent 61%),linear-gradient(115deg,var(--tone-0741),var(--tone-0742) 57%,var(--tone-0743));box-shadow:inset 0 1px 2px var(--tone-0026),inset 0 -1px 1px var(--tone-0005),0 10px 32px var(--tone-0744)}
+.skin-quiz-banner:before,.skin-quiz-banner:after{content:'';position:absolute;z-index:-1;pointer-events:none;border:2px solid var(--tone-0588);border-radius:50%;background:linear-gradient(150deg,var(--tone-0176) 45%,var(--tone-0209));box-shadow:inset 0 3px 2px var(--tone-0006)}
+.skin-quiz-banner:before{width:95%;height:120%;top:-102%;left:-35%;transform:rotate(-20deg);animation:skin-quiz-wave 12s ease-in-out infinite alternate}
+.skin-quiz-banner:after{width:115%;height:110%;bottom:-92%;right:-33%;transform:rotate(-18deg);animation:skin-quiz-wave 14s ease-in-out -4s infinite alternate-reverse}
+.skin-quiz-watermark{position:absolute;z-index:0;right:-33px;top:-20px;color:var(--theme-on-primary);opacity:.25;transform:rotate(-12deg);pointer-events:none}
+.skin-quiz-watermark svg{width:180px;height:150px;stroke-width:.7}
+.skin-quiz-copy{position:relative;z-index:2;max-width:610px;text-align:right}
+.skin-quiz-copy h2{margin:0;color:var(--theme-text);font-size:clamp(1.25rem,calc(1rem + 1.4vw),2.25rem);font-weight:850;line-height:1.45;letter-spacing:-1px}
+.skin-quiz-copy>p{max-width:530px;margin:16px 0 22px;font-size:17px;font-weight:450;line-height:2.05;color:var(--tone-0745);text-wrap:pretty}
+.skin-quiz-cta{display:inline-flex;justify-content:center;align-items:center;gap:24px;min-width:330px;min-height:60px;padding:13px 30px;border:1px solid var(--tone-0746);border-radius:999px;background:linear-gradient(110deg,var(--tone-0747),var(--tone-0748));box-shadow:inset 0 1px 0 var(--tone-0749),0 7px 17px var(--tone-0750);color:var(--theme-on-primary);font-size:19px;font-weight:750;line-height:1.5;transition:background .2s,box-shadow .2s,transform .2s}
+.skin-quiz-cta svg{flex-shrink:0}
+.skin-quiz-cta:focus-visible{outline:2px solid var(--brand-violet);outline-offset:5px}
+.skin-quiz-cta:active{transform:translateY(0) scale(.98)}
+
+.skin-quiz-art{position:relative;z-index:1;min-width:0;width:100%;height:335px;pointer-events:none;user-select:none}
+.skin-quiz-glow{position:absolute;width:70%;height:22%;left:15%;top:69%;border-radius:50%;background:radial-gradient(ellipse,var(--tone-0751),transparent 72%);filter:blur(19px)}
+
+
+@keyframes skin-quiz-wave{from{translate:0 0}to{translate:5% 8%}}
+@media(hover:hover) and (pointer:fine){.skin-quiz-cta:hover{transform:translateY(-2px);background:linear-gradient(110deg,var(--tone-0752),var(--tone-0753));box-shadow:inset 0 1px 0 var(--tone-0749),0 10px 20px var(--tone-0754)}}
+@media(max-width:1100px){.skin-quiz-banner{min-height:375px;padding:30px 32px;gap:14px;margin-top:60px}.skin-quiz-copy>p{font-size:13px;margin-block:12px 19px}.skin-quiz-art{height:285px}.skin-quiz-cta{font-size:15px;min-width:225px;min-height:51px;padding:12px 24px;gap:20px}}
+@media(max-width:800px) and (min-width:651px){.skin-quiz-banner{padding:28px 25px;grid-template-columns:1.2fr 1fr;gap:4px}.skin-quiz-copy>p{font-size:12px}.skin-quiz-art{height:240px}.skin-quiz-cta{min-width:210px}}
+@media(max-width:650px){.skin-quiz-banner{grid-template-columns:minmax(0,1fr);gap:4px;min-height:0;margin-top:45px;padding:28px 24px 19px;border-radius:27px}.skin-quiz-copy{max-width:none;text-align:center}.skin-quiz-copy h2{line-height:1.5;letter-spacing:-.5px}.skin-quiz-copy>p{max-width:400px;margin:12px auto 18px;font-size:13px;line-height:1.95}.skin-quiz-cta{min-width:225px;min-height:49px;font-size:15px;padding:12px 24px}.skin-quiz-art{height:210px;max-width:400px;margin:8px auto 0}.skin-quiz-glow{height:38%;top:63%;filter:blur(17px)}.skin-quiz-watermark{right:-32px;top:-25px}.skin-quiz-watermark svg{width:140px;height:110px}}
+@media(max-width:380px){.skin-quiz-banner{padding:23px 18px 18px;border-radius:23px}.skin-quiz-copy>p{font-size:12px;line-height:2}.skin-quiz-cta{min-width:205px;min-height:48px;font-size:14px;gap:18px}.skin-quiz-art{height:180px}}
+@media(prefers-reduced-motion:reduce){.skin-quiz-banner:before,.skin-quiz-banner:after{animation:none}.skin-quiz-cta{transition:none}}
+
+.skin-model{position:absolute;inset:-5% 0;z-index:2;width:100%;height:110%;pointer-events:none}
+.skin-model-canvas,.skin-model-fallback{position:absolute;inset:0;display:block;width:100%;height:100%;filter:drop-shadow(0 18px 19px var(--tone-0755))}
+.skin-model-canvas{opacity:0}
+.skin-model[data-ready=true] .skin-model-canvas{opacity:1}
+.skin-model[data-ready=true] .skin-model-fallback{visibility:hidden}
+
+/* Textured volume fallback uses the same atlas as WebGL. */
+.skin-model-fallback{perspective:800px}
+.skin-tissue-preview{position:absolute;left:50%;top:48%;width:57%;height:43%;transform-style:preserve-3d;transform:translate(-50%,-35%) rotateX(-18deg) rotateY(-24deg);direction:ltr}
+.skin-tissue-preview>span{position:absolute;display:block;background-image:url('/images/poostikal/skin-beauty-atlas.png');background-repeat:no-repeat;backface-visibility:hidden}
+.skin-tissue-preview-front{inset:0;background-size:100% 200%;background-position:center bottom;border-radius:4px}
+.skin-tissue-preview-side{left:100%;top:0;width:49%;height:100%;transform:rotateY(90deg);transform-origin:left;background-size:200% 200%;background-position:right bottom;filter:brightness(.85)}
+.skin-tissue-preview-top{left:0;bottom:100%;width:100%;height:65%;transform:rotateX(90deg);transform-origin:bottom;background-size:100% 200%;background-position:center top;filter:brightness(1.05)}

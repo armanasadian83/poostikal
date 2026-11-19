@@ -1,0 +1,10 @@
+Vazirmatn variable font
+Source package: @fontsource-variable/vazirmatn@5.3.0
+Source URL: https://www.npmjs.com/package/@fontsource-variable/vazirmatn/v/5.3.0
+Font project: https://github.com/rastikerdar/vazirmatn
+License: SIL Open Font License 1.1; see OFL.txt.
+
+Vazirmatn-Arabic.woff2 is vazirmatn-arabic-wght-normal.woff2.
+Vazirmatn-Latin.woff2 is vazirmatn-latin-wght-normal.woff2.
+Both files support normal style and weights 100 through 900.
+Files are bundled locally; no external font service is required at runtime.

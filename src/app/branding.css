@@ -1,0 +1,9 @@
+.header-main-row{grid-template-columns:minmax(320px,1fr) minmax(240px,1.65fr) auto}
+.poostikal-brand-wordmark .poostikal-logo{width:160px}
+.poostikal-brand-wordmark.poostikal-brand-footer .poostikal-logo{width:180px}
+.poostikal-mobile-menu .poostikal-brand-wordmark .poostikal-logo{width:160px}
+@media(max-width:1250px){.header-main-row{grid-template-columns:minmax(300px,1fr) minmax(200px,1.5fr) auto}.poostikal-brand-wordmark .poostikal-logo{width:145px}}
+@media(max-width:960px){.header-main-row{grid-template-columns:minmax(0,1fr) auto}.poostikal-header .poostikal-brand-wordmark .poostikal-logo{width:140px}}
+@media(max-width:650px){.poostikal-header .poostikal-brand-wordmark .poostikal-logo{width:130px}.poostikal-brand-wordmark.poostikal-brand-footer .poostikal-logo{width:160px}.poostikal-mobile-menu .poostikal-brand-wordmark .poostikal-logo{width:150px}}
+@media(max-width:420px){.poostikal-header .poostikal-brand-wordmark .brand-identity{display:none}}
+@media(max-width:360px){.poostikal-header .poostikal-brand-wordmark .poostikal-logo{width:122px}.poostikal-mobile-menu .poostikal-brand-wordmark{gap:8px}.poostikal-mobile-menu .poostikal-brand-wordmark .poostikal-logo{width:120px}.poostikal-brand-wordmark.poostikal-brand-footer{gap:12px}.poostikal-brand-wordmark.poostikal-brand-footer .poostikal-logo{width:134px}}

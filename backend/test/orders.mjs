@@ -1,0 +1,88 @@
+import {buyerSession} from './customer-session-fixture.mjs';
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { randomUUID } from 'node:crypto';
+import { readFile } from 'node:fs/promises';
+import { spawn } from 'node:child_process';
+import { Client } from 'pg';
+
+test('orders: shipping, authoritative pricing, atomic stock, retries, privacy and admin review', {timeout:120000}, async()=>{
+  const secrets=JSON.parse(await readFile('../.data/database-secrets.json','utf8'));
+  const name=`poostikal_orders_${randomUUID().replaceAll('-','')}`;
+  assert.match(name,/^poostikal_orders_[a-f0-9]{32}$/);
+  const owner=new Client({host:'127.0.0.1',port:55432,user:'poostikal_owner',password:secrets.owner,database:'postgres'});await owner.connect();
+  await owner.query(`CREATE DATABASE ${name} OWNER poostikal`);
+  const url=new URL(process.env.DATABASE_URL);url.pathname='/'+name;
+  const db=new Client({connectionString:url.toString()});await db.connect();
+  const child=spawn(process.execPath,['dist/main.js'],{env:{...process.env,DATABASE_URL:url.toString(),PORT:'4102',AI_ENABLED:'false',OPENROUTER_API_KEY:'',RABOTEB_CONSUMER_KEY:'',RABOTEB_CONSUMER_SECRET:''},windowsHide:true,stdio:'pipe'});
+  let logs='';child.stdout.on('data',s=>logs+=s);child.stderr.on('data',s=>logs+=s);
+  const base='http://127.0.0.1:4102/api';let cookie='',buyerCookie='';
+  const request=(path,method='GET',body,admin=path==='/orders'?buyerCookie:false)=>fetch(base+path,{method,headers:{Origin:'http://127.0.0.1:7777',...(body?{'Content-Type':'application/json'}:{}),...(admin?{Cookie:admin===true?cookie:admin}:{})},body:body?JSON.stringify(body):undefined});
+  try {
+    let ready=false;for(let n=0;n<240;n++){try{ready=(await request('/health')).ok;}catch{}if(ready)break;await new Promise(r=>setTimeout(r,150));}assert.ok(ready,logs);
+    const login=await request('/auth/login','POST',{email:process.env.ADMIN_EMAIL,password:process.env.ADMIN_PASSWORD});assert.equal(login.status,201);cookie=login.headers.get('set-cookie').split(';')[0];
+    const collect={id:randomUUID(),name:'ماهکس',description:'پس‌کرایه',type:'collect',feeToman:0,active:true,sortOrder:0};
+    const courier={id:randomUUID(),name:'پیک',description:'ارسال با پیک',type:'flat',feeToman:250000,active:true,sortOrder:1};
+    assert.equal((await request('/admin/shipping-methods','POST',collect)).status,401);
+    assert.equal((await request('/admin/orders')).status,401);
+    for(const method of [collect,courier])assert.equal((await request('/admin/shipping-methods','POST',method,true)).status,201);
+    assert.equal((await request('/admin/shipping-methods','POST',{...collect,feeToman:10},true)).status,400);
+    assert.equal((await request('/admin/shipping-methods','POST',{...courier,feeToman:-1},true)).status,400);
+    assert.deepEqual((await (await request('/shipping-methods')).json()).map(m=>m.name),['ماهکس','پیک']);
+    const product={id:'raboteb-987654',name:'محصول تست',slug:'order-test',brand:'Test',status:'active',stock:3,priceToman:90000,regularPriceToman:100000,discountPriceToman:90000,images:[{id:'a',url:'/brand/poostikal-wordmark-transparent.png',alt:'تست',description:''}],categoryIds:[],attributes:[],description:'',shortDescription:'',mediaType:'photo',variants:[{id:'raboteb-987654-v',label:'نمونه',stock:3,priceToman:90000,originalPriceToman:100000}],animation:{template:'dropper-box',dimensions:{}}};
+    const insert=async p=>{await db.query('INSERT INTO products(id,slug,name,status,price,stock,document) VALUES($1,$2,$3,$4,$5,$6,$7)',[p.id,p.slug,p.name,p.status,p.priceToman,p.stock,p]);for(const v of p.variants)await db.query('INSERT INTO variants(id,product_id,price,stock,document) VALUES($1,$2,$3,$4,$5)',[v.id,p.id,v.priceToman,v.stock,v]);};await insert(product);
+    const recipient={name:'مشتری آزمایش',phone:'۰۹۱۲۰۰۰۰۰۰۰',province:'تهران',city:'تهران',address:'نشانی آزمایشی، خیابان نمونه، پلاک ۱',postalCode:'۱۲۳۴۵۶۷۸۹۰',note:'تست خودکار'};
+    const input=(changes={})=>({requestId:randomUUID(),shippingMethodId:courier.id,expectedShippingFeeToman:250000,expectedShippingType:'flat',recipient,items:[{productId:'catalog-987654',variantId:'catalog-987654-v',quantity:1,expectedUnitPriceToman:90000}],...changes});
+    assert.equal((await request('/orders','POST',input(),false)).status,401);
+    assert.equal((await request('/orders','POST',input(),true)).status,401);
+    const buyer=await buyerSession(db), recipientAccount=await buyerSession(db,'09120000000');
+    buyerCookie=buyer.cookie;
+    assert.equal((await request('/orders','POST',input({recipient:{...recipient,phone:'12'}}))).status,400);
+    assert.equal((await request('/orders','POST',input({totalToman:1}))).status,400);
+    assert.equal((await request('/orders','POST',input({expectedShippingFeeToman:0}))).status,409);
+    assert.equal((await request('/orders','POST',input({expectedShippingType:'collect'}))).status,409);
+    const duplicate=input();duplicate.items.push({...duplicate.items[0]});assert.equal((await request('/orders','POST',duplicate)).status,400);
+    const badPrice=input();badPrice.items[0].expectedUnitPriceToman=1;assert.equal((await request('/orders','POST',badPrice)).status,409);
+    assert.equal((await db.query('SELECT stock FROM products WHERE id=$1',[product.id])).rows[0].stock,3);
+    const same=input();const simultaneous=await Promise.all([request('/orders','POST',same),request('/orders','POST',same)]);
+    assert.ok(simultaneous.every(r=>r.status===201));const receipts=await Promise.all(simultaneous.map(r=>r.json()));const first=receipts[0];
+    assert.equal(first.id,receipts[1].id);assert.match(first.number,/^\d{6}$/);assert.equal(first.totalToman,340000);assert.equal(first.discountToman,10000);assert.equal(first.shippingToman,250000);
+    assert.doesNotMatch(JSON.stringify(first),/raboteb|inventory|recipient|request_hash/);
+    assert.equal((await db.query('SELECT stock FROM products WHERE id=$1',[product.id])).rows[0].stock,2);
+    assert.equal((await db.query('SELECT stock FROM variants WHERE id=$1',[product.variants[0].id])).rows[0].stock,2);
+    assert.equal((await db.query('SELECT customer_id FROM orders WHERE id=$1',[first.id])).rows[0].customer_id,buyer.id);
+    assert.equal((await request('/orders','POST',same,false)).status,401);
+    assert.equal((await request('/orders','POST',same,recipientAccount.cookie)).status,409);
+    assert.equal((await request('/customer/orders/'+first.number,'GET',undefined,recipientAccount.cookie)).status,404);
+    assert.deepEqual((await (await request('/customer/orders','GET',undefined,recipientAccount.cookie)).json()).items,[]);
+    assert.equal((await request('/customer/orders/'+first.number,'GET',undefined,buyer.cookie)).status,200);
+
+    assert.equal((await request('/orders','POST',{...same,recipient:{...recipient,name:'نام متفاوت'}})).status,409);
+    await request('/admin/shipping-methods','POST',{...courier,feeToman:500000},true);
+    const list=await (await request('/admin/orders','GET',undefined,true)).json();assert.equal(list[0].shipping.feeToman,250000);assert.equal(list[0].recipient.phone,'09120000000');assert.equal(list[0].recipient.postalCode,'1234567890');
+    const collectInput=input({shippingMethodId:collect.id,expectedShippingFeeToman:0,expectedShippingType:'collect'});
+    const two={...collectInput,items:[{...collectInput.items[0],quantity:2}]};
+    const races=await Promise.all([request('/orders','POST',two),request('/orders','POST',{...two,requestId:randomUUID()})]);assert.deepEqual(races.map(r=>r.status).sort(),[201,409]);
+    const second=await races.find(r=>r.status===201).json();assert.equal(second.totalToman,180000);assert.equal(second.shipping.type,'collect');
+    assert.equal((await db.query('SELECT stock FROM products WHERE id=$1',[product.id])).rows[0].stock,0);
+    assert.equal((await request('/admin/orders/'+second.id+'/status','PUT',{status:'cancelled'})).status,401);
+    assert.equal((await request('/admin/orders/'+second.id+'/status','PUT',{status:'cancelled'},true)).status,200);
+    assert.equal((await request('/admin/orders/'+second.id+'/status','PUT',{status:'cancelled'},true)).status,200);
+    assert.equal((await db.query('SELECT stock FROM products WHERE id=$1',[product.id])).rows[0].stock,2,'Cancel must restore exactly once');
+    assert.equal((await request('/admin/orders/'+second.id+'/status','PUT',{status:'processing'},true)).status,400);
+    for(const status of ['delivered'])assert.equal((await request('/admin/orders/'+first.id+'/status','PUT',{status},true)).status,200);
+    assert.equal((await request('/admin/orders/'+first.id+'/status','PUT',{status:'cancelled'},true)).status,409);
+    const before=(await db.query('SELECT stock FROM products WHERE id=$1',[product.id])).rows[0].stock;
+    const rollback=input({shippingMethodId:collect.id,expectedShippingFeeToman:0,expectedShippingType:'collect'});rollback.items.push({productId:'zz-missing',variantId:'zz-missing',quantity:1,expectedUnitPriceToman:1});assert.equal((await request('/orders','POST',rollback)).status,409);assert.equal((await db.query('SELECT stock FROM products WHERE id=$1',[product.id])).rows[0].stock,before);
+    await request('/admin/shipping-methods','POST',{...collect,active:false},true);
+    assert.equal((await (await request('/shipping-methods')).json()).length,1);
+    assert.equal((await request('/orders','POST',{...collectInput,requestId:randomUUID()})).status,409);
+    assert.equal((await request('/orders','POST',same)).status,201,'Original receipt still works after shipping/stock changes');
+    await db.query("UPDATE customer_sessions SET expires_at=now()-interval '1 second' WHERE customer_id=$1",[buyer.id]);
+    assert.equal((await request('/orders','POST',same)).status,401);
+
+    console.log('Order tests passed: shipping, validation, snapshots, double-submit, concurrent stock, cancellation, admin access.');
+  } finally {
+    child.kill();await new Promise(resolve=>child.once('exit',resolve));await db.end();await owner.query(`DROP DATABASE ${name} WITH (FORCE)`);await owner.end();
+  }
+});

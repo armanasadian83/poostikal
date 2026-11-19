@@ -1,0 +1,6222 @@
+{
+  "--tone-0001": {
+    "role": "primary",
+    "color": "#000000",
+    "alpha": 1
+  },
+  "--tone-0002": {
+    "role": "secondary",
+    "color": "#8961a9",
+    "alpha": 1
+  },
+  "--tone-0003": {
+    "role": "secondary",
+    "color": "#9d6abf",
+    "alpha": 1
+  },
+  "--tone-0004": {
+    "role": "secondary",
+    "color": "#eee4f8",
+    "alpha": 1
+  },
+  "--tone-0005": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.702
+  },
+  "--tone-0006": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.549
+  },
+  "--tone-0007": {
+    "role": "accent",
+    "color": "#d866aa",
+    "alpha": 0.1882
+  },
+  "--tone-0008": {
+    "role": "accent",
+    "color": "#fff8fc",
+    "alpha": 0
+  },
+  "--tone-0009": {
+    "role": "accent",
+    "color": "#ed93c6",
+    "alpha": 0.349
+  },
+  "--tone-0010": {
+    "role": "accent",
+    "color": "#fff9fc",
+    "alpha": 0.6784
+  },
+  "--tone-0011": {
+    "role": "accent",
+    "color": "#e8b2d6",
+    "alpha": 0
+  },
+  "--tone-0012": {
+    "role": "accent",
+    "color": "#eda1d1",
+    "alpha": 0.4784
+  },
+  "--tone-0013": {
+    "role": "accent",
+    "color": "#fff8ff",
+    "alpha": 0.702
+  },
+  "--tone-0014": {
+    "role": "text",
+    "color": "#48236e",
+    "alpha": 1
+  },
+  "--tone-0015": {
+    "role": "accent",
+    "color": "#bd5a9b",
+    "alpha": 1
+  },
+  "--tone-0016": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.85
+  },
+  "--tone-0017": {
+    "role": "secondary",
+    "color": "#6f3b8d",
+    "alpha": 0.051
+  },
+  "--tone-0018": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.651
+  },
+  "--tone-0019": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.47
+  },
+  "--tone-0020": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.7098
+  },
+  "--tone-0021": {
+    "role": "secondary",
+    "color": "#b895d8",
+    "alpha": 0.2824
+  },
+  "--tone-0022": {
+    "role": "muted",
+    "color": "#7e6893",
+    "alpha": 1
+  },
+  "--tone-0023": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.3686
+  },
+  "--tone-0024": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.5804
+  },
+  "--tone-0025": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.4
+  },
+  "--tone-0026": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 1
+  },
+  "--tone-0027": {
+    "role": "muted",
+    "color": "#7c678f",
+    "alpha": 1
+  },
+  "--tone-0028": {
+    "role": "secondary",
+    "color": "#bba2d3",
+    "alpha": 0.3412
+  },
+  "--tone-0029": {
+    "role": "muted",
+    "color": "#745789",
+    "alpha": 1
+  },
+  "--tone-0030": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.2196
+  },
+  "--tone-0031": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.5882
+  },
+  "--tone-0032": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.1804
+  },
+  "--tone-0033": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.4784
+  },
+  "--tone-0034": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.5647
+  },
+  "--tone-0035": {
+    "role": "accent",
+    "color": "#f9bfe0",
+    "alpha": 0.651
+  },
+  "--tone-0036": {
+    "role": "text",
+    "color": "#742764",
+    "alpha": 1
+  },
+  "--tone-0037": {
+    "role": "accent",
+    "color": "#f7acd5",
+    "alpha": 0.749
+  },
+  "--tone-0038": {
+    "role": "muted",
+    "color": "#75528c",
+    "alpha": 1
+  },
+  "--tone-0039": {
+    "role": "primary",
+    "color": "#3b126d",
+    "alpha": 0.0745
+  },
+  "--tone-0040": {
+    "role": "primary",
+    "color": "#472080",
+    "alpha": 1
+  },
+  "--tone-0041": {
+    "role": "secondary",
+    "color": "#80559d",
+    "alpha": 1
+  },
+  "--tone-0042": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.1451
+  },
+  "--tone-0043": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.3961
+  },
+  "--tone-0044": {
+    "role": "accent",
+    "color": "#fff9ff",
+    "alpha": 1
+  },
+  "--tone-0045": {
+    "role": "secondary",
+    "color": "#f4e4f7",
+    "alpha": 1
+  },
+  "--tone-0046": {
+    "role": "secondary",
+    "color": "#87558d",
+    "alpha": 0.1098
+  },
+  "--tone-0047": {
+    "role": "secondary",
+    "color": "#87558d",
+    "alpha": 0.0471
+  },
+  "--tone-0048": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.7686
+  },
+  "--tone-0049": {
+    "role": "accent",
+    "color": "#f9eef9",
+    "alpha": 0
+  },
+  "--tone-0050": {
+    "role": "secondary",
+    "color": "#ddc7e5",
+    "alpha": 0.6588
+  },
+  "--tone-0051": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.6863
+  },
+  "--tone-0052": {
+    "role": "secondary",
+    "color": "#b698ca",
+    "alpha": 0.3686
+  },
+  "--tone-0053": {
+    "role": "secondary",
+    "color": "#eee7f5",
+    "alpha": 1
+  },
+  "--tone-0054": {
+    "role": "primary",
+    "color": "#48277e",
+    "alpha": 1
+  },
+  "--tone-0055": {
+    "role": "muted",
+    "color": "#8c7c9a",
+    "alpha": 1
+  },
+  "--tone-0056": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.851
+  },
+  "--tone-0057": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.949
+  },
+  "--tone-0058": {
+    "role": "muted",
+    "color": "#765a8c",
+    "alpha": 1
+  },
+  "--tone-0059": {
+    "role": "muted",
+    "color": "#6f4f8c",
+    "alpha": 1
+  },
+  "--tone-0060": {
+    "role": "secondary",
+    "color": "#f5edff",
+    "alpha": 1
+  },
+  "--tone-0061": {
+    "role": "secondary",
+    "color": "#fcf7ff",
+    "alpha": 1
+  },
+  "--tone-0062": {
+    "role": "accent",
+    "color": "#fff1fa",
+    "alpha": 1
+  },
+  "--tone-0063": {
+    "role": "primary",
+    "color": "#280d63",
+    "alpha": 1
+  },
+  "--tone-0064": {
+    "role": "secondary",
+    "color": "#80638f",
+    "alpha": 1
+  },
+  "--tone-0065": {
+    "role": "secondary",
+    "color": "#d6bce3",
+    "alpha": 0.302
+  },
+  "--tone-0066": {
+    "role": "primary",
+    "color": "#000000",
+    "alpha": 0.7333
+  },
+  "--tone-0067": {
+    "role": "secondary",
+    "color": "#ab58c6",
+    "alpha": 1
+  },
+  "--tone-0068": {
+    "role": "muted",
+    "color": "#795a8b",
+    "alpha": 1
+  },
+  "--tone-0069": {
+    "role": "accent",
+    "color": "#b43883",
+    "alpha": 1
+  },
+  "--tone-0070": {
+    "role": "muted",
+    "color": "#78558c",
+    "alpha": 1
+  },
+  "--tone-0071": {
+    "role": "secondary",
+    "color": "#b49acd",
+    "alpha": 0.3608
+  },
+  "--tone-0072": {
+    "role": "secondary",
+    "color": "#8b3ba0",
+    "alpha": 1
+  },
+  "--tone-0073": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.3765
+  },
+  "--tone-0074": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.9412
+  },
+  "--tone-0075": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.6902
+  },
+  "--tone-0076": {
+    "role": "accent",
+    "color": "#fff6ff",
+    "alpha": 0.4784
+  },
+  "--tone-0077": {
+    "role": "secondary",
+    "color": "#74458d",
+    "alpha": 0.0392
+  },
+  "--tone-0078": {
+    "role": "secondary",
+    "color": "#edddf7",
+    "alpha": 0.3608
+  },
+  "--tone-0079": {
+    "role": "muted",
+    "color": "#9a6bb0",
+    "alpha": 1
+  },
+  "--tone-0080": {
+    "role": "accent",
+    "color": "#a13c92",
+    "alpha": 1
+  },
+  "--tone-0081": {
+    "role": "accent",
+    "color": "#a34177",
+    "alpha": 1
+  },
+  "--tone-0082": {
+    "role": "secondary",
+    "color": "#c5a4d8",
+    "alpha": 1
+  },
+  "--tone-0083": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.3333
+  },
+  "--tone-0084": {
+    "role": "secondary",
+    "color": "#e7d2f2",
+    "alpha": 0.4706
+  },
+  "--tone-0085": {
+    "role": "muted",
+    "color": "#8b6b9d",
+    "alpha": 1
+  },
+  "--tone-0086": {
+    "role": "muted",
+    "color": "#a18baa",
+    "alpha": 1
+  },
+  "--tone-0087": {
+    "role": "muted",
+    "color": "#9b75ac",
+    "alpha": 1
+  },
+  "--tone-0088": {
+    "role": "accent",
+    "color": "#b92f76",
+    "alpha": 1
+  },
+  "--tone-0089": {
+    "role": "accent",
+    "color": "#f7d3e8",
+    "alpha": 0.6
+  },
+  "--tone-0090": {
+    "role": "accent",
+    "color": "#f7c8e6",
+    "alpha": 0.4
+  },
+  "--tone-0091": {
+    "role": "accent",
+    "color": "#fbe1f4",
+    "alpha": 0.6667
+  },
+  "--tone-0092": {
+    "role": "text",
+    "color": "#923777",
+    "alpha": 1
+  },
+  "--tone-0093": {
+    "role": "accent",
+    "color": "#c54994",
+    "alpha": 1
+  },
+  "--tone-0094": {
+    "role": "muted",
+    "color": "#9275a0",
+    "alpha": 1
+  },
+  "--tone-0095": {
+    "role": "muted",
+    "color": "#a884bc",
+    "alpha": 1
+  },
+  "--tone-0096": {
+    "role": "muted",
+    "color": "#9473a4",
+    "alpha": 1
+  },
+  "--tone-0097": {
+    "role": "secondary",
+    "color": "#ead6f7",
+    "alpha": 0.6588
+  },
+  "--tone-0098": {
+    "role": "secondary",
+    "color": "#f4e6fa",
+    "alpha": 0.4
+  },
+  "--tone-0099": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.502
+  },
+  "--tone-0100": {
+    "role": "primary",
+    "color": "#34126d",
+    "alpha": 1
+  },
+  "--tone-0101": {
+    "role": "primary",
+    "color": "#2b1067",
+    "alpha": 1
+  },
+  "--tone-0102": {
+    "role": "primary",
+    "color": "#3b126d",
+    "alpha": 0.0784
+  },
+  "--tone-0103": {
+    "role": "primary",
+    "color": "#4b247f",
+    "alpha": 1
+  },
+  "--tone-0104": {
+    "role": "muted",
+    "color": "#8f719d",
+    "alpha": 1
+  },
+  "--tone-0105": {
+    "role": "accent",
+    "color": "#9f376d",
+    "alpha": 1
+  },
+  "--tone-0106": {
+    "role": "muted",
+    "color": "#8c6a9b",
+    "alpha": 1
+  },
+  "--tone-0107": {
+    "role": "text",
+    "color": "#53227b",
+    "alpha": 1
+  },
+  "--tone-0108": {
+    "role": "accent",
+    "color": "#c4428d",
+    "alpha": 1
+  },
+  "--tone-0109": {
+    "role": "text",
+    "color": "#6a3692",
+    "alpha": 1
+  },
+  "--tone-0110": {
+    "role": "secondary",
+    "color": "#edddf9",
+    "alpha": 0.851
+  },
+  "--tone-0111": {
+    "role": "accent",
+    "color": "#f7d6ee",
+    "alpha": 0.7882
+  },
+  "--tone-0112": {
+    "role": "secondary",
+    "color": "#8a5898",
+    "alpha": 0.0824
+  },
+  "--tone-0113": {
+    "role": "accent",
+    "color": "#ffeff8",
+    "alpha": 1
+  },
+  "--tone-0114": {
+    "role": "accent",
+    "color": "#c23e87",
+    "alpha": 1
+  },
+  "--tone-0115": {
+    "role": "secondary",
+    "color": "#ddc6ee",
+    "alpha": 1
+  },
+  "--tone-0116": {
+    "role": "secondary",
+    "color": "#8742a4",
+    "alpha": 1
+  },
+  "--tone-0117": {
+    "role": "muted",
+    "color": "#b799c8",
+    "alpha": 1
+  },
+  "--tone-0118": {
+    "role": "text",
+    "color": "#37136a",
+    "alpha": 1
+  },
+  "--tone-0119": {
+    "role": "secondary",
+    "color": "#efdff8",
+    "alpha": 1
+  },
+  "--tone-0120": {
+    "role": "secondary",
+    "color": "#8a48aa",
+    "alpha": 1
+  },
+  "--tone-0121": {
+    "role": "muted",
+    "color": "#886997",
+    "alpha": 1
+  },
+  "--tone-0122": {
+    "role": "secondary",
+    "color": "#e1d0ec",
+    "alpha": 1
+  },
+  "--tone-0123": {
+    "role": "muted",
+    "color": "#9774a8",
+    "alpha": 1
+  },
+  "--tone-0124": {
+    "role": "secondary",
+    "color": "#fcf8ff",
+    "alpha": 0.9294
+  },
+  "--tone-0125": {
+    "role": "accent",
+    "color": "#fbeaf6",
+    "alpha": 0.949
+  },
+  "--tone-0126": {
+    "role": "secondary",
+    "color": "#e5c7f7",
+    "alpha": 1
+  },
+  "--tone-0127": {
+    "role": "text",
+    "color": "#6b2b90",
+    "alpha": 1
+  },
+  "--tone-0128": {
+    "role": "secondary",
+    "color": "#c4a5d7",
+    "alpha": 0.502
+  },
+  "--tone-0129": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.4588
+  },
+  "--tone-0130": {
+    "role": "secondary",
+    "color": "#a45bbd",
+    "alpha": 1
+  },
+  "--tone-0131": {
+    "role": "secondary",
+    "color": "#dec0f3",
+    "alpha": 0.2392
+  },
+  "--tone-0132": {
+    "role": "muted",
+    "color": "#a68bb4",
+    "alpha": 1
+  },
+  "--tone-0133": {
+    "role": "danger",
+    "color": "#d57ba7",
+    "alpha": 1
+  },
+  "--tone-0134": {
+    "role": "danger",
+    "color": "#fff9fd",
+    "alpha": 0.9255
+  },
+  "--tone-0135": {
+    "role": "danger",
+    "color": "#ffe5f1",
+    "alpha": 0.4706
+  },
+  "--tone-0136": {
+    "role": "danger",
+    "color": "#e6a3c4",
+    "alpha": 0.102
+  },
+  "--tone-0137": {
+    "role": "danger",
+    "color": "#b63f82",
+    "alpha": 1
+  },
+  "--tone-0138": {
+    "role": "danger",
+    "color": "#c879ae",
+    "alpha": 1
+  },
+  "--tone-0139": {
+    "role": "danger",
+    "color": "#e6a3c4",
+    "alpha": 0.1686
+  },
+  "--tone-0140": {
+    "role": "danger",
+    "color": "#98265e",
+    "alpha": 1
+  },
+  "--tone-0141": {
+    "role": "danger",
+    "color": "#c6729d",
+    "alpha": 1
+  },
+  "--tone-0142": {
+    "role": "danger",
+    "color": "#fbe4f0",
+    "alpha": 1
+  },
+  "--tone-0143": {
+    "role": "accent",
+    "color": "#e6aecf",
+    "alpha": 0.549
+  },
+  "--tone-0144": {
+    "role": "accent",
+    "color": "#f9dced",
+    "alpha": 0.651
+  },
+  "--tone-0145": {
+    "role": "secondary",
+    "color": "#f1e0fb",
+    "alpha": 0.502
+  },
+  "--tone-0146": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.7608
+  },
+  "--tone-0147": {
+    "role": "text",
+    "color": "#7c2968",
+    "alpha": 1
+  },
+  "--tone-0148": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.8118
+  },
+  "--tone-0149": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.5608
+  },
+  "--tone-0150": {
+    "role": "accent",
+    "color": "#b54b8d",
+    "alpha": 1
+  },
+  "--tone-0151": {
+    "role": "muted",
+    "color": "#8a557c",
+    "alpha": 1
+  },
+  "--tone-0152": {
+    "role": "secondary",
+    "color": "#d8bce5",
+    "alpha": 1
+  },
+  "--tone-0153": {
+    "role": "secondary",
+    "color": "#a86dc5",
+    "alpha": 1
+  },
+  "--tone-0154": {
+    "role": "secondary",
+    "color": "#ecdaf6",
+    "alpha": 0.6863
+  },
+  "--tone-0155": {
+    "role": "accent",
+    "color": "#fce0f0",
+    "alpha": 0.549
+  },
+  "--tone-0156": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.6314
+  },
+  "--tone-0157": {
+    "role": "secondary",
+    "color": "#74329a",
+    "alpha": 1
+  },
+  "--tone-0158": {
+    "role": "text",
+    "color": "#853580",
+    "alpha": 1
+  },
+  "--tone-0159": {
+    "role": "muted",
+    "color": "#97618d",
+    "alpha": 1
+  },
+  "--tone-0160": {
+    "role": "danger",
+    "color": "#9f245c",
+    "alpha": 1
+  },
+  "--tone-0161": {
+    "role": "danger",
+    "color": "#ffdeee",
+    "alpha": 0.5333
+  },
+  "--tone-0162": {
+    "role": "danger",
+    "color": "#e7a7c4",
+    "alpha": 1
+  },
+  "--tone-0163": {
+    "role": "secondary",
+    "color": "#e4ccfa",
+    "alpha": 1
+  },
+  "--tone-0164": {
+    "role": "accent",
+    "color": "#f7cade",
+    "alpha": 1
+  },
+  "--tone-0165": {
+    "role": "text",
+    "color": "#5d2484",
+    "alpha": 1
+  },
+  "--tone-0166": {
+    "role": "accent",
+    "color": "#a65e9b",
+    "alpha": 0.1098
+  },
+  "--tone-0167": {
+    "role": "accent",
+    "color": "#a0468c",
+    "alpha": 1
+  },
+  "--tone-0168": {
+    "role": "secondary",
+    "color": "#ba91cf",
+    "alpha": 1
+  },
+  "--tone-0169": {
+    "role": "secondary",
+    "color": "#e3cfed",
+    "alpha": 1
+  },
+  "--tone-0170": {
+    "role": "secondary",
+    "color": "#fdf8ff",
+    "alpha": 1
+  },
+  "--tone-0171": {
+    "role": "secondary",
+    "color": "#fcf6ff",
+    "alpha": 1
+  },
+  "--tone-0172": {
+    "role": "accent",
+    "color": "#fdf5fb",
+    "alpha": 1
+  },
+  "--tone-0173": {
+    "role": "accent",
+    "color": "#eda3ca",
+    "alpha": 0.149
+  },
+  "--tone-0174": {
+    "role": "accent",
+    "color": "#f4b9d8",
+    "alpha": 0.302
+  },
+  "--tone-0175": {
+    "role": "accent",
+    "color": "#f8d9eb",
+    "alpha": 0.1804
+  },
+  "--tone-0176": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0
+  },
+  "--tone-0177": {
+    "role": "accent",
+    "color": "#efb0da",
+    "alpha": 0.2196
+  },
+  "--tone-0178": {
+    "role": "accent",
+    "color": "#fdf0fa",
+    "alpha": 0.451
+  },
+  "--tone-0179": {
+    "role": "muted",
+    "color": "#78588c",
+    "alpha": 1
+  },
+  "--tone-0180": {
+    "role": "primary",
+    "color": "#250966",
+    "alpha": 1
+  },
+  "--tone-0181": {
+    "role": "secondary",
+    "color": "#6e5088",
+    "alpha": 1
+  },
+  "--tone-0182": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.749
+  },
+  "--tone-0183": {
+    "role": "secondary",
+    "color": "#f1e3fc",
+    "alpha": 1
+  },
+  "--tone-0184": {
+    "role": "text",
+    "color": "#250966",
+    "alpha": 1
+  },
+  "--tone-0185": {
+    "role": "primary",
+    "color": "#552274",
+    "alpha": 0.0196
+  },
+  "--tone-0186": {
+    "role": "primary",
+    "color": "#3c1977",
+    "alpha": 1
+  },
+  "--tone-0187": {
+    "role": "primary",
+    "color": "#35106d",
+    "alpha": 1
+  },
+  "--tone-0188": {
+    "role": "primary",
+    "color": "#34116c",
+    "alpha": 0.0784
+  },
+  "--tone-0189": {
+    "role": "muted",
+    "color": "#604080",
+    "alpha": 1
+  },
+  "--tone-0190": {
+    "role": "muted",
+    "color": "#aa87bf",
+    "alpha": 1
+  },
+  "--tone-0191": {
+    "role": "secondary",
+    "color": "#bda0d3",
+    "alpha": 0.3686
+  },
+  "--tone-0192": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.0784
+  },
+  "--tone-0193": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.7882
+  },
+  "--tone-0194": {
+    "role": "primary",
+    "color": "#5c2b7b",
+    "alpha": 0.0196
+  },
+  "--tone-0195": {
+    "role": "muted",
+    "color": "#806095",
+    "alpha": 1
+  },
+  "--tone-0196": {
+    "role": "muted",
+    "color": "#7d6095",
+    "alpha": 1
+  },
+  "--tone-0197": {
+    "role": "muted",
+    "color": "#8a69a2",
+    "alpha": 1
+  },
+  "--tone-0198": {
+    "role": "text",
+    "color": "#37136c",
+    "alpha": 1
+  },
+  "--tone-0199": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.251
+  },
+  "--tone-0200": {
+    "role": "accent",
+    "color": "#e84d8c",
+    "alpha": 1
+  },
+  "--tone-0201": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.8314
+  },
+  "--tone-0202": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.1882
+  },
+  "--tone-0203": {
+    "role": "muted",
+    "color": "#65417e",
+    "alpha": 1
+  },
+  "--tone-0204": {
+    "role": "secondary",
+    "color": "#ac87c6",
+    "alpha": 0.3098
+  },
+  "--tone-0205": {
+    "role": "muted",
+    "color": "#6b4c87",
+    "alpha": 1
+  },
+  "--tone-0206": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.8549
+  },
+  "--tone-0207": {
+    "role": "text",
+    "color": "#35126d",
+    "alpha": 1
+  },
+  "--tone-0208": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.2118
+  },
+  "--tone-0209": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.3608
+  },
+  "--tone-0210": {
+    "role": "muted",
+    "color": "#664181",
+    "alpha": 1
+  },
+  "--tone-0211": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.8784
+  },
+  "--tone-0212": {
+    "role": "text",
+    "color": "#2c0e66",
+    "alpha": 1
+  },
+  "--tone-0213": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.3412
+  },
+  "--tone-0214": {
+    "role": "primary",
+    "color": "#643788",
+    "alpha": 0.0196
+  },
+  "--tone-0215": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.6118
+  },
+  "--tone-0216": {
+    "role": "secondary",
+    "color": "#d9c2f4",
+    "alpha": 0.5098
+  },
+  "--tone-0217": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.8588
+  },
+  "--tone-0218": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.349
+  },
+  "--tone-0219": {
+    "role": "primary",
+    "color": "#623378",
+    "alpha": 0.0314
+  },
+  "--tone-0220": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.3137
+  },
+  "--tone-0221": {
+    "role": "secondary",
+    "color": "#e9dcf5",
+    "alpha": 0.502
+  },
+  "--tone-0222": {
+    "role": "muted",
+    "color": "#6c4287",
+    "alpha": 1
+  },
+  "--tone-0223": {
+    "role": "muted",
+    "color": "#795990",
+    "alpha": 1
+  },
+  "--tone-0224": {
+    "role": "text",
+    "color": "#5b3380",
+    "alpha": 1
+  },
+  "--tone-0225": {
+    "role": "accent",
+    "color": "#c462a3",
+    "alpha": 1
+  },
+  "--tone-0226": {
+    "role": "muted",
+    "color": "#76528d",
+    "alpha": 1
+  },
+  "--tone-0227": {
+    "role": "text",
+    "color": "#512472",
+    "alpha": 1
+  },
+  "--tone-0228": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.7412
+  },
+  "--tone-0229": {
+    "role": "muted",
+    "color": "#75426f",
+    "alpha": 1
+  },
+  "--tone-0230": {
+    "role": "accent",
+    "color": "#fff2fb",
+    "alpha": 0.4902
+  },
+  "--tone-0231": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.902
+  },
+  "--tone-0232": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.302
+  },
+  "--tone-0233": {
+    "role": "primary",
+    "color": "#643888",
+    "alpha": 0.0235
+  },
+  "--tone-0234": {
+    "role": "secondary",
+    "color": "#a576c5",
+    "alpha": 0.1294
+  },
+  "--tone-0235": {
+    "role": "text",
+    "color": "#351266",
+    "alpha": 1
+  },
+  "--tone-0236": {
+    "role": "secondary",
+    "color": "#b99acb",
+    "alpha": 0.3804
+  },
+  "--tone-0237": {
+    "role": "muted",
+    "color": "#77578f",
+    "alpha": 1
+  },
+  "--tone-0238": {
+    "role": "primary",
+    "color": "#41187d",
+    "alpha": 1
+  },
+  "--tone-0239": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.1216
+  },
+  "--tone-0240": {
+    "role": "primary",
+    "color": "#3b146b",
+    "alpha": 0.0588
+  },
+  "--tone-0241": {
+    "role": "muted",
+    "color": "#6e5088",
+    "alpha": 1
+  },
+  "--tone-0242": {
+    "role": "secondary",
+    "color": "#8c55b3",
+    "alpha": 1
+  },
+  "--tone-0243": {
+    "role": "primary",
+    "color": "#4a2082",
+    "alpha": 1
+  },
+  "--tone-0244": {
+    "role": "accent",
+    "color": "#bd3477",
+    "alpha": 1
+  },
+  "--tone-0245": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.5216
+  },
+  "--tone-0246": {
+    "role": "text",
+    "color": "#331169",
+    "alpha": 1
+  },
+  "--tone-0247": {
+    "role": "secondary",
+    "color": "#f6ecfc",
+    "alpha": 1
+  },
+  "--tone-0248": {
+    "role": "primary",
+    "color": "#250966",
+    "alpha": 0.2196
+  },
+  "--tone-0249": {
+    "role": "secondary",
+    "color": "#e6d8f1",
+    "alpha": 1
+  },
+  "--tone-0250": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.1412
+  },
+  "--tone-0251": {
+    "role": "secondary",
+    "color": "#faf3ff",
+    "alpha": 0.9216
+  },
+  "--tone-0252": {
+    "role": "secondary",
+    "color": "#e5d8ef",
+    "alpha": 1
+  },
+  "--tone-0253": {
+    "role": "text",
+    "color": "#43235f",
+    "alpha": 1
+  },
+  "--tone-0254": {
+    "role": "accent",
+    "color": "#f6d3e8",
+    "alpha": 0.3608
+  },
+  "--tone-0255": {
+    "role": "secondary",
+    "color": "#e3d8ff",
+    "alpha": 0.502
+  },
+  "--tone-0256": {
+    "role": "secondary",
+    "color": "#faf8ff",
+    "alpha": 1
+  },
+  "--tone-0257": {
+    "role": "secondary",
+    "color": "#d8b8e1",
+    "alpha": 0.4196
+  },
+  "--tone-0258": {
+    "role": "accent",
+    "color": "#df83be",
+    "alpha": 0.0471
+  },
+  "--tone-0259": {
+    "role": "accent",
+    "color": "#b85b98",
+    "alpha": 1
+  },
+  "--tone-0260": {
+    "role": "secondary",
+    "color": "#dfcde9",
+    "alpha": 1
+  },
+  "--tone-0261": {
+    "role": "muted",
+    "color": "#79638a",
+    "alpha": 1
+  },
+  "--tone-0262": {
+    "role": "text",
+    "color": "#45206b",
+    "alpha": 1
+  },
+  "--tone-0263": {
+    "role": "muted",
+    "color": "#75617f",
+    "alpha": 1
+  },
+  "--tone-0264": {
+    "role": "accent",
+    "color": "#9b3471",
+    "alpha": 1
+  },
+  "--tone-0265": {
+    "role": "text",
+    "color": "#6c1c58",
+    "alpha": 1
+  },
+  "--tone-0266": {
+    "role": "muted",
+    "color": "#705d7f",
+    "alpha": 1
+  },
+  "--tone-0267": {
+    "role": "text",
+    "color": "#8f2f75",
+    "alpha": 1
+  },
+  "--tone-0268": {
+    "role": "accent",
+    "color": "#fbedf7",
+    "alpha": 0.702
+  },
+  "--tone-0269": {
+    "role": "secondary",
+    "color": "#8b5996",
+    "alpha": 0.0902
+  },
+  "--tone-0270": {
+    "role": "accent",
+    "color": "#e7bfda",
+    "alpha": 1
+  },
+  "--tone-0271": {
+    "role": "accent",
+    "color": "#ac397b",
+    "alpha": 1
+  },
+  "--tone-0272": {
+    "role": "accent",
+    "color": "#f9e0ef",
+    "alpha": 0.6667
+  },
+  "--tone-0273": {
+    "role": "accent",
+    "color": "#b75b96",
+    "alpha": 1
+  },
+  "--tone-0274": {
+    "role": "text",
+    "color": "#3c1965",
+    "alpha": 1
+  },
+  "--tone-0275": {
+    "role": "muted",
+    "color": "#75617e",
+    "alpha": 1
+  },
+  "--tone-0276": {
+    "role": "primary",
+    "color": "#4a197c",
+    "alpha": 0.1333
+  },
+  "--tone-0277": {
+    "role": "primary",
+    "color": "#4a197c",
+    "alpha": 1
+  },
+  "--tone-0278": {
+    "role": "secondary",
+    "color": "#603693",
+    "alpha": 0.1216
+  },
+  "--tone-0279": {
+    "role": "primary",
+    "color": "#612890",
+    "alpha": 1
+  },
+  "--tone-0280": {
+    "role": "muted",
+    "color": "#80698f",
+    "alpha": 1
+  },
+  "--tone-0281": {
+    "role": "secondary",
+    "color": "#dfcfe8",
+    "alpha": 1
+  },
+  "--tone-0282": {
+    "role": "accent",
+    "color": "#b74b86",
+    "alpha": 1
+  },
+  "--tone-0283": {
+    "role": "text",
+    "color": "#5a317c",
+    "alpha": 1
+  },
+  "--tone-0284": {
+    "role": "secondary",
+    "color": "#f1e6fa",
+    "alpha": 1
+  },
+  "--tone-0285": {
+    "role": "muted",
+    "color": "#7b688c",
+    "alpha": 1
+  },
+  "--tone-0286": {
+    "role": "secondary",
+    "color": "#9154ba",
+    "alpha": 1
+  },
+  "--tone-0287": {
+    "role": "primary",
+    "color": "#183f2c",
+    "alpha": 1
+  },
+  "--tone-0288": {
+    "role": "secondary",
+    "color": "#e7eddf",
+    "alpha": 1
+  },
+  "--tone-0289": {
+    "role": "secondary",
+    "color": "#fcfbf8",
+    "alpha": 1
+  },
+  "--tone-0290": {
+    "role": "primary",
+    "color": "#213c2c",
+    "alpha": 1
+  },
+  "--tone-0291": {
+    "role": "secondary",
+    "color": "#d7e0ce",
+    "alpha": 1
+  },
+  "--tone-0292": {
+    "role": "surface",
+    "color": "#7c8276",
+    "alpha": 1
+  },
+  "--tone-0293": {
+    "role": "secondary",
+    "color": "#e5e6dd",
+    "alpha": 1
+  },
+  "--tone-0294": {
+    "role": "secondary",
+    "color": "#f2f1eb",
+    "alpha": 1
+  },
+  "--tone-0295": {
+    "role": "primary",
+    "color": "#477456",
+    "alpha": 1
+  },
+  "--tone-0296": {
+    "role": "secondary",
+    "color": "#d6e4ca",
+    "alpha": 1
+  },
+  "--tone-0297": {
+    "role": "muted",
+    "color": "#849c6f",
+    "alpha": 1
+  },
+  "--tone-0298": {
+    "role": "primary",
+    "color": "#2d573d",
+    "alpha": 1
+  },
+  "--tone-0299": {
+    "role": "primary",
+    "color": "#aab6a4",
+    "alpha": 1
+  },
+  "--tone-0300": {
+    "role": "muted",
+    "color": "#52654e",
+    "alpha": 1
+  },
+  "--tone-0301": {
+    "role": "secondary",
+    "color": "#d9c9ad",
+    "alpha": 1
+  },
+  "--tone-0302": {
+    "role": "muted",
+    "color": "#7e8879",
+    "alpha": 1
+  },
+  "--tone-0303": {
+    "role": "muted",
+    "color": "#a25c4e",
+    "alpha": 1
+  },
+  "--tone-0304": {
+    "role": "secondary",
+    "color": "#f7e9e2",
+    "alpha": 1
+  },
+  "--tone-0305": {
+    "role": "muted",
+    "color": "#7b8376",
+    "alpha": 1
+  },
+  "--tone-0306": {
+    "role": "muted",
+    "color": "#8b8e84",
+    "alpha": 1
+  },
+  "--tone-0307": {
+    "role": "muted",
+    "color": "#6d805b",
+    "alpha": 1
+  },
+  "--tone-0308": {
+    "role": "muted",
+    "color": "#6d7767",
+    "alpha": 1
+  },
+  "--tone-0309": {
+    "role": "secondary",
+    "color": "#d5dccd",
+    "alpha": 1
+  },
+  "--tone-0310": {
+    "role": "muted",
+    "color": "#5f7055",
+    "alpha": 1
+  },
+  "--tone-0311": {
+    "role": "muted",
+    "color": "#637e52",
+    "alpha": 1
+  },
+  "--tone-0312": {
+    "role": "secondary",
+    "color": "#cad6bf",
+    "alpha": 1
+  },
+  "--tone-0313": {
+    "role": "secondary",
+    "color": "#c8d4bc",
+    "alpha": 1
+  },
+  "--tone-0314": {
+    "role": "muted",
+    "color": "#8a8f81",
+    "alpha": 1
+  },
+  "--tone-0315": {
+    "role": "muted",
+    "color": "#3e5341",
+    "alpha": 1
+  },
+  "--tone-0316": {
+    "role": "secondary",
+    "color": "#f0f1e9",
+    "alpha": 1
+  },
+  "--tone-0317": {
+    "role": "secondary",
+    "color": "#e6e9df",
+    "alpha": 1
+  },
+  "--tone-0318": {
+    "role": "muted",
+    "color": "#73806b",
+    "alpha": 1
+  },
+  "--tone-0319": {
+    "role": "muted",
+    "color": "#65775c",
+    "alpha": 1
+  },
+  "--tone-0320": {
+    "role": "secondary",
+    "color": "#dfe3d6",
+    "alpha": 1
+  },
+  "--tone-0321": {
+    "role": "muted",
+    "color": "#86907e",
+    "alpha": 1
+  },
+  "--tone-0322": {
+    "role": "primary",
+    "color": "#102a1a",
+    "alpha": 0.1333
+  },
+  "--tone-0323": {
+    "role": "primary",
+    "color": "#152b20",
+    "alpha": 0.4
+  },
+  "--tone-0324": {
+    "role": "muted",
+    "color": "#75816e",
+    "alpha": 1
+  },
+  "--tone-0325": {
+    "role": "secondary",
+    "color": "#d8ded0",
+    "alpha": 1
+  },
+  "--tone-0326": {
+    "role": "secondary",
+    "color": "#f7f7f1",
+    "alpha": 1
+  },
+  "--tone-0327": {
+    "role": "muted",
+    "color": "#748267",
+    "alpha": 1
+  },
+  "--tone-0328": {
+    "role": "primary",
+    "color": "#6a8561",
+    "alpha": 1
+  },
+  "--tone-0329": {
+    "role": "secondary",
+    "color": "#e4ebdd",
+    "alpha": 1
+  },
+  "--tone-0330": {
+    "role": "muted",
+    "color": "#909887",
+    "alpha": 1
+  },
+  "--tone-0331": {
+    "role": "muted",
+    "color": "#87937d",
+    "alpha": 1
+  },
+  "--tone-0332": {
+    "role": "muted",
+    "color": "#728966",
+    "alpha": 1
+  },
+  "--tone-0333": {
+    "role": "muted",
+    "color": "#7c8772",
+    "alpha": 1
+  },
+  "--tone-0334": {
+    "role": "muted",
+    "color": "#547047",
+    "alpha": 1
+  },
+  "--tone-0335": {
+    "role": "muted",
+    "color": "#77816d",
+    "alpha": 1
+  },
+  "--tone-0336": {
+    "role": "muted",
+    "color": "#75816d",
+    "alpha": 1
+  },
+  "--tone-0337": {
+    "role": "secondary",
+    "color": "#d8dfd0",
+    "alpha": 1
+  },
+  "--tone-0338": {
+    "role": "muted",
+    "color": "#87937e",
+    "alpha": 1
+  },
+  "--tone-0339": {
+    "role": "accent",
+    "color": "#a35846",
+    "alpha": 1
+  },
+  "--tone-0340": {
+    "role": "secondary",
+    "color": "#f2e7df",
+    "alpha": 1
+  },
+  "--tone-0341": {
+    "role": "muted",
+    "color": "#718066",
+    "alpha": 1
+  },
+  "--tone-0342": {
+    "role": "muted",
+    "color": "#86907d",
+    "alpha": 1
+  },
+  "--tone-0343": {
+    "role": "muted",
+    "color": "#85937b",
+    "alpha": 1
+  },
+  "--tone-0344": {
+    "role": "primary",
+    "color": "#35156e",
+    "alpha": 0.9098
+  },
+  "--tone-0345": {
+    "role": "secondary",
+    "color": "#713b87",
+    "alpha": 0.8706
+  },
+  "--tone-0346": {
+    "role": "secondary",
+    "color": "#efd1f5",
+    "alpha": 0.6667
+  },
+  "--tone-0347": {
+    "role": "primary",
+    "color": "#57246d",
+    "alpha": 0.1882
+  },
+  "--tone-0348": {
+    "role": "accent",
+    "color": "#f5b7dc",
+    "alpha": 1
+  },
+  "--tone-0349": {
+    "role": "accent",
+    "color": "#f7b9e0",
+    "alpha": 1
+  },
+  "--tone-0350": {
+    "role": "muted",
+    "color": "#8a9383",
+    "alpha": 1
+  },
+  "--tone-0351": {
+    "role": "secondary",
+    "color": "#edf0e5",
+    "alpha": 1
+  },
+  "--tone-0352": {
+    "role": "muted",
+    "color": "#89987f",
+    "alpha": 1
+  },
+  "--tone-0353": {
+    "role": "muted",
+    "color": "#7a896f",
+    "alpha": 1
+  },
+  "--tone-0354": {
+    "role": "secondary",
+    "color": "#c7d3bb",
+    "alpha": 1
+  },
+  "--tone-0355": {
+    "role": "muted",
+    "color": "#7b936b",
+    "alpha": 1
+  },
+  "--tone-0356": {
+    "role": "muted",
+    "color": "#87927d",
+    "alpha": 1
+  },
+  "--tone-0357": {
+    "role": "secondary",
+    "color": "#dce2d4",
+    "alpha": 1
+  },
+  "--tone-0358": {
+    "role": "muted",
+    "color": "#7a8b6c",
+    "alpha": 1
+  },
+  "--tone-0359": {
+    "role": "muted",
+    "color": "#6a7862",
+    "alpha": 1
+  },
+  "--tone-0360": {
+    "role": "muted",
+    "color": "#929c89",
+    "alpha": 1
+  },
+  "--tone-0361": {
+    "role": "muted",
+    "color": "#87927e",
+    "alpha": 1
+  },
+  "--tone-0362": {
+    "role": "muted",
+    "color": "#859178",
+    "alpha": 1
+  },
+  "--tone-0363": {
+    "role": "muted",
+    "color": "#7a8570",
+    "alpha": 1
+  },
+  "--tone-0364": {
+    "role": "secondary",
+    "color": "#edf1e5",
+    "alpha": 1
+  },
+  "--tone-0365": {
+    "role": "muted",
+    "color": "#748666",
+    "alpha": 1
+  },
+  "--tone-0366": {
+    "role": "secondary",
+    "color": "#d8dfce",
+    "alpha": 1
+  },
+  "--tone-0367": {
+    "role": "primary",
+    "color": "#5d7d4d",
+    "alpha": 1
+  },
+  "--tone-0368": {
+    "role": "secondary",
+    "color": "#edf1e7",
+    "alpha": 1
+  },
+  "--tone-0369": {
+    "role": "muted",
+    "color": "#849177",
+    "alpha": 1
+  },
+  "--tone-0370": {
+    "role": "muted",
+    "color": "#6c8e58",
+    "alpha": 1
+  },
+  "--tone-0371": {
+    "role": "secondary",
+    "color": "#e0e6d8",
+    "alpha": 1
+  },
+  "--tone-0372": {
+    "role": "primary",
+    "color": "#6b865b",
+    "alpha": 1
+  },
+  "--tone-0373": {
+    "role": "success",
+    "color": "#6b865b",
+    "alpha": 1
+  },
+  "--tone-0374": {
+    "role": "muted",
+    "color": "#8b987f",
+    "alpha": 1
+  },
+  "--tone-0375": {
+    "role": "muted",
+    "color": "#7a886e",
+    "alpha": 1
+  },
+  "--tone-0376": {
+    "role": "secondary",
+    "color": "#dce3d3",
+    "alpha": 1
+  },
+  "--tone-0377": {
+    "role": "secondary",
+    "color": "#f0f3e9",
+    "alpha": 1
+  },
+  "--tone-0378": {
+    "role": "primary",
+    "color": "#6d8c5b",
+    "alpha": 1
+  },
+  "--tone-0379": {
+    "role": "muted",
+    "color": "#87917f",
+    "alpha": 1
+  },
+  "--tone-0380": {
+    "role": "muted",
+    "color": "#9db08d",
+    "alpha": 1
+  },
+  "--tone-0381": {
+    "role": "secondary",
+    "color": "#d3ddc9",
+    "alpha": 1
+  },
+  "--tone-0382": {
+    "role": "secondary",
+    "color": "#f6f7f0",
+    "alpha": 1
+  },
+  "--tone-0383": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.8078
+  },
+  "--tone-0384": {
+    "role": "secondary",
+    "color": "#eee3ff",
+    "alpha": 0.6
+  },
+  "--tone-0385": {
+    "role": "accent",
+    "color": "#fbe0f1",
+    "alpha": 0.5412
+  },
+  "--tone-0386": {
+    "role": "primary",
+    "color": "#47188b",
+    "alpha": 0.051
+  },
+  "--tone-0387": {
+    "role": "text",
+    "color": "#2c1168",
+    "alpha": 1
+  },
+  "--tone-0388": {
+    "role": "muted",
+    "color": "#765b97",
+    "alpha": 1
+  },
+  "--tone-0389": {
+    "role": "secondary",
+    "color": "#d6c6e7",
+    "alpha": 0.4
+  },
+  "--tone-0390": {
+    "role": "secondary",
+    "color": "#eddef7",
+    "alpha": 1
+  },
+  "--tone-0391": {
+    "role": "text",
+    "color": "#270b69",
+    "alpha": 1
+  },
+  "--tone-0392": {
+    "role": "secondary",
+    "color": "#8d3f9c",
+    "alpha": 1
+  },
+  "--tone-0393": {
+    "role": "accent",
+    "color": "#d5509b",
+    "alpha": 0.1882
+  },
+  "--tone-0394": {
+    "role": "secondary",
+    "color": "#fdf0ff",
+    "alpha": 0.1882
+  },
+  "--tone-0395": {
+    "role": "accent",
+    "color": "#f3d5ef",
+    "alpha": 0.1412
+  },
+  "--tone-0396": {
+    "role": "accent",
+    "color": "#7e2359",
+    "alpha": 0.102
+  },
+  "--tone-0397": {
+    "role": "text",
+    "color": "#2b0b6d",
+    "alpha": 1
+  },
+  "--tone-0398": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.8745
+  },
+  "--tone-0399": {
+    "role": "accent",
+    "color": "#fff9ff",
+    "alpha": 0.5294
+  },
+  "--tone-0400": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.6
+  },
+  "--tone-0401": {
+    "role": "accent",
+    "color": "#7b3270",
+    "alpha": 0.0431
+  },
+  "--tone-0402": {
+    "role": "accent",
+    "color": "#a34a8d",
+    "alpha": 0.102
+  },
+  "--tone-0403": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.8
+  },
+  "--tone-0404": {
+    "role": "danger",
+    "color": "#bd3f70",
+    "alpha": 1
+  },
+  "--tone-0405": {
+    "role": "danger",
+    "color": "#c84177",
+    "alpha": 0.0902
+  },
+  "--tone-0406": {
+    "role": "text",
+    "color": "#3b176f",
+    "alpha": 1
+  },
+  "--tone-0407": {
+    "role": "accent",
+    "color": "#bd3f82",
+    "alpha": 1
+  },
+  "--tone-0408": {
+    "role": "muted",
+    "color": "#937ba9",
+    "alpha": 1
+  },
+  "--tone-0409": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.1255
+  },
+  "--tone-0410": {
+    "role": "secondary",
+    "color": "#8030c1",
+    "alpha": 1
+  },
+  "--tone-0411": {
+    "role": "primary",
+    "color": "#42117f",
+    "alpha": 1
+  },
+  "--tone-0412": {
+    "role": "primary",
+    "color": "#34106d",
+    "alpha": 1
+  },
+  "--tone-0413": {
+    "role": "primary",
+    "color": "#702b8d",
+    "alpha": 0.1255
+  },
+  "--tone-0414": {
+    "role": "primary",
+    "color": "#702b8d",
+    "alpha": 0.1882
+  },
+  "--tone-0415": {
+    "role": "secondary",
+    "color": "#743790",
+    "alpha": 1
+  },
+  "--tone-0416": {
+    "role": "muted",
+    "color": "#694879",
+    "alpha": 1
+  },
+  "--tone-0417": {
+    "role": "danger",
+    "color": "#9c2353",
+    "alpha": 1
+  },
+  "--tone-0418": {
+    "role": "secondary",
+    "color": "#7c418f",
+    "alpha": 1
+  },
+  "--tone-0419": {
+    "role": "accent",
+    "color": "#fff5fc",
+    "alpha": 0.5804
+  },
+  "--tone-0420": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.6275
+  },
+  "--tone-0421": {
+    "role": "accent",
+    "color": "#8b4a81",
+    "alpha": 0.0627
+  },
+  "--tone-0422": {
+    "role": "text",
+    "color": "#35126b",
+    "alpha": 1
+  },
+  "--tone-0423": {
+    "role": "accent",
+    "color": "#c44783",
+    "alpha": 1
+  },
+  "--tone-0424": {
+    "role": "secondary",
+    "color": "#9c58b1",
+    "alpha": 1
+  },
+  "--tone-0425": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.5333
+  },
+  "--tone-0426": {
+    "role": "accent",
+    "color": "#8d3e92",
+    "alpha": 0.1255
+  },
+  "--tone-0427": {
+    "role": "danger",
+    "color": "#bf4b78",
+    "alpha": 1
+  },
+  "--tone-0428": {
+    "role": "primary",
+    "color": "#1c0652",
+    "alpha": 1
+  },
+  "--tone-0429": {
+    "role": "accent",
+    "color": "#ed4c87",
+    "alpha": 1
+  },
+  "--tone-0430": {
+    "role": "secondary",
+    "color": "#f2ebfd",
+    "alpha": 1
+  },
+  "--tone-0431": {
+    "role": "secondary",
+    "color": "#e9e1f2",
+    "alpha": 1
+  },
+  "--tone-0432": {
+    "role": "secondary",
+    "color": "#8e829c",
+    "alpha": 1
+  },
+  "--tone-0433": {
+    "role": "accent",
+    "color": "#f384ac",
+    "alpha": 1
+  },
+  "--tone-0434": {
+    "role": "primary",
+    "color": "#260b58",
+    "alpha": 0.0196
+  },
+  "--tone-0435": {
+    "role": "primary",
+    "color": "#260b58",
+    "alpha": 0.0118
+  },
+  "--tone-0436": {
+    "role": "secondary",
+    "color": "#e3d9ef",
+    "alpha": 1
+  },
+  "--tone-0437": {
+    "role": "secondary",
+    "color": "#f4effb",
+    "alpha": 1
+  },
+  "--tone-0438": {
+    "role": "secondary",
+    "color": "#eee5fb",
+    "alpha": 1
+  },
+  "--tone-0439": {
+    "role": "secondary",
+    "color": "#dfd1f3",
+    "alpha": 1
+  },
+  "--tone-0440": {
+    "role": "muted",
+    "color": "#9a8ea9",
+    "alpha": 1
+  },
+  "--tone-0441": {
+    "role": "secondary",
+    "color": "#dbcee9",
+    "alpha": 1
+  },
+  "--tone-0442": {
+    "role": "muted",
+    "color": "#78658f",
+    "alpha": 1
+  },
+  "--tone-0443": {
+    "role": "secondary",
+    "color": "#ded3eb",
+    "alpha": 1
+  },
+  "--tone-0444": {
+    "role": "secondary",
+    "color": "#f7f2fd",
+    "alpha": 1
+  },
+  "--tone-0445": {
+    "role": "secondary",
+    "color": "#b5a0d3",
+    "alpha": 1
+  },
+  "--tone-0446": {
+    "role": "accent",
+    "color": "#fff0f6",
+    "alpha": 1
+  },
+  "--tone-0447": {
+    "role": "accent",
+    "color": "#bf3566",
+    "alpha": 1
+  },
+  "--tone-0448": {
+    "role": "primary",
+    "color": "#250966",
+    "alpha": 0.0706
+  },
+  "--tone-0449": {
+    "role": "primary",
+    "color": "#402080",
+    "alpha": 1
+  },
+  "--tone-0450": {
+    "role": "secondary",
+    "color": "#f0ebf6",
+    "alpha": 1
+  },
+  "--tone-0451": {
+    "role": "secondary",
+    "color": "#ece0fc",
+    "alpha": 1
+  },
+  "--tone-0452": {
+    "role": "secondary",
+    "color": "#e0d0f5",
+    "alpha": 1
+  },
+  "--tone-0453": {
+    "role": "accent",
+    "color": "#fff0f5",
+    "alpha": 1
+  },
+  "--tone-0454": {
+    "role": "text",
+    "color": "#8f2058",
+    "alpha": 1
+  },
+  "--tone-0455": {
+    "role": "accent",
+    "color": "#d64c85",
+    "alpha": 1
+  },
+  "--tone-0456": {
+    "role": "accent",
+    "color": "#fce1ed",
+    "alpha": 1
+  },
+  "--tone-0457": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.52
+  },
+  "--tone-0458": {
+    "role": "primary",
+    "color": "#29134a",
+    "alpha": 0.0745
+  },
+  "--tone-0459": {
+    "role": "primary",
+    "color": "#29134a",
+    "alpha": 0.0235
+  },
+  "--tone-0460": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.6784
+  },
+  "--tone-0461": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.4314
+  },
+  "--tone-0462": {
+    "role": "secondary",
+    "color": "#f8f4fd",
+    "alpha": 1
+  },
+  "--tone-0463": {
+    "role": "text",
+    "color": "#502b8e",
+    "alpha": 1
+  },
+  "--tone-0464": {
+    "role": "secondary",
+    "color": "#f4edfe",
+    "alpha": 1
+  },
+  "--tone-0465": {
+    "role": "secondary",
+    "color": "#6d4c9e",
+    "alpha": 1
+  },
+  "--tone-0466": {
+    "role": "text",
+    "color": "#49245f",
+    "alpha": 1
+  },
+  "--tone-0467": {
+    "role": "primary",
+    "color": "#472385",
+    "alpha": 1
+  },
+  "--tone-0468": {
+    "role": "secondary",
+    "color": "#a17acb",
+    "alpha": 1
+  },
+  "--tone-0469": {
+    "role": "muted",
+    "color": "#a092aa",
+    "alpha": 1
+  },
+  "--tone-0470": {
+    "role": "secondary",
+    "color": "#f7f3fc",
+    "alpha": 1
+  },
+  "--tone-0471": {
+    "role": "secondary",
+    "color": "#f1e9f8",
+    "alpha": 1
+  },
+  "--tone-0472": {
+    "role": "secondary",
+    "color": "#ede3fa",
+    "alpha": 1
+  },
+  "--tone-0473": {
+    "role": "secondary",
+    "color": "#f0eaf5",
+    "alpha": 1
+  },
+  "--tone-0474": {
+    "role": "secondary",
+    "color": "#f4ebfc",
+    "alpha": 1
+  },
+  "--tone-0475": {
+    "role": "muted",
+    "color": "#8c6bb0",
+    "alpha": 1
+  },
+  "--tone-0476": {
+    "role": "text",
+    "color": "#9a285d",
+    "alpha": 1
+  },
+  "--tone-0477": {
+    "role": "muted",
+    "color": "#b37a92",
+    "alpha": 1
+  },
+  "--tone-0478": {
+    "role": "accent",
+    "color": "#fce0ed",
+    "alpha": 1
+  },
+  "--tone-0479": {
+    "role": "accent",
+    "color": "#d34c85",
+    "alpha": 1
+  },
+  "--tone-0480": {
+    "role": "secondary",
+    "color": "#f1eaf7",
+    "alpha": 1
+  },
+  "--tone-0481": {
+    "role": "secondary",
+    "color": "#eee6f4",
+    "alpha": 1
+  },
+  "--tone-0482": {
+    "role": "muted",
+    "color": "#776a83",
+    "alpha": 1
+  },
+  "--tone-0483": {
+    "role": "accent",
+    "color": "#c76691",
+    "alpha": 1
+  },
+  "--tone-0484": {
+    "role": "muted",
+    "color": "#a293ad",
+    "alpha": 1
+  },
+  "--tone-0485": {
+    "role": "secondary",
+    "color": "#f0eaf6",
+    "alpha": 1
+  },
+  "--tone-0486": {
+    "role": "muted",
+    "color": "#a396ae",
+    "alpha": 1
+  },
+  "--tone-0487": {
+    "role": "text",
+    "color": "#43206e",
+    "alpha": 1
+  },
+  "--tone-0488": {
+    "role": "text",
+    "color": "#472276",
+    "alpha": 1
+  },
+  "--tone-0489": {
+    "role": "accent",
+    "color": "#b55aa5",
+    "alpha": 1
+  },
+  "--tone-0490": {
+    "role": "muted",
+    "color": "#ab6a9d",
+    "alpha": 1
+  },
+  "--tone-0491": {
+    "role": "accent",
+    "color": "#edcde7",
+    "alpha": 1
+  },
+  "--tone-0492": {
+    "role": "accent",
+    "color": "#fae8f5",
+    "alpha": 0.651
+  },
+  "--tone-0493": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.9216
+  },
+  "--tone-0494": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.6196
+  },
+  "--tone-0495": {
+    "role": "secondary",
+    "color": "#f5e6fa",
+    "alpha": 0.5412
+  },
+  "--tone-0496": {
+    "role": "accent",
+    "color": "#fde0f2",
+    "alpha": 0.549
+  },
+  "--tone-0497": {
+    "role": "secondary",
+    "color": "#85409a",
+    "alpha": 0.0314
+  },
+  "--tone-0498": {
+    "role": "secondary",
+    "color": "#683197",
+    "alpha": 1
+  },
+  "--tone-0499": {
+    "role": "primary",
+    "color": "#2c106a",
+    "alpha": 1
+  },
+  "--tone-0500": {
+    "role": "primary",
+    "color": "#5e268e",
+    "alpha": 0.149
+  },
+  "--tone-0501": {
+    "role": "secondary",
+    "color": "#c9a9dd",
+    "alpha": 0.6118
+  },
+  "--tone-0502": {
+    "role": "accent",
+    "color": "#bd57af",
+    "alpha": 1
+  },
+  "--tone-0503": {
+    "role": "secondary",
+    "color": "#7641ad",
+    "alpha": 1
+  },
+  "--tone-0504": {
+    "role": "secondary",
+    "color": "#b976cd",
+    "alpha": 1
+  },
+  "--tone-0505": {
+    "role": "muted",
+    "color": "#9470a4",
+    "alpha": 1
+  },
+  "--tone-0506": {
+    "role": "muted",
+    "color": "#664080",
+    "alpha": 1
+  },
+  "--tone-0507": {
+    "role": "secondary",
+    "color": "#e4cdec",
+    "alpha": 0.7804
+  },
+  "--tone-0508": {
+    "role": "muted",
+    "color": "#88569d",
+    "alpha": 1
+  },
+  "--tone-0509": {
+    "role": "secondary",
+    "color": "#ad62c4",
+    "alpha": 1
+  },
+  "--tone-0510": {
+    "role": "muted",
+    "color": "#805b94",
+    "alpha": 1
+  },
+  "--tone-0511": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.4196
+  },
+  "--tone-0512": {
+    "role": "muted",
+    "color": "#765586",
+    "alpha": 1
+  },
+  "--tone-0513": {
+    "role": "danger",
+    "color": "#a02f74",
+    "alpha": 1
+  },
+  "--tone-0514": {
+    "role": "primary",
+    "color": "#6b2993",
+    "alpha": 0.2196
+  },
+  "--tone-0515": {
+    "role": "accent",
+    "color": "#ab3c91",
+    "alpha": 1
+  },
+  "--tone-0516": {
+    "role": "secondary",
+    "color": "#fcfaff",
+    "alpha": 1
+  },
+  "--tone-0517": {
+    "role": "secondary",
+    "color": "#d9bcf4",
+    "alpha": 0.2078
+  },
+  "--tone-0518": {
+    "role": "accent",
+    "color": "#f1b6d5",
+    "alpha": 0.2667
+  },
+  "--tone-0519": {
+    "role": "primary",
+    "color": "#43236c",
+    "alpha": 0.0314
+  },
+  "--tone-0520": {
+    "role": "secondary",
+    "color": "#d9c7eb",
+    "alpha": 0.4588
+  },
+  "--tone-0521": {
+    "role": "accent",
+    "color": "#f4d8e7",
+    "alpha": 0.302
+  },
+  "--tone-0522": {
+    "role": "accent",
+    "color": "#f8edf4",
+    "alpha": 0.1686
+  },
+  "--tone-0523": {
+    "role": "accent",
+    "color": "#b14e92",
+    "alpha": 1
+  },
+  "--tone-0524": {
+    "role": "accent",
+    "color": "#a451a4",
+    "alpha": 1
+  },
+  "--tone-0525": {
+    "role": "secondary",
+    "color": "#713b8a",
+    "alpha": 0.0235
+  },
+  "--tone-0526": {
+    "role": "secondary",
+    "color": "#75489b",
+    "alpha": 1
+  },
+  "--tone-0527": {
+    "role": "accent",
+    "color": "#dd3a7e",
+    "alpha": 1
+  },
+  "--tone-0528": {
+    "role": "accent",
+    "color": "#fff0f7",
+    "alpha": 0.902
+  },
+  "--tone-0529": {
+    "role": "accent",
+    "color": "#f9d3e5",
+    "alpha": 1
+  },
+  "--tone-0530": {
+    "role": "muted",
+    "color": "#76518c",
+    "alpha": 1
+  },
+  "--tone-0531": {
+    "role": "secondary",
+    "color": "#a66bc2",
+    "alpha": 1
+  },
+  "--tone-0532": {
+    "role": "secondary",
+    "color": "#eadcf0",
+    "alpha": 0.3333
+  },
+  "--tone-0533": {
+    "role": "muted",
+    "color": "#a2567d",
+    "alpha": 1
+  },
+  "--tone-0534": {
+    "role": "accent",
+    "color": "#bd6e98",
+    "alpha": 1
+  },
+  "--tone-0535": {
+    "role": "accent",
+    "color": "#f4dfeb",
+    "alpha": 0.4
+  },
+  "--tone-0536": {
+    "role": "secondary",
+    "color": "#bba7cf",
+    "alpha": 0.4392
+  },
+  "--tone-0537": {
+    "role": "muted",
+    "color": "#786389",
+    "alpha": 1
+  },
+  "--tone-0538": {
+    "role": "accent",
+    "color": "#f6d9eb",
+    "alpha": 1
+  },
+  "--tone-0539": {
+    "role": "text",
+    "color": "#7c367b",
+    "alpha": 1
+  },
+  "--tone-0540": {
+    "role": "primary",
+    "color": "#250966",
+    "alpha": 0.0471
+  },
+  "--tone-0541": {
+    "role": "secondary",
+    "color": "#a76ec5",
+    "alpha": 1
+  },
+  "--tone-0542": {
+    "role": "secondary",
+    "color": "#d2b5e6",
+    "alpha": 1
+  },
+  "--tone-0543": {
+    "role": "secondary",
+    "color": "#653895",
+    "alpha": 0.0706
+  },
+  "--tone-0544": {
+    "role": "secondary",
+    "color": "#e2caee",
+    "alpha": 1
+  },
+  "--tone-0545": {
+    "role": "accent",
+    "color": "#fff0f7",
+    "alpha": 1
+  },
+  "--tone-0546": {
+    "role": "accent",
+    "color": "#d7387c",
+    "alpha": 1
+  },
+  "--tone-0547": {
+    "role": "accent",
+    "color": "#9a3f9a",
+    "alpha": 1
+  },
+  "--tone-0548": {
+    "role": "primary",
+    "color": "#4b2081",
+    "alpha": 1
+  },
+  "--tone-0549": {
+    "role": "primary",
+    "color": "#4b2081",
+    "alpha": 0.1529
+  },
+  "--tone-0550": {
+    "role": "secondary",
+    "color": "#e8dcf5",
+    "alpha": 1
+  },
+  "--tone-0551": {
+    "role": "secondary",
+    "color": "#e7dcef",
+    "alpha": 1
+  },
+  "--tone-0552": {
+    "role": "muted",
+    "color": "#654984",
+    "alpha": 1
+  },
+  "--tone-0553": {
+    "role": "secondary",
+    "color": "#d8c1e6",
+    "alpha": 1
+  },
+  "--tone-0554": {
+    "role": "accent",
+    "color": "#f4ddf4",
+    "alpha": 0.7373
+  },
+  "--tone-0555": {
+    "role": "primary",
+    "color": "#67308a",
+    "alpha": 0.0471
+  },
+  "--tone-0556": {
+    "role": "accent",
+    "color": "#ecc8e5",
+    "alpha": 1
+  },
+  "--tone-0557": {
+    "role": "text",
+    "color": "#7e347b",
+    "alpha": 1
+  },
+  "--tone-0558": {
+    "role": "accent",
+    "color": "#e9c8e8",
+    "alpha": 1
+  },
+  "--tone-0559": {
+    "role": "primary",
+    "color": "#67308a",
+    "alpha": 0.0863
+  },
+  "--tone-0560": {
+    "role": "accent",
+    "color": "#e8b9dd",
+    "alpha": 1
+  },
+  "--tone-0561": {
+    "role": "primary",
+    "color": "#000000",
+    "alpha": 0.6
+  },
+  "--tone-0562": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.4706
+  },
+  "--tone-0563": {
+    "role": "secondary",
+    "color": "#816891",
+    "alpha": 1
+  },
+  "--tone-0564": {
+    "role": "secondary",
+    "color": "#d7c1e8",
+    "alpha": 0.302
+  },
+  "--tone-0565": {
+    "role": "muted",
+    "color": "#75578a",
+    "alpha": 1
+  },
+  "--tone-0566": {
+    "role": "muted",
+    "color": "#b592c8",
+    "alpha": 1
+  },
+  "--tone-0567": {
+    "role": "accent",
+    "color": "#b64085",
+    "alpha": 1
+  },
+  "--tone-0568": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.9294
+  },
+  "--tone-0569": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.5412
+  },
+  "--tone-0570": {
+    "role": "primary",
+    "color": "#5c2971",
+    "alpha": 0.0667
+  },
+  "--tone-0571": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.8667
+  },
+  "--tone-0572": {
+    "role": "secondary",
+    "color": "#74409a",
+    "alpha": 1
+  },
+  "--tone-0573": {
+    "role": "secondary",
+    "color": "#713b8a",
+    "alpha": 0.0353
+  },
+  "--tone-0574": {
+    "role": "accent",
+    "color": "#fff0f7",
+    "alpha": 0.851
+  },
+  "--tone-0575": {
+    "role": "accent",
+    "color": "#e63f81",
+    "alpha": 1
+  },
+  "--tone-0576": {
+    "role": "muted",
+    "color": "#8b60a4",
+    "alpha": 1
+  },
+  "--tone-0577": {
+    "role": "accent",
+    "color": "#ad3e8b",
+    "alpha": 1
+  },
+  "--tone-0578": {
+    "role": "muted",
+    "color": "#715481",
+    "alpha": 1
+  },
+  "--tone-0579": {
+    "role": "secondary",
+    "color": "#dfc9f4",
+    "alpha": 0.4784
+  },
+  "--tone-0580": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.451
+  },
+  "--tone-0581": {
+    "role": "muted",
+    "color": "#684286",
+    "alpha": 1
+  },
+  "--tone-0582": {
+    "role": "text",
+    "color": "#573374",
+    "alpha": 1
+  },
+  "--tone-0583": {
+    "role": "secondary",
+    "color": "#d7c0e7",
+    "alpha": 1
+  },
+  "--tone-0584": {
+    "role": "muted",
+    "color": "#76528e",
+    "alpha": 1
+  },
+  "--tone-0585": {
+    "role": "secondary",
+    "color": "#ba8ed2",
+    "alpha": 1
+  },
+  "--tone-0586": {
+    "role": "secondary",
+    "color": "#aa7bc9",
+    "alpha": 1
+  },
+  "--tone-0587": {
+    "role": "secondary",
+    "color": "#eee0fc",
+    "alpha": 0.5804
+  },
+  "--tone-0588": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.6588
+  },
+  "--tone-0589": {
+    "role": "muted",
+    "color": "#93729f",
+    "alpha": 1
+  },
+  "--tone-0590": {
+    "role": "muted",
+    "color": "#9675a2",
+    "alpha": 1
+  },
+  "--tone-0591": {
+    "role": "primary",
+    "color": "#35147b",
+    "alpha": 1
+  },
+  "--tone-0592": {
+    "role": "primary",
+    "color": "#482075",
+    "alpha": 0.0863
+  },
+  "--tone-0593": {
+    "role": "primary",
+    "color": "#421887",
+    "alpha": 1
+  },
+  "--tone-0594": {
+    "role": "primary",
+    "color": "#482075",
+    "alpha": 0.149
+  },
+  "--tone-0595": {
+    "role": "secondary",
+    "color": "#d8c2e7",
+    "alpha": 1
+  },
+  "--tone-0596": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.4392
+  },
+  "--tone-0597": {
+    "role": "text",
+    "color": "#583079",
+    "alpha": 1
+  },
+  "--tone-0598": {
+    "role": "text",
+    "color": "#68418a",
+    "alpha": 1
+  },
+  "--tone-0599": {
+    "role": "secondary",
+    "color": "#efd9f4",
+    "alpha": 0.6118
+  },
+  "--tone-0600": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.8392
+  },
+  "--tone-0601": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.2588
+  },
+  "--tone-0602": {
+    "role": "muted",
+    "color": "#6f4b85",
+    "alpha": 1
+  },
+  "--tone-0603": {
+    "role": "secondary",
+    "color": "#d2b8e1",
+    "alpha": 0.4196
+  },
+  "--tone-0604": {
+    "role": "muted",
+    "color": "#ac659e",
+    "alpha": 1
+  },
+  "--tone-0605": {
+    "role": "accent",
+    "color": "#facbe7",
+    "alpha": 0.6314
+  },
+  "--tone-0606": {
+    "role": "accent",
+    "color": "#963978",
+    "alpha": 1
+  },
+  "--tone-0607": {
+    "role": "accent",
+    "color": "#f8bbdf",
+    "alpha": 0.7608
+  },
+  "--tone-0608": {
+    "role": "accent",
+    "color": "#d474a3",
+    "alpha": 0.0431
+  },
+  "--tone-0609": {
+    "role": "accent",
+    "color": "#ce5a99",
+    "alpha": 1
+  },
+  "--tone-0610": {
+    "role": "accent",
+    "color": "#fffdfe",
+    "alpha": 0.949
+  },
+  "--tone-0611": {
+    "role": "secondary",
+    "color": "#e9dcf5",
+    "alpha": 1
+  },
+  "--tone-0612": {
+    "role": "secondary",
+    "color": "#dac6ef",
+    "alpha": 1
+  },
+  "--tone-0613": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.4667
+  },
+  "--tone-0614": {
+    "role": "secondary",
+    "color": "#8c4fc5",
+    "alpha": 1
+  },
+  "--tone-0615": {
+    "role": "secondary",
+    "color": "#fcf8ff",
+    "alpha": 0.6902
+  },
+  "--tone-0616": {
+    "role": "muted",
+    "color": "#906da7",
+    "alpha": 1
+  },
+  "--tone-0617": {
+    "role": "secondary",
+    "color": "#f8edf9",
+    "alpha": 0.6314
+  },
+  "--tone-0618": {
+    "role": "secondary",
+    "color": "#ebddf4",
+    "alpha": 1
+  },
+  "--tone-0619": {
+    "role": "accent",
+    "color": "#bf79bb",
+    "alpha": 1
+  },
+  "--tone-0620": {
+    "role": "accent",
+    "color": "#e7b2d1",
+    "alpha": 1
+  },
+  "--tone-0621": {
+    "role": "danger",
+    "color": "#906da7",
+    "alpha": 1
+  },
+  "--tone-0622": {
+    "role": "secondary",
+    "color": "#f7edfc",
+    "alpha": 0.502
+  },
+  "--tone-0623": {
+    "role": "primary",
+    "color": "#5c2971",
+    "alpha": 0.0431
+  },
+  "--tone-0624": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.7216
+  },
+  "--tone-0625": {
+    "role": "accent",
+    "color": "#f6d9eb",
+    "alpha": 0.5686
+  },
+  "--tone-0626": {
+    "role": "muted",
+    "color": "#a55594",
+    "alpha": 1
+  },
+  "--tone-0627": {
+    "role": "secondary",
+    "color": "#d7c1e8",
+    "alpha": 0.3608
+  },
+  "--tone-0628": {
+    "role": "muted",
+    "color": "#896a9b",
+    "alpha": 1
+  },
+  "--tone-0629": {
+    "role": "muted",
+    "color": "#61417f",
+    "alpha": 1
+  },
+  "--tone-0630": {
+    "role": "text",
+    "color": "#35116f",
+    "alpha": 1
+  },
+  "--tone-0631": {
+    "role": "accent",
+    "color": "#982f9d",
+    "alpha": 1
+  },
+  "--tone-0632": {
+    "role": "accent",
+    "color": "#ce347f",
+    "alpha": 1
+  },
+  "--tone-0633": {
+    "role": "accent",
+    "color": "#ce83bd",
+    "alpha": 1
+  },
+  "--tone-0634": {
+    "role": "secondary",
+    "color": "#edddf5",
+    "alpha": 0.3216
+  },
+  "--tone-0635": {
+    "role": "muted",
+    "color": "#76508e",
+    "alpha": 1
+  },
+  "--tone-0636": {
+    "role": "secondary",
+    "color": "#d7bce7",
+    "alpha": 1
+  },
+  "--tone-0637": {
+    "role": "secondary",
+    "color": "#eee3f5",
+    "alpha": 1
+  },
+  "--tone-0638": {
+    "role": "secondary",
+    "color": "#f0e7f7",
+    "alpha": 1
+  },
+  "--tone-0639": {
+    "role": "secondary",
+    "color": "#ddcaed",
+    "alpha": 1
+  },
+  "--tone-0640": {
+    "role": "accent",
+    "color": "#f9eafa",
+    "alpha": 0.502
+  },
+  "--tone-0641": {
+    "role": "primary",
+    "color": "#552678",
+    "alpha": 0.0314
+  },
+  "--tone-0642": {
+    "role": "secondary",
+    "color": "#dfcbea",
+    "alpha": 0.502
+  },
+  "--tone-0643": {
+    "role": "secondary",
+    "color": "#ae7cce",
+    "alpha": 1
+  },
+  "--tone-0644": {
+    "role": "secondary",
+    "color": "#efe6f8",
+    "alpha": 0.302
+  },
+  "--tone-0645": {
+    "role": "secondary",
+    "color": "#c18bdf",
+    "alpha": 1
+  },
+  "--tone-0646": {
+    "role": "secondary",
+    "color": "#9362c8",
+    "alpha": 1
+  },
+  "--tone-0647": {
+    "role": "accent",
+    "color": "#d78fb8",
+    "alpha": 1
+  },
+  "--tone-0648": {
+    "role": "secondary",
+    "color": "#ae6ad6",
+    "alpha": 1
+  },
+  "--tone-0649": {
+    "role": "secondary",
+    "color": "#7845b2",
+    "alpha": 1
+  },
+  "--tone-0650": {
+    "role": "accent",
+    "color": "#d46ca5",
+    "alpha": 1
+  },
+  "--tone-0651": {
+    "role": "secondary",
+    "color": "#9052bd",
+    "alpha": 1
+  },
+  "--tone-0652": {
+    "role": "secondary",
+    "color": "#f7eaff",
+    "alpha": 1
+  },
+  "--tone-0653": {
+    "role": "secondary",
+    "color": "#cc8bff",
+    "alpha": 1
+  },
+  "--tone-0654": {
+    "role": "secondary",
+    "color": "#963fe1",
+    "alpha": 1
+  },
+  "--tone-0655": {
+    "role": "secondary",
+    "color": "#6920b6",
+    "alpha": 1
+  },
+  "--tone-0656": {
+    "role": "secondary",
+    "color": "#eed5ff",
+    "alpha": 1
+  },
+  "--tone-0657": {
+    "role": "secondary",
+    "color": "#b65afa",
+    "alpha": 0.6784
+  },
+  "--tone-0658": {
+    "role": "secondary",
+    "color": "#cc91f6",
+    "alpha": 0.3608
+  },
+  "--tone-0659": {
+    "role": "secondary",
+    "color": "#c687eb",
+    "alpha": 0.1686
+  },
+  "--tone-0660": {
+    "role": "secondary",
+    "color": "#f5dfff",
+    "alpha": 1
+  },
+  "--tone-0661": {
+    "role": "secondary",
+    "color": "#d399fa",
+    "alpha": 0.4
+  },
+  "--tone-0662": {
+    "role": "secondary",
+    "color": "#ba70e6",
+    "alpha": 0.3412
+  },
+  "--tone-0663": {
+    "role": "secondary",
+    "color": "#f8f4ff",
+    "alpha": 1
+  },
+  "--tone-0664": {
+    "role": "secondary",
+    "color": "#fcf9ff",
+    "alpha": 1
+  },
+  "--tone-0665": {
+    "role": "accent",
+    "color": "#fff6fc",
+    "alpha": 1
+  },
+  "--tone-0666": {
+    "role": "primary",
+    "color": "#280d65",
+    "alpha": 1
+  },
+  "--tone-0667": {
+    "role": "secondary",
+    "color": "#806691",
+    "alpha": 1
+  },
+  "--tone-0668": {
+    "role": "secondary",
+    "color": "#dccce9",
+    "alpha": 1
+  },
+  "--tone-0669": {
+    "role": "secondary",
+    "color": "#aa59c8",
+    "alpha": 1
+  },
+  "--tone-0670": {
+    "role": "accent",
+    "color": "#efc6e7",
+    "alpha": 1
+  },
+  "--tone-0671": {
+    "role": "text",
+    "color": "#280d65",
+    "alpha": 1
+  },
+  "--tone-0672": {
+    "role": "muted",
+    "color": "#715487",
+    "alpha": 1
+  },
+  "--tone-0673": {
+    "role": "muted",
+    "color": "#ac8ac0",
+    "alpha": 1
+  },
+  "--tone-0674": {
+    "role": "accent",
+    "color": "#ac3885",
+    "alpha": 1
+  },
+  "--tone-0675": {
+    "role": "muted",
+    "color": "#765989",
+    "alpha": 1
+  },
+  "--tone-0676": {
+    "role": "accent",
+    "color": "#dc86ba",
+    "alpha": 0.6
+  },
+  "--tone-0677": {
+    "role": "accent",
+    "color": "#ffe4f4",
+    "alpha": 0.502
+  },
+  "--tone-0678": {
+    "role": "accent",
+    "color": "#b6489a",
+    "alpha": 0.0314
+  },
+  "--tone-0679": {
+    "role": "accent",
+    "color": "#aa3683",
+    "alpha": 1
+  },
+  "--tone-0680": {
+    "role": "primary",
+    "color": "#5c2676",
+    "alpha": 0.0353
+  },
+  "--tone-0681": {
+    "role": "muted",
+    "color": "#9274a7",
+    "alpha": 1
+  },
+  "--tone-0682": {
+    "role": "muted",
+    "color": "#8b639f",
+    "alpha": 1
+  },
+  "--tone-0683": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.3882
+  },
+  "--tone-0684": {
+    "role": "muted",
+    "color": "#7f609c",
+    "alpha": 1
+  },
+  "--tone-0685": {
+    "role": "secondary",
+    "color": "#b17cce",
+    "alpha": 1
+  },
+  "--tone-0686": {
+    "role": "secondary",
+    "color": "#c7a0df",
+    "alpha": 0.1098
+  },
+  "--tone-0687": {
+    "role": "text",
+    "color": "#3b1d70",
+    "alpha": 1
+  },
+  "--tone-0688": {
+    "role": "muted",
+    "color": "#957aa7",
+    "alpha": 1
+  },
+  "--tone-0689": {
+    "role": "secondary",
+    "color": "#c8abd9",
+    "alpha": 1
+  },
+  "--tone-0690": {
+    "role": "muted",
+    "color": "#634775",
+    "alpha": 1
+  },
+  "--tone-0691": {
+    "role": "secondary",
+    "color": "#baa7c7",
+    "alpha": 1
+  },
+  "--tone-0692": {
+    "role": "secondary",
+    "color": "#722aa5",
+    "alpha": 1
+  },
+  "--tone-0693": {
+    "role": "secondary",
+    "color": "#7627aa",
+    "alpha": 1
+  },
+  "--tone-0694": {
+    "role": "secondary",
+    "color": "#eddef7",
+    "alpha": 0.6118
+  },
+  "--tone-0695": {
+    "role": "accent",
+    "color": "#f9deef",
+    "alpha": 0.6118
+  },
+  "--tone-0696": {
+    "role": "text",
+    "color": "#3b166e",
+    "alpha": 1
+  },
+  "--tone-0697": {
+    "role": "muted",
+    "color": "#8b6e9d",
+    "alpha": 1
+  },
+  "--tone-0698": {
+    "role": "muted",
+    "color": "#994a93",
+    "alpha": 1
+  },
+  "--tone-0699": {
+    "role": "muted",
+    "color": "#806691",
+    "alpha": 1
+  },
+  "--tone-0700": {
+    "role": "text",
+    "color": "#452174",
+    "alpha": 1
+  },
+  "--tone-0701": {
+    "role": "muted",
+    "color": "#8a719b",
+    "alpha": 1
+  },
+  "--tone-0702": {
+    "role": "muted",
+    "color": "#76518f",
+    "alpha": 1
+  },
+  "--tone-0703": {
+    "role": "secondary",
+    "color": "#e2cbe9",
+    "alpha": 1
+  },
+  "--tone-0704": {
+    "role": "accent",
+    "color": "#f9edfa",
+    "alpha": 0.6784
+  },
+  "--tone-0705": {
+    "role": "text",
+    "color": "#74408b",
+    "alpha": 1
+  },
+  "--tone-0706": {
+    "role": "muted",
+    "color": "#996c9e",
+    "alpha": 1
+  },
+  "--tone-0707": {
+    "role": "secondary",
+    "color": "#dfcee9",
+    "alpha": 1
+  },
+  "--tone-0708": {
+    "role": "muted",
+    "color": "#633e80",
+    "alpha": 1
+  },
+  "--tone-0709": {
+    "role": "primary",
+    "color": "#422374",
+    "alpha": 0.1255
+  },
+  "--tone-0710": {
+    "role": "muted",
+    "color": "#aa90ba",
+    "alpha": 1
+  },
+  "--tone-0711": {
+    "role": "secondary",
+    "color": "#eeddfc",
+    "alpha": 1
+  },
+  "--tone-0712": {
+    "role": "accent",
+    "color": "#fce1f1",
+    "alpha": 1
+  },
+  "--tone-0713": {
+    "role": "muted",
+    "color": "#9852aa",
+    "alpha": 1
+  },
+  "--tone-0714": {
+    "role": "text",
+    "color": "#321468",
+    "alpha": 1
+  },
+  "--tone-0715": {
+    "role": "muted",
+    "color": "#8d70a0",
+    "alpha": 1
+  },
+  "--tone-0716": {
+    "role": "secondary",
+    "color": "#eadff2",
+    "alpha": 0.349
+  },
+  "--tone-0717": {
+    "role": "secondary",
+    "color": "#e9ddee",
+    "alpha": 0.502
+  },
+  "--tone-0718": {
+    "role": "secondary",
+    "color": "#eee1f6",
+    "alpha": 1
+  },
+  "--tone-0719": {
+    "role": "secondary",
+    "color": "#efe5f5",
+    "alpha": 0.4
+  },
+  "--tone-0720": {
+    "role": "secondary",
+    "color": "#fbf7ff",
+    "alpha": 0.9608
+  },
+  "--tone-0721": {
+    "role": "secondary",
+    "color": "#f9effb",
+    "alpha": 0.9608
+  },
+  "--tone-0722": {
+    "role": "secondary",
+    "color": "#e4d7ed",
+    "alpha": 1
+  },
+  "--tone-0723": {
+    "role": "accent",
+    "color": "#fff9ff",
+    "alpha": 0.502
+  },
+  "--tone-0724": {
+    "role": "secondary",
+    "color": "#efdef7",
+    "alpha": 1
+  },
+  "--tone-0725": {
+    "role": "secondary",
+    "color": "#faf1fc",
+    "alpha": 0.9333
+  },
+  "--tone-0726": {
+    "role": "secondary",
+    "color": "#ddcae9",
+    "alpha": 1
+  },
+  "--tone-0727": {
+    "role": "secondary",
+    "color": "#f6eafa",
+    "alpha": 0.5333
+  },
+  "--tone-0728": {
+    "role": "text",
+    "color": "#683e83",
+    "alpha": 1
+  },
+  "--tone-0729": {
+    "role": "secondary",
+    "color": "#7d3f9d",
+    "alpha": 1
+  },
+  "--tone-0730": {
+    "role": "secondary",
+    "color": "#ddc8e7",
+    "alpha": 0.3098
+  },
+  "--tone-0731": {
+    "role": "accent",
+    "color": "#fff0fa",
+    "alpha": 0.6667
+  },
+  "--tone-0732": {
+    "role": "secondary",
+    "color": "#f0e1f6",
+    "alpha": 0.6
+  },
+  "--tone-0733": {
+    "role": "accent",
+    "color": "#b6308d",
+    "alpha": 1
+  },
+  "--tone-0734": {
+    "role": "secondary",
+    "color": "#efe0f8",
+    "alpha": 1
+  },
+  "--tone-0735": {
+    "role": "secondary",
+    "color": "#824b99",
+    "alpha": 0.0627
+  },
+  "--tone-0736": {
+    "role": "primary",
+    "color": "#49207e",
+    "alpha": 1
+  },
+  "--tone-0737": {
+    "role": "secondary",
+    "color": "#fbf5ff",
+    "alpha": 1
+  },
+  "--tone-0738": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.9255
+  },
+  "--tone-0739": {
+    "role": "secondary",
+    "color": "#dfa0f0",
+    "alpha": 0.549
+  },
+  "--tone-0740": {
+    "role": "accent",
+    "color": "#ffd6f2",
+    "alpha": 0.851
+  },
+  "--tone-0741": {
+    "role": "secondary",
+    "color": "#eaddff",
+    "alpha": 1
+  },
+  "--tone-0742": {
+    "role": "secondary",
+    "color": "#f6e8fc",
+    "alpha": 1
+  },
+  "--tone-0743": {
+    "role": "accent",
+    "color": "#f9c8eb",
+    "alpha": 1
+  },
+  "--tone-0744": {
+    "role": "secondary",
+    "color": "#8c43a5",
+    "alpha": 0.0431
+  },
+  "--tone-0745": {
+    "role": "text",
+    "color": "#713b7f",
+    "alpha": 1
+  },
+  "--tone-0746": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.149
+  },
+  "--tone-0747": {
+    "role": "secondary",
+    "color": "#7130b1",
+    "alpha": 1
+  },
+  "--tone-0748": {
+    "role": "secondary",
+    "color": "#8846c1",
+    "alpha": 1
+  },
+  "--tone-0749": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.2078
+  },
+  "--tone-0750": {
+    "role": "secondary",
+    "color": "#79329d",
+    "alpha": 0.0863
+  },
+  "--tone-0751": {
+    "role": "secondary",
+    "color": "#ba6acb",
+    "alpha": 0.2118
+  },
+  "--tone-0752": {
+    "role": "primary",
+    "color": "#5d229e",
+    "alpha": 1
+  },
+  "--tone-0753": {
+    "role": "secondary",
+    "color": "#7934b8",
+    "alpha": 1
+  },
+  "--tone-0754": {
+    "role": "secondary",
+    "color": "#79329d",
+    "alpha": 0.149
+  },
+  "--tone-0755": {
+    "role": "accent",
+    "color": "#9d559e",
+    "alpha": 0.1255
+  },
+  "--tone-0756": {
+    "role": "accent",
+    "color": "#f1d6f2",
+    "alpha": 0.3765
+  },
+  "--tone-0757": {
+    "role": "primary",
+    "color": "#14081d",
+    "alpha": 0.1412
+  },
+  "--tone-0758": {
+    "role": "primary",
+    "color": "#2d1b3e",
+    "alpha": 0.3412
+  },
+  "--tone-0759": {
+    "role": "secondary",
+    "color": "#dfc9e7",
+    "alpha": 1
+  },
+  "--tone-0760": {
+    "role": "accent",
+    "color": "#ecd5ed",
+    "alpha": 0.2196
+  },
+  "--tone-0761": {
+    "role": "accent",
+    "color": "#ecd5ed",
+    "alpha": 0.149
+  },
+  "--tone-0762": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.0588
+  },
+  "--tone-0763": {
+    "role": "secondary",
+    "color": "#f6e7fa",
+    "alpha": 0.1608
+  },
+  "--tone-0764": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.051
+  },
+  "--tone-0765": {
+    "role": "secondary",
+    "color": "#e9daee",
+    "alpha": 1
+  },
+  "--tone-0766": {
+    "role": "muted",
+    "color": "#d4bcdc",
+    "alpha": 1
+  },
+  "--tone-0767": {
+    "role": "accent",
+    "color": "#efd4f1",
+    "alpha": 0.1804
+  },
+  "--tone-0768": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.0314
+  },
+  "--tone-0769": {
+    "role": "secondary",
+    "color": "#ead4ef",
+    "alpha": 0.2118
+  },
+  "--tone-0770": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.102
+  },
+  "--tone-0771": {
+    "role": "accent",
+    "color": "#f4badd",
+    "alpha": 1
+  },
+  "--tone-0772": {
+    "role": "text",
+    "color": "#321444",
+    "alpha": 1
+  },
+  "--tone-0773": {
+    "role": "primary",
+    "color": "#14081d",
+    "alpha": 0.1216
+  },
+  "--tone-0774": {
+    "role": "accent",
+    "color": "#ffcee9",
+    "alpha": 1
+  },
+  "--tone-0775": {
+    "role": "primary",
+    "color": "#2a1838",
+    "alpha": 1
+  },
+  "--tone-0776": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.0471
+  },
+  "--tone-0777": {
+    "role": "accent",
+    "color": "#f1d5f0",
+    "alpha": 0.1098
+  },
+  "--tone-0778": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.0902
+  },
+  "--tone-0779": {
+    "role": "accent",
+    "color": "#f4d9f2",
+    "alpha": 0.2235
+  },
+  "--tone-0780": {
+    "role": "accent",
+    "color": "#ec91c4",
+    "alpha": 0.1608
+  },
+  "--tone-0781": {
+    "role": "accent",
+    "color": "#ffd1ed",
+    "alpha": 1
+  },
+  "--tone-0782": {
+    "role": "accent",
+    "color": "#f5abd5",
+    "alpha": 1
+  },
+  "--tone-0783": {
+    "role": "accent",
+    "color": "#ed9ed6",
+    "alpha": 0.2392
+  },
+  "--tone-0784": {
+    "role": "primary",
+    "color": "#21132c",
+    "alpha": 0.8706
+  },
+  "--tone-0785": {
+    "role": "accent",
+    "color": "#efd9ed",
+    "alpha": 0.2392
+  },
+  "--tone-0786": {
+    "role": "primary",
+    "color": "#14081d",
+    "alpha": 0.2
+  },
+  "--tone-0787": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.0549
+  },
+  "--tone-0788": {
+    "role": "accent",
+    "color": "#f1d3f0",
+    "alpha": 0.1529
+  },
+  "--tone-0789": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.0706
+  },
+  "--tone-0790": {
+    "role": "accent",
+    "color": "#f5bbdf",
+    "alpha": 1
+  },
+  "--tone-0791": {
+    "role": "accent",
+    "color": "#efd5f0",
+    "alpha": 0.1804
+  },
+  "--tone-0792": {
+    "role": "secondary",
+    "color": "#dec8e5",
+    "alpha": 1
+  },
+  "--tone-0793": {
+    "role": "accent",
+    "color": "#f0aed5",
+    "alpha": 1
+  },
+  "--tone-0794": {
+    "role": "text",
+    "color": "#341345",
+    "alpha": 1
+  },
+  "--tone-0795": {
+    "role": "primary",
+    "color": "#241530",
+    "alpha": 0.9608
+  },
+  "--tone-0796": {
+    "role": "primary",
+    "color": "#241530",
+    "alpha": 0.9804
+  },
+  "--tone-0797": {
+    "role": "accent",
+    "color": "#2c2425",
+    "alpha": 1
+  },
+  "--tone-0798": {
+    "role": "primary",
+    "color": "#160d18",
+    "alpha": 0.702
+  },
+  "--tone-0799": {
+    "role": "accent",
+    "color": "#ffe1f6",
+    "alpha": 0.3686
+  },
+  "--tone-0800": {
+    "role": "accent",
+    "color": "#381a3a",
+    "alpha": 0.4588
+  },
+  "--tone-0801": {
+    "role": "accent",
+    "color": "#ffc6e1",
+    "alpha": 1
+  },
+  "--tone-0802": {
+    "role": "accent",
+    "color": "#fff0ff",
+    "alpha": 0.4588
+  },
+  "--tone-0803": {
+    "role": "secondary",
+    "color": "#784e87",
+    "alpha": 0.3294
+  },
+  "--tone-0804": {
+    "role": "primary",
+    "color": "#2b1538",
+    "alpha": 0.6392
+  },
+  "--tone-0805": {
+    "role": "primary",
+    "color": "#17081d",
+    "alpha": 0.1412
+  },
+  "--tone-0806": {
+    "role": "accent",
+    "color": "#f8d8fa",
+    "alpha": 0.251
+  },
+  "--tone-0807": {
+    "role": "accent",
+    "color": "#f5b9df",
+    "alpha": 1
+  },
+  "--tone-0808": {
+    "role": "accent",
+    "color": "#ffdbf0",
+    "alpha": 0.2784
+  },
+  "--tone-0809": {
+    "role": "accent",
+    "color": "#ffc8e5",
+    "alpha": 0.0824
+  },
+  "--tone-0810": {
+    "role": "accent",
+    "color": "#ffd5ef",
+    "alpha": 0.6706
+  },
+  "--tone-0811": {
+    "role": "accent",
+    "color": "#57314e",
+    "alpha": 0.7882
+  },
+  "--tone-0812": {
+    "role": "accent",
+    "color": "#ffd5ef",
+    "alpha": 0.5804
+  },
+  "--tone-0813": {
+    "role": "accent",
+    "color": "#633c5e",
+    "alpha": 1
+  },
+  "--tone-0814": {
+    "role": "primary",
+    "color": "#39213c",
+    "alpha": 0.9098
+  },
+  "--tone-0815": {
+    "role": "text",
+    "color": "#603784",
+    "alpha": 1
+  },
+  "--tone-0816": {
+    "role": "accent",
+    "color": "#ec85b3",
+    "alpha": 1
+  },
+  "--tone-0817": {
+    "role": "accent",
+    "color": "#c13277",
+    "alpha": 1
+  },
+  "--tone-0818": {
+    "role": "accent",
+    "color": "#ffe1f0",
+    "alpha": 0.502
+  },
+  "--tone-0819": {
+    "role": "text",
+    "color": "#321269",
+    "alpha": 1
+  },
+  "--tone-0820": {
+    "role": "secondary",
+    "color": "#fbf4ff",
+    "alpha": 0.9608
+  },
+  "--tone-0821": {
+    "role": "accent",
+    "color": "#f9eaf6",
+    "alpha": 0.9412
+  },
+  "--tone-0822": {
+    "role": "primary",
+    "color": "#4e2075",
+    "alpha": 0.149
+  },
+  "--tone-0823": {
+    "role": "secondary",
+    "color": "#b598ce",
+    "alpha": 1
+  },
+  "--tone-0824": {
+    "role": "accent",
+    "color": "#e64c8a",
+    "alpha": 1
+  },
+  "--tone-0825": {
+    "role": "secondary",
+    "color": "#9672bc",
+    "alpha": 1
+  },
+  "--tone-0826": {
+    "role": "danger",
+    "color": "#c64a83",
+    "alpha": 1
+  },
+  "--tone-0827": {
+    "role": "secondary",
+    "color": "#ead9f4",
+    "alpha": 1
+  },
+  "--tone-0828": {
+    "role": "text",
+    "color": "#6e2a82",
+    "alpha": 1
+  },
+  "--tone-0829": {
+    "role": "muted",
+    "color": "#79558f",
+    "alpha": 1
+  },
+  "--tone-0830": {
+    "role": "muted",
+    "color": "#714a88",
+    "alpha": 1
+  },
+  "--tone-0831": {
+    "role": "accent",
+    "color": "#d574ac",
+    "alpha": 1
+  },
+  "--tone-0832": {
+    "role": "secondary",
+    "color": "#dcc7ec",
+    "alpha": 1
+  },
+  "--tone-0833": {
+    "role": "text",
+    "color": "#64337d",
+    "alpha": 1
+  },
+  "--tone-0834": {
+    "role": "accent",
+    "color": "#c44582",
+    "alpha": 1
+  },
+  "--tone-0835": {
+    "role": "accent",
+    "color": "#b92f73",
+    "alpha": 1
+  },
+  "--tone-0836": {
+    "role": "accent",
+    "color": "#ebbbd4",
+    "alpha": 1
+  },
+  "--tone-0837": {
+    "role": "accent",
+    "color": "#fff1f8",
+    "alpha": 0.7686
+  },
+  "--tone-0838": {
+    "role": "accent",
+    "color": "#af3472",
+    "alpha": 1
+  },
+  "--tone-0839": {
+    "role": "secondary",
+    "color": "#b77fd9",
+    "alpha": 1
+  },
+  "--tone-0840": {
+    "role": "accent",
+    "color": "#fce4f5",
+    "alpha": 0.3686
+  },
+  "--tone-0841": {
+    "role": "secondary",
+    "color": "#8d3dc6",
+    "alpha": 1
+  },
+  "--tone-0842": {
+    "role": "secondary",
+    "color": "#eddbff",
+    "alpha": 1
+  },
+  "--tone-0843": {
+    "role": "accent",
+    "color": "#fbd1e8",
+    "alpha": 1
+  },
+  "--tone-0844": {
+    "role": "text",
+    "color": "#54248a",
+    "alpha": 1
+  },
+  "--tone-0845": {
+    "role": "muted",
+    "color": "#875799",
+    "alpha": 1
+  },
+  "--tone-0846": {
+    "role": "muted",
+    "color": "#9574a7",
+    "alpha": 1
+  },
+  "--tone-0847": {
+    "role": "muted",
+    "color": "#8e659f",
+    "alpha": 1
+  },
+  "--tone-0848": {
+    "role": "danger",
+    "color": "#ad2757",
+    "alpha": 1
+  },
+  "--tone-0849": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.2706
+  },
+  "--tone-0850": {
+    "role": "muted",
+    "color": "#9460a6",
+    "alpha": 1
+  },
+  "--tone-0851": {
+    "role": "muted",
+    "color": "#806994",
+    "alpha": 1
+  },
+  "--tone-0852": {
+    "role": "muted",
+    "color": "#8b64ac",
+    "alpha": 1
+  },
+  "--tone-0853": {
+    "role": "accent",
+    "color": "#ecaedb",
+    "alpha": 0.5
+  },
+  "--tone-0854": {
+    "role": "accent",
+    "color": "#ffe0f4",
+    "alpha": 0.46
+  },
+  "--tone-0855": {
+    "role": "muted",
+    "color": "#985179",
+    "alpha": 1
+  },
+  "--tone-0856": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.65
+  },
+  "--tone-0857": {
+    "role": "accent",
+    "color": "#fff6ff",
+    "alpha": 0.43
+  },
+  "--tone-0858": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.95
+  },
+  "--tone-0859": {
+    "role": "secondary",
+    "color": "#743597",
+    "alpha": 0.0275
+  },
+  "--tone-0860": {
+    "role": "secondary",
+    "color": "#ac80ce",
+    "alpha": 0.1216
+  },
+  "--tone-0861": {
+    "role": "secondary",
+    "color": "#aa62ce",
+    "alpha": 1
+  },
+  "--tone-0862": {
+    "role": "secondary",
+    "color": "#b78fdb",
+    "alpha": 0.4
+  },
+  "--tone-0863": {
+    "role": "text",
+    "color": "#36106b",
+    "alpha": 1
+  },
+  "--tone-0864": {
+    "role": "secondary",
+    "color": "#a361ce",
+    "alpha": 1
+  },
+  "--tone-0865": {
+    "role": "secondary",
+    "color": "#bb7ae5",
+    "alpha": 0.0863
+  },
+  "--tone-0866": {
+    "role": "muted",
+    "color": "#a08bb6",
+    "alpha": 1
+  },
+  "--tone-0867": {
+    "role": "muted",
+    "color": "#957caa",
+    "alpha": 1
+  },
+  "--tone-0868": {
+    "role": "accent",
+    "color": "#db4c9a",
+    "alpha": 1
+  },
+  "--tone-0869": {
+    "role": "muted",
+    "color": "#8c759e",
+    "alpha": 1
+  },
+  "--tone-0870": {
+    "role": "secondary",
+    "color": "#9e45c1",
+    "alpha": 1
+  },
+  "--tone-0871": {
+    "role": "secondary",
+    "color": "#bd9cdd",
+    "alpha": 0.2588
+  },
+  "--tone-0872": {
+    "role": "secondary",
+    "color": "#ccabe7",
+    "alpha": 1
+  },
+  "--tone-0873": {
+    "role": "secondary",
+    "color": "#a24acb",
+    "alpha": 1
+  },
+  "--tone-0874": {
+    "role": "secondary",
+    "color": "#e9ddf7",
+    "alpha": 0.302
+  },
+  "--tone-0875": {
+    "role": "muted",
+    "color": "#957da9",
+    "alpha": 1
+  },
+  "--tone-0876": {
+    "role": "accent",
+    "color": "#a64482",
+    "alpha": 1
+  },
+  "--tone-0877": {
+    "role": "accent",
+    "color": "#ffd5eb",
+    "alpha": 0.302
+  },
+  "--tone-0878": {
+    "role": "muted",
+    "color": "#946aaa",
+    "alpha": 1
+  },
+  "--tone-0879": {
+    "role": "secondary",
+    "color": "#f2e8ff",
+    "alpha": 0.4392
+  },
+  "--tone-0880": {
+    "role": "accent",
+    "color": "#fff6fc",
+    "alpha": 0.4392
+  },
+  "--tone-0881": {
+    "role": "secondary",
+    "color": "#c5a5e1",
+    "alpha": 1
+  },
+  "--tone-0882": {
+    "role": "secondary",
+    "color": "#c39cdd",
+    "alpha": 0.2078
+  },
+  "--tone-0883": {
+    "role": "muted",
+    "color": "#9878ab",
+    "alpha": 1
+  },
+  "--tone-0884": {
+    "role": "secondary",
+    "color": "#bb94d5",
+    "alpha": 0.2784
+  },
+  "--tone-0885": {
+    "role": "danger",
+    "color": "#fff1f9",
+    "alpha": 0.7686
+  },
+  "--tone-0886": {
+    "role": "danger",
+    "color": "#a6376d",
+    "alpha": 1
+  },
+  "--tone-0887": {
+    "role": "danger",
+    "color": "#eca6cd",
+    "alpha": 1
+  },
+  "--tone-0888": {
+    "role": "danger",
+    "color": "#e799c0",
+    "alpha": 0.1569
+  },
+  "--tone-0889": {
+    "role": "danger",
+    "color": "#d987ae",
+    "alpha": 0.4
+  },
+  "--tone-0890": {
+    "role": "accent",
+    "color": "#bb5e96",
+    "alpha": 1
+  },
+  "--tone-0891": {
+    "role": "secondary",
+    "color": "#caa9e4",
+    "alpha": 0.3765
+  },
+  "--tone-0892": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.27
+  },
+  "--tone-0893": {
+    "role": "secondary",
+    "color": "#bea0d5",
+    "alpha": 0.251
+  },
+  "--tone-0894": {
+    "role": "muted",
+    "color": "#8d57ab",
+    "alpha": 1
+  },
+  "--tone-0895": {
+    "role": "secondary",
+    "color": "#e9daf5",
+    "alpha": 0.3608
+  },
+  "--tone-0896": {
+    "role": "muted",
+    "color": "#8152a0",
+    "alpha": 1
+  },
+  "--tone-0897": {
+    "role": "secondary",
+    "color": "#b052df",
+    "alpha": 1
+  },
+  "--tone-0898": {
+    "role": "secondary",
+    "color": "#7b25ba",
+    "alpha": 1
+  },
+  "--tone-0899": {
+    "role": "secondary",
+    "color": "#8926bb",
+    "alpha": 0.149
+  },
+  "--tone-0900": {
+    "role": "muted",
+    "color": "#9575aa",
+    "alpha": 1
+  },
+  "--tone-0901": {
+    "role": "secondary",
+    "color": "#b57bdb",
+    "alpha": 0.5412
+  },
+  "--tone-0902": {
+    "role": "secondary",
+    "color": "#f4e8ff",
+    "alpha": 0.2314
+  },
+  "--tone-0903": {
+    "role": "secondary",
+    "color": "#e9cafc",
+    "alpha": 0.549
+  },
+  "--tone-0904": {
+    "role": "secondary",
+    "color": "#a048cd",
+    "alpha": 1
+  },
+  "--tone-0905": {
+    "role": "secondary",
+    "color": "#ecddfa",
+    "alpha": 0.5686
+  },
+  "--tone-0906": {
+    "role": "secondary",
+    "color": "#a04ac6",
+    "alpha": 1
+  },
+  "--tone-0907": {
+    "role": "secondary",
+    "color": "#7f3da5",
+    "alpha": 1
+  },
+  "--tone-0908": {
+    "role": "muted",
+    "color": "#a38cb3",
+    "alpha": 1
+  },
+  "--tone-0909": {
+    "role": "secondary",
+    "color": "#d4b9e6",
+    "alpha": 0.3608
+  },
+  "--tone-0910": {
+    "role": "secondary",
+    "color": "#b477d8",
+    "alpha": 0.5843
+  },
+  "--tone-0911": {
+    "role": "secondary",
+    "color": "#eee0fb",
+    "alpha": 0.3608
+  },
+  "--tone-0912": {
+    "role": "accent",
+    "color": "#fff5fa",
+    "alpha": 0.4
+  },
+  "--tone-0913": {
+    "role": "secondary",
+    "color": "#d4b9e6",
+    "alpha": 0.149
+  },
+  "--tone-0914": {
+    "role": "secondary",
+    "color": "#9652ae",
+    "alpha": 1
+  },
+  "--tone-0915": {
+    "role": "secondary",
+    "color": "#cbaaeb",
+    "alpha": 0.2706
+  },
+  "--tone-0916": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.1961
+  },
+  "--tone-0917": {
+    "role": "muted",
+    "color": "#a18aae",
+    "alpha": 1
+  },
+  "--tone-0918": {
+    "role": "secondary",
+    "color": "#c8a5df",
+    "alpha": 0.451
+  },
+  "--tone-0919": {
+    "role": "secondary",
+    "color": "#8539b1",
+    "alpha": 1
+  },
+  "--tone-0920": {
+    "role": "secondary",
+    "color": "#e8d4fa",
+    "alpha": 0.4902
+  },
+  "--tone-0921": {
+    "role": "secondary",
+    "color": "#ae5ad5",
+    "alpha": 1
+  },
+  "--tone-0922": {
+    "role": "secondary",
+    "color": "#9355b8",
+    "alpha": 1
+  },
+  "--tone-0923": {
+    "role": "secondary",
+    "color": "#caabe3",
+    "alpha": 0.3961
+  },
+  "--tone-0924": {
+    "role": "secondary",
+    "color": "#ead9f7",
+    "alpha": 0.6314
+  },
+  "--tone-0925": {
+    "role": "secondary",
+    "color": "#9953b8",
+    "alpha": 1
+  },
+  "--tone-0926": {
+    "role": "muted",
+    "color": "#a088b1",
+    "alpha": 1
+  },
+  "--tone-0927": {
+    "role": "secondary",
+    "color": "#b06bd1",
+    "alpha": 1
+  },
+  "--tone-0928": {
+    "role": "secondary",
+    "color": "#c5a0e2",
+    "alpha": 0.4431
+  },
+  "--tone-0929": {
+    "role": "muted",
+    "color": "#795191",
+    "alpha": 1
+  },
+  "--tone-0930": {
+    "role": "secondary",
+    "color": "#eadaf9",
+    "alpha": 0.5843
+  },
+  "--tone-0931": {
+    "role": "secondary",
+    "color": "#ae65d3",
+    "alpha": 1
+  },
+  "--tone-0932": {
+    "role": "muted",
+    "color": "#9c83ad",
+    "alpha": 1
+  },
+  "--tone-0933": {
+    "role": "secondary",
+    "color": "#c9a9e4",
+    "alpha": 0.2784
+  },
+  "--tone-0934": {
+    "role": "muted",
+    "color": "#9b7eac",
+    "alpha": 1
+  },
+  "--tone-0935": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.3255
+  },
+  "--tone-0936": {
+    "role": "secondary",
+    "color": "#c6a9df",
+    "alpha": 0.2667
+  },
+  "--tone-0937": {
+    "role": "secondary",
+    "color": "#c6a9df",
+    "alpha": 0.1451
+  },
+  "--tone-0938": {
+    "role": "muted",
+    "color": "#a088af",
+    "alpha": 1
+  },
+  "--tone-0939": {
+    "role": "secondary",
+    "color": "#f5e9fc",
+    "alpha": 0.6118
+  },
+  "--tone-0940": {
+    "role": "muted",
+    "color": "#9470a7",
+    "alpha": 1
+  },
+  "--tone-0941": {
+    "role": "secondary",
+    "color": "#9f45c8",
+    "alpha": 1
+  },
+  "--tone-0942": {
+    "role": "secondary",
+    "color": "#a355b5",
+    "alpha": 1
+  },
+  "--tone-0943": {
+    "role": "muted",
+    "color": "#8b659e",
+    "alpha": 1
+  },
+  "--tone-0944": {
+    "role": "text",
+    "color": "#603080",
+    "alpha": 1
+  },
+  "--tone-0945": {
+    "role": "accent",
+    "color": "#fff7ff",
+    "alpha": 0.3333
+  },
+  "--tone-0946": {
+    "role": "muted",
+    "color": "#967aa8",
+    "alpha": 1
+  },
+  "--tone-0947": {
+    "role": "text",
+    "color": "#68289a",
+    "alpha": 1
+  },
+  "--tone-0948": {
+    "role": "secondary",
+    "color": "#f8f2ff",
+    "alpha": 0.5647
+  },
+  "--tone-0949": {
+    "role": "secondary",
+    "color": "#bd8cd7",
+    "alpha": 1
+  },
+  "--tone-0950": {
+    "role": "muted",
+    "color": "#a38bb3",
+    "alpha": 1
+  },
+  "--tone-0951": {
+    "role": "secondary",
+    "color": "#ecdff7",
+    "alpha": 0.6392
+  },
+  "--tone-0952": {
+    "role": "secondary",
+    "color": "#9255b1",
+    "alpha": 1
+  },
+  "--tone-0953": {
+    "role": "muted",
+    "color": "#a087ad",
+    "alpha": 1
+  },
+  "--tone-0954": {
+    "role": "secondary",
+    "color": "#c49bde",
+    "alpha": 1
+  },
+  "--tone-0955": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.2392
+  },
+  "--tone-0956": {
+    "role": "muted",
+    "color": "#a088b0",
+    "alpha": 1
+  },
+  "--tone-0957": {
+    "role": "accent",
+    "color": "#f8e7f5",
+    "alpha": 0.6314
+  },
+  "--tone-0958": {
+    "role": "muted",
+    "color": "#a16e97",
+    "alpha": 1
+  },
+  "--tone-0959": {
+    "role": "secondary",
+    "color": "#e3d4f0",
+    "alpha": 1
+  },
+  "--tone-0960": {
+    "role": "accent",
+    "color": "#a32f88",
+    "alpha": 1
+  },
+  "--tone-0961": {
+    "role": "primary",
+    "color": "#261336",
+    "alpha": 0.3333
+  },
+  "--tone-0962": {
+    "role": "primary",
+    "color": "#4c1d95",
+    "alpha": 1
+  },
+  "--tone-0963": {
+    "role": "secondary",
+    "color": "#decaed",
+    "alpha": 1
+  },
+  "--tone-0964": {
+    "role": "secondary",
+    "color": "#eee2fb",
+    "alpha": 1
+  },
+  "--tone-0965": {
+    "role": "secondary",
+    "color": "#702e9e",
+    "alpha": 1
+  },
+  "--tone-0966": {
+    "role": "secondary",
+    "color": "#d8bbea",
+    "alpha": 1
+  },
+  "--tone-0967": {
+    "role": "secondary",
+    "color": "#8031ac",
+    "alpha": 1
+  },
+  "--tone-0968": {
+    "role": "text",
+    "color": "#633287",
+    "alpha": 1
+  },
+  "--tone-0969": {
+    "role": "accent",
+    "color": "#f7dff3",
+    "alpha": 0.3608
+  },
+  "--tone-0970": {
+    "role": "primary",
+    "color": "#64327c",
+    "alpha": 0.0314
+  },
+  "--tone-0971": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.9373
+  },
+  "--tone-0972": {
+    "role": "muted",
+    "color": "#a17bb8",
+    "alpha": 1
+  },
+  "--tone-0973": {
+    "role": "muted",
+    "color": "#8a6b9c",
+    "alpha": 1
+  },
+  "--tone-0974": {
+    "role": "secondary",
+    "color": "#dbc5eb",
+    "alpha": 1
+  },
+  "--tone-0975": {
+    "role": "secondary",
+    "color": "#ae57ce",
+    "alpha": 1
+  },
+  "--tone-0976": {
+    "role": "secondary",
+    "color": "#b861d6",
+    "alpha": 0.1333
+  },
+  "--tone-0977": {
+    "role": "secondary",
+    "color": "#f8e7fb",
+    "alpha": 0.4
+  },
+  "--tone-0978": {
+    "role": "secondary",
+    "color": "#f0e6ff",
+    "alpha": 0.6784
+  },
+  "--tone-0979": {
+    "role": "accent",
+    "color": "#ffe5f3",
+    "alpha": 0.5373
+  },
+  "--tone-0980": {
+    "role": "text",
+    "color": "#502081",
+    "alpha": 1
+  },
+  "--tone-0981": {
+    "role": "secondary",
+    "color": "#e7d7f9",
+    "alpha": 1
+  },
+  "--tone-0982": {
+    "role": "secondary",
+    "color": "#ddc5f0",
+    "alpha": 1
+  },
+  "--tone-0983": {
+    "role": "secondary",
+    "color": "#9c51aa",
+    "alpha": 1
+  },
+  "--tone-0984": {
+    "role": "muted",
+    "color": "#79538f",
+    "alpha": 1
+  },
+  "--tone-0985": {
+    "role": "secondary",
+    "color": "#e9d9f5",
+    "alpha": 1
+  },
+  "--tone-0986": {
+    "role": "secondary",
+    "color": "#efdbff",
+    "alpha": 0.5333
+  },
+  "--tone-0987": {
+    "role": "accent",
+    "color": "#ffe0f4",
+    "alpha": 0.4667
+  },
+  "--tone-0988": {
+    "role": "secondary",
+    "color": "#74388d",
+    "alpha": 0.0471
+  },
+  "--tone-0989": {
+    "role": "secondary",
+    "color": "#e5cdff",
+    "alpha": 1
+  },
+  "--tone-0990": {
+    "role": "accent",
+    "color": "#fbd6ed",
+    "alpha": 1
+  },
+  "--tone-0991": {
+    "role": "secondary",
+    "color": "#f9f3ff",
+    "alpha": 1
+  },
+  "--tone-0992": {
+    "role": "secondary",
+    "color": "#b87adb",
+    "alpha": 0.1216
+  },
+  "--tone-0993": {
+    "role": "secondary",
+    "color": "#9937cd",
+    "alpha": 1
+  },
+  "--tone-0994": {
+    "role": "secondary",
+    "color": "#7926ba",
+    "alpha": 1
+  },
+  "--tone-0995": {
+    "role": "secondary",
+    "color": "#872ac9",
+    "alpha": 0.1686
+  },
+  "--tone-0996": {
+    "role": "secondary",
+    "color": "#dcbfe8",
+    "alpha": 0.502
+  },
+  "--tone-0997": {
+    "role": "secondary",
+    "color": "#7d479d",
+    "alpha": 1
+  },
+  "--tone-0998": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.2314
+  },
+  "--tone-0999": {
+    "role": "secondary",
+    "color": "#ccabe3",
+    "alpha": 1
+  },
+  "--tone-1000": {
+    "role": "muted",
+    "color": "#815397",
+    "alpha": 1
+  },
+  "--tone-1001": {
+    "role": "secondary",
+    "color": "#ce9deb",
+    "alpha": 0.1882
+  },
+  "--tone-1002": {
+    "role": "text",
+    "color": "#72259a",
+    "alpha": 1
+  },
+  "--tone-1003": {
+    "role": "secondary",
+    "color": "#9437bd",
+    "alpha": 1
+  },
+  "--tone-1004": {
+    "role": "muted",
+    "color": "#8f6ba2",
+    "alpha": 1
+  },
+  "--tone-1005": {
+    "role": "secondary",
+    "color": "#cfb7dc",
+    "alpha": 1
+  },
+  "--tone-1006": {
+    "role": "muted",
+    "color": "#9473a2",
+    "alpha": 1
+  },
+  "--tone-1007": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.3216
+  },
+  "--tone-1008": {
+    "role": "secondary",
+    "color": "#7e329f",
+    "alpha": 1
+  },
+  "--tone-1009": {
+    "role": "secondary",
+    "color": "#e9cff7",
+    "alpha": 0.5216
+  },
+  "--tone-1010": {
+    "role": "secondary",
+    "color": "#bd91d1",
+    "alpha": 1
+  },
+  "--tone-1011": {
+    "role": "secondary",
+    "color": "#ead7f6",
+    "alpha": 0.4196
+  },
+  "--tone-1012": {
+    "role": "accent",
+    "color": "#f9ddec",
+    "alpha": 0.3686
+  },
+  "--tone-1013": {
+    "role": "muted",
+    "color": "#6f4586",
+    "alpha": 1
+  },
+  "--tone-1014": {
+    "role": "text",
+    "color": "#502276",
+    "alpha": 1
+  },
+  "--tone-1015": {
+    "role": "primary",
+    "color": "#290c68",
+    "alpha": 1
+  },
+  "--tone-1016": {
+    "role": "secondary",
+    "color": "#806a97",
+    "alpha": 1
+  },
+  "--tone-1017": {
+    "role": "secondary",
+    "color": "#ded0f1",
+    "alpha": 1
+  },
+  "--tone-1018": {
+    "role": "accent",
+    "color": "#ed4c97",
+    "alpha": 1
+  },
+  "--tone-1019": {
+    "role": "secondary",
+    "color": "#f2eaff",
+    "alpha": 1
+  },
+  "--tone-1020": {
+    "role": "secondary",
+    "color": "#f8edfc",
+    "alpha": 1
+  },
+  "--tone-1021": {
+    "role": "secondary",
+    "color": "#ece2fb",
+    "alpha": 1
+  },
+  "--tone-1022": {
+    "role": "secondary",
+    "color": "#dcb7ef",
+    "alpha": 1
+  },
+  "--tone-1023": {
+    "role": "text",
+    "color": "#290c68",
+    "alpha": 1
+  },
+  "--tone-1024": {
+    "role": "secondary",
+    "color": "#a453c2",
+    "alpha": 1
+  },
+  "--tone-1025": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.4118
+  },
+  "--tone-1026": {
+    "role": "secondary",
+    "color": "#79509b",
+    "alpha": 0.0392
+  },
+  "--tone-1027": {
+    "role": "muted",
+    "color": "#806698",
+    "alpha": 1
+  },
+  "--tone-1028": {
+    "role": "text",
+    "color": "#3a156e",
+    "alpha": 1
+  },
+  "--tone-1029": {
+    "role": "secondary",
+    "color": "#eacdf2",
+    "alpha": 0.5216
+  },
+  "--tone-1030": {
+    "role": "secondary",
+    "color": "#7b3ca1",
+    "alpha": 1
+  },
+  "--tone-1031": {
+    "role": "secondary",
+    "color": "#e7d7f6",
+    "alpha": 1
+  },
+  "--tone-1032": {
+    "role": "secondary",
+    "color": "#8d3fd2",
+    "alpha": 1
+  },
+  "--tone-1033": {
+    "role": "secondary",
+    "color": "#7430c1",
+    "alpha": 1
+  },
+  "--tone-1034": {
+    "role": "secondary",
+    "color": "#8642c7",
+    "alpha": 0.2078
+  },
+  "--tone-1035": {
+    "role": "secondary",
+    "color": "#cbb1e4",
+    "alpha": 1
+  },
+  "--tone-1036": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.3294
+  },
+  "--tone-1037": {
+    "role": "secondary",
+    "color": "#ddc9ed",
+    "alpha": 1
+  },
+  "--tone-1038": {
+    "role": "secondary",
+    "color": "#fcf7ff",
+    "alpha": 0.9294
+  },
+  "--tone-1039": {
+    "role": "secondary",
+    "color": "#f5eafa",
+    "alpha": 0.9294
+  },
+  "--tone-1040": {
+    "role": "primary",
+    "color": "#4c1a75",
+    "alpha": 0.149
+  },
+  "--tone-1041": {
+    "role": "text",
+    "color": "#522680",
+    "alpha": 1
+  },
+  "--tone-1042": {
+    "role": "secondary",
+    "color": "#e8d9f7",
+    "alpha": 0.502
+  },
+  "--tone-1043": {
+    "role": "accent",
+    "color": "#aa3275",
+    "alpha": 1
+  },
+  "--tone-1044": {
+    "role": "secondary",
+    "color": "#ddc9ed",
+    "alpha": 0.502
+  },
+  "--tone-1045": {
+    "role": "accent",
+    "color": "#f8d6e7",
+    "alpha": 0.502
+  },
+  "--tone-1046": {
+    "role": "secondary",
+    "color": "#e4cdfc",
+    "alpha": 1
+  },
+  "--tone-1047": {
+    "role": "secondary",
+    "color": "#efdafa",
+    "alpha": 1
+  },
+  "--tone-1048": {
+    "role": "text",
+    "color": "#5a2393",
+    "alpha": 1
+  },
+  "--tone-1049": {
+    "role": "muted",
+    "color": "#887296",
+    "alpha": 1
+  },
+  "--tone-1050": {
+    "role": "secondary",
+    "color": "#d7c3eb",
+    "alpha": 1
+  },
+  "--tone-1051": {
+    "role": "muted",
+    "color": "#967ca8",
+    "alpha": 1
+  },
+  "--tone-1052": {
+    "role": "secondary",
+    "color": "#d9c8ec",
+    "alpha": 1
+  },
+  "--tone-1053": {
+    "role": "text",
+    "color": "#5a2a86",
+    "alpha": 1
+  },
+  "--tone-1054": {
+    "role": "secondary",
+    "color": "#f1e4fd",
+    "alpha": 1
+  },
+  "--tone-1055": {
+    "role": "accent",
+    "color": "#ec4891",
+    "alpha": 1
+  },
+  "--tone-1056": {
+    "role": "secondary",
+    "color": "#f6efff",
+    "alpha": 1
+  },
+  "--tone-1057": {
+    "role": "accent",
+    "color": "#f8cce9",
+    "alpha": 0.651
+  },
+  "--tone-1058": {
+    "role": "accent",
+    "color": "#f5c8e5",
+    "alpha": 1
+  },
+  "--tone-1059": {
+    "role": "accent",
+    "color": "#a43c80",
+    "alpha": 1
+  },
+  "--tone-1060": {
+    "role": "accent",
+    "color": "#df5b9f",
+    "alpha": 1
+  },
+  "--tone-1061": {
+    "role": "secondary",
+    "color": "#ddc9ef",
+    "alpha": 1
+  },
+  "--tone-1062": {
+    "role": "accent",
+    "color": "#f8d6ed",
+    "alpha": 0.7216
+  },
+  "--tone-1063": {
+    "role": "accent",
+    "color": "#df4f9a",
+    "alpha": 1
+  },
+  "--tone-1064": {
+    "role": "muted",
+    "color": "#8d739e",
+    "alpha": 1
+  },
+  "--tone-1065": {
+    "role": "accent",
+    "color": "#d4428d",
+    "alpha": 1
+  },
+  "--tone-1066": {
+    "role": "muted",
+    "color": "#927b9f",
+    "alpha": 1
+  },
+  "--tone-1067": {
+    "role": "secondary",
+    "color": "#f2e7fb",
+    "alpha": 0.6118
+  },
+  "--tone-1068": {
+    "role": "secondary",
+    "color": "#eadcf5",
+    "alpha": 1
+  },
+  "--tone-1069": {
+    "role": "muted",
+    "color": "#816294",
+    "alpha": 1
+  },
+  "--tone-1070": {
+    "role": "secondary",
+    "color": "#8b3cc7",
+    "alpha": 1
+  },
+  "--tone-1071": {
+    "role": "secondary",
+    "color": "#8b3cc7",
+    "alpha": 0.1412
+  },
+  "--tone-1072": {
+    "role": "secondary",
+    "color": "#9350b4",
+    "alpha": 0.0392
+  },
+  "--tone-1073": {
+    "role": "secondary",
+    "color": "#f8edff",
+    "alpha": 1
+  },
+  "--tone-1074": {
+    "role": "muted",
+    "color": "#826396",
+    "alpha": 1
+  },
+  "--tone-1075": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.4039
+  },
+  "--tone-1076": {
+    "role": "secondary",
+    "color": "#d9c5ed",
+    "alpha": 1
+  },
+  "--tone-1077": {
+    "role": "text",
+    "color": "#52237d",
+    "alpha": 1
+  },
+  "--tone-1078": {
+    "role": "secondary",
+    "color": "#f4e8fc",
+    "alpha": 1
+  },
+  "--tone-1079": {
+    "role": "secondary",
+    "color": "#8d3cc9",
+    "alpha": 1
+  },
+  "--tone-1080": {
+    "role": "secondary",
+    "color": "#762bbb",
+    "alpha": 1
+  },
+  "--tone-1081": {
+    "role": "secondary",
+    "color": "#913ed0",
+    "alpha": 1
+  },
+  "--tone-1082": {
+    "role": "secondary",
+    "color": "#8a3cc2",
+    "alpha": 0.102
+  },
+  "--tone-1083": {
+    "role": "secondary",
+    "color": "#792cb9",
+    "alpha": 1
+  },
+  "--tone-1084": {
+    "role": "danger",
+    "color": "#fff0f5",
+    "alpha": 1
+  },
+  "--tone-1085": {
+    "role": "danger",
+    "color": "#b92f64",
+    "alpha": 1
+  },
+  "--tone-1086": {
+    "role": "danger",
+    "color": "#efbcd2",
+    "alpha": 1
+  },
+  "--tone-1087": {
+    "role": "danger",
+    "color": "#fce0ed",
+    "alpha": 1
+  },
+  "--tone-1088": {
+    "role": "secondary",
+    "color": "#d9c7ed",
+    "alpha": 1
+  },
+  "--tone-1089": {
+    "role": "muted",
+    "color": "#8e6ca4",
+    "alpha": 1
+  },
+  "--tone-1090": {
+    "role": "text",
+    "color": "#4d2676",
+    "alpha": 1
+  },
+  "--tone-1091": {
+    "role": "muted",
+    "color": "#9b84ac",
+    "alpha": 1
+  },
+  "--tone-1092": {
+    "role": "secondary",
+    "color": "#b171ce",
+    "alpha": 1
+  },
+  "--tone-1093": {
+    "role": "text",
+    "color": "#5b3980",
+    "alpha": 1
+  },
+  "--tone-1094": {
+    "role": "muted",
+    "color": "#816b94",
+    "alpha": 1
+  },
+  "--tone-1095": {
+    "role": "secondary",
+    "color": "#ccb0e4",
+    "alpha": 1
+  },
+  "--tone-1096": {
+    "role": "secondary",
+    "color": "#e6d8f5",
+    "alpha": 0.4902
+  },
+  "--tone-1097": {
+    "role": "text",
+    "color": "#542475",
+    "alpha": 1
+  },
+  "--tone-1098": {
+    "role": "secondary",
+    "color": "#ddcdec",
+    "alpha": 1
+  },
+  "--tone-1099": {
+    "role": "secondary",
+    "color": "#e5d8f1",
+    "alpha": 0.5804
+  },
+  "--tone-1100": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.1686
+  },
+  "--tone-1101": {
+    "role": "muted",
+    "color": "#9374a5",
+    "alpha": 1
+  },
+  "--tone-1102": {
+    "role": "secondary",
+    "color": "#eadcf8",
+    "alpha": 1
+  },
+  "--tone-1103": {
+    "role": "secondary",
+    "color": "#8650ab",
+    "alpha": 1
+  },
+  "--tone-1104": {
+    "role": "success",
+    "color": "#dcefe7",
+    "alpha": 0.7412
+  },
+  "--tone-1105": {
+    "role": "success",
+    "color": "#3b8a6e",
+    "alpha": 1
+  },
+  "--tone-1106": {
+    "role": "secondary",
+    "color": "#e4e5ff",
+    "alpha": 0.7412
+  },
+  "--tone-1107": {
+    "role": "secondary",
+    "color": "#6765bd",
+    "alpha": 1
+  },
+  "--tone-1108": {
+    "role": "warning",
+    "color": "#fff0d3",
+    "alpha": 0.7882
+  },
+  "--tone-1109": {
+    "role": "warning",
+    "color": "#ad7b36",
+    "alpha": 1
+  },
+  "--tone-1110": {
+    "role": "danger",
+    "color": "#fce1ed",
+    "alpha": 0.7216
+  },
+  "--tone-1111": {
+    "role": "danger",
+    "color": "#bd4d83",
+    "alpha": 1
+  },
+  "--tone-1112": {
+    "role": "secondary",
+    "color": "#ede6f6",
+    "alpha": 1
+  },
+  "--tone-1113": {
+    "role": "muted",
+    "color": "#977bac",
+    "alpha": 1
+  },
+  "--tone-1114": {
+    "role": "secondary",
+    "color": "#8a3fac",
+    "alpha": 1
+  },
+  "--tone-1115": {
+    "role": "muted",
+    "color": "#987da9",
+    "alpha": 1
+  },
+  "--tone-1116": {
+    "role": "secondary",
+    "color": "#ead7f5",
+    "alpha": 1
+  },
+  "--tone-1117": {
+    "role": "muted",
+    "color": "#9153ac",
+    "alpha": 1
+  },
+  "--tone-1118": {
+    "role": "muted",
+    "color": "#9076a0",
+    "alpha": 1
+  },
+  "--tone-1119": {
+    "role": "accent",
+    "color": "#cc5990",
+    "alpha": 1
+  },
+  "--tone-1120": {
+    "role": "muted",
+    "color": "#9679a7",
+    "alpha": 1
+  },
+  "--tone-1121": {
+    "role": "muted",
+    "color": "#a785b9",
+    "alpha": 1
+  },
+  "--tone-1122": {
+    "role": "text",
+    "color": "#67358c",
+    "alpha": 1
+  },
+  "--tone-1123": {
+    "role": "secondary",
+    "color": "#e3d1f2",
+    "alpha": 1
+  },
+  "--tone-1124": {
+    "role": "muted",
+    "color": "#9b81ac",
+    "alpha": 1
+  },
+  "--tone-1125": {
+    "role": "muted",
+    "color": "#a089b1",
+    "alpha": 1
+  },
+  "--tone-1126": {
+    "role": "text",
+    "color": "#452071",
+    "alpha": 1
+  },
+  "--tone-1127": {
+    "role": "secondary",
+    "color": "#fdfaff",
+    "alpha": 0.949
+  },
+  "--tone-1128": {
+    "role": "secondary",
+    "color": "#f5eafb",
+    "alpha": 0.949
+  },
+  "--tone-1129": {
+    "role": "primary",
+    "color": "#3c1552",
+    "alpha": 0.2314
+  },
+  "--tone-1130": {
+    "role": "primary",
+    "color": "#3c1c63",
+    "alpha": 0.2706
+  },
+  "--tone-1131": {
+    "role": "secondary",
+    "color": "#e3d4ef",
+    "alpha": 1
+  },
+  "--tone-1132": {
+    "role": "muted",
+    "color": "#79528f",
+    "alpha": 1
+  },
+  "--tone-1133": {
+    "role": "secondary",
+    "color": "#d9c6e9",
+    "alpha": 1
+  },
+  "--tone-1134": {
+    "role": "text",
+    "color": "#49216c",
+    "alpha": 1
+  },
+  "--tone-1135": {
+    "role": "secondary",
+    "color": "#eee5f4",
+    "alpha": 0.451
+  },
+  "--tone-1136": {
+    "role": "muted",
+    "color": "#9a7fac",
+    "alpha": 1
+  },
+  "--tone-1137": {
+    "role": "secondary",
+    "color": "#dec8ef",
+    "alpha": 1
+  },
+  "--tone-1138": {
+    "role": "accent",
+    "color": "#f9e4f0",
+    "alpha": 0.451
+  },
+  "--tone-1139": {
+    "role": "text",
+    "color": "#59238b",
+    "alpha": 1
+  },
+  "--tone-1140": {
+    "role": "secondary",
+    "color": "#8d3cbd",
+    "alpha": 1
+  },
+  "--tone-1141": {
+    "role": "secondary",
+    "color": "#d6b8ec",
+    "alpha": 1
+  },
+  "--tone-1142": {
+    "role": "secondary",
+    "color": "#f0e3fa",
+    "alpha": 0.6
+  },
+  "--tone-1143": {
+    "role": "text",
+    "color": "#54237e",
+    "alpha": 1
+  },
+  "--tone-1144": {
+    "role": "secondary",
+    "color": "#e5d6f0",
+    "alpha": 1
+  },
+  "--tone-1145": {
+    "role": "danger",
+    "color": "#b8376c",
+    "alpha": 1
+  },
+  "--tone-1146": {
+    "role": "danger",
+    "color": "#f0c4d8",
+    "alpha": 1
+  },
+  "--tone-1147": {
+    "role": "danger",
+    "color": "#fff0f6",
+    "alpha": 1
+  },
+  "--tone-1148": {
+    "role": "secondary",
+    "color": "#e3d0ed",
+    "alpha": 1
+  },
+  "--tone-1149": {
+    "role": "secondary",
+    "color": "#e2d3ee",
+    "alpha": 1
+  },
+  "--tone-1150": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.4902
+  },
+  "--tone-1151": {
+    "role": "secondary",
+    "color": "#e7d7f3",
+    "alpha": 1
+  },
+  "--tone-1152": {
+    "role": "muted",
+    "color": "#9879aa",
+    "alpha": 1
+  },
+  "--tone-1153": {
+    "role": "secondary",
+    "color": "#e5d2ed",
+    "alpha": 1
+  },
+  "--tone-1154": {
+    "role": "secondary",
+    "color": "#f0e4f6",
+    "alpha": 0.4196
+  },
+  "--tone-1155": {
+    "role": "muted",
+    "color": "#9370a2",
+    "alpha": 1
+  },
+  "--tone-1156": {
+    "role": "muted",
+    "color": "#987bab",
+    "alpha": 1
+  },
+  "--tone-1157": {
+    "role": "secondary",
+    "color": "#e7d6f1",
+    "alpha": 1
+  },
+  "--tone-1158": {
+    "role": "muted",
+    "color": "#9d81ae",
+    "alpha": 1
+  },
+  "--tone-1159": {
+    "role": "accent",
+    "color": "#c3639b",
+    "alpha": 1
+  },
+  "--tone-1160": {
+    "role": "muted",
+    "color": "#825992",
+    "alpha": 1
+  },
+  "--tone-1161": {
+    "role": "secondary",
+    "color": "#e4d4ef",
+    "alpha": 1
+  },
+  "--tone-1162": {
+    "role": "muted",
+    "color": "#a080b3",
+    "alpha": 1
+  },
+  "--tone-1163": {
+    "role": "muted",
+    "color": "#9171a4",
+    "alpha": 1
+  },
+  "--tone-1164": {
+    "role": "muted",
+    "color": "#9a76b0",
+    "alpha": 1
+  },
+  "--tone-1165": {
+    "role": "secondary",
+    "color": "#e3d3ed",
+    "alpha": 1
+  },
+  "--tone-1166": {
+    "role": "secondary",
+    "color": "#e5d6ee",
+    "alpha": 1
+  },
+  "--tone-1167": {
+    "role": "muted",
+    "color": "#9c80ad",
+    "alpha": 1
+  },
+  "--tone-1168": {
+    "role": "secondary",
+    "color": "#d9c9e7",
+    "alpha": 1
+  },
+  "--tone-1169": {
+    "role": "secondary",
+    "color": "#d1badd",
+    "alpha": 1
+  },
+  "--tone-1170": {
+    "role": "secondary",
+    "color": "#8d719a",
+    "alpha": 0.251
+  },
+  "--tone-1171": {
+    "role": "secondary",
+    "color": "#9a53ca",
+    "alpha": 1
+  },
+  "--tone-1172": {
+    "role": "secondary",
+    "color": "#8f40c1",
+    "alpha": 1
+  },
+  "--tone-1173": {
+    "role": "primary",
+    "color": "#45206b",
+    "alpha": 0.9373
+  },
+  "--tone-1174": {
+    "role": "secondary",
+    "color": "#cda8e5",
+    "alpha": 1
+  },
+  "--tone-1175": {
+    "role": "primary",
+    "color": "#2b0b4b",
+    "alpha": 0.149
+  },
+  "--tone-1176": {
+    "role": "secondary",
+    "color": "#fbf7ff",
+    "alpha": 0.949
+  },
+  "--tone-1177": {
+    "role": "secondary",
+    "color": "#dfc9fa",
+    "alpha": 1
+  },
+  "--tone-1178": {
+    "role": "accent",
+    "color": "#f7cde6",
+    "alpha": 1
+  },
+  "--tone-1179": {
+    "role": "secondary",
+    "color": "#f9f5ff",
+    "alpha": 1
+  },
+  "--tone-1180": {
+    "role": "text",
+    "color": "#29115d",
+    "alpha": 1
+  },
+  "--tone-1181": {
+    "role": "muted",
+    "color": "#81679c",
+    "alpha": 1
+  },
+  "--tone-1182": {
+    "role": "secondary",
+    "color": "#9940d3",
+    "alpha": 1
+  },
+  "--tone-1183": {
+    "role": "muted",
+    "color": "#71458e",
+    "alpha": 1
+  },
+  "--tone-1184": {
+    "role": "muted",
+    "color": "#a087b6",
+    "alpha": 1
+  },
+  "--tone-1185": {
+    "role": "secondary",
+    "color": "#d9bff0",
+    "alpha": 1
+  },
+  "--tone-1186": {
+    "role": "secondary",
+    "color": "#fbf3ff",
+    "alpha": 0.549
+  },
+  "--tone-1187": {
+    "role": "primary",
+    "color": "#683190",
+    "alpha": 0.0157
+  },
+  "--tone-1188": {
+    "role": "secondary",
+    "color": "#a965d3",
+    "alpha": 1
+  },
+  "--tone-1189": {
+    "role": "secondary",
+    "color": "#bb80db",
+    "alpha": 0.0745
+  },
+  "--tone-1190": {
+    "role": "danger",
+    "color": "#c24a81",
+    "alpha": 1
+  },
+  "--tone-1191": {
+    "role": "secondary",
+    "color": "#e7d7f3",
+    "alpha": 0.549
+  },
+  "--tone-1192": {
+    "role": "secondary",
+    "color": "#f4e7fa",
+    "alpha": 0.4784
+  },
+  "--tone-1193": {
+    "role": "secondary",
+    "color": "#e5d5f3",
+    "alpha": 0.3294
+  },
+  "--tone-1194": {
+    "role": "muted",
+    "color": "#9176aa",
+    "alpha": 1
+  },
+  "--tone-1195": {
+    "role": "surface",
+    "color": "#ffffff",
+    "alpha": 0.8706
+  },
+  "--tone-1196": {
+    "role": "secondary",
+    "color": "#6f28ad",
+    "alpha": 1
+  },
+  "--tone-1197": {
+    "role": "secondary",
+    "color": "#73429b",
+    "alpha": 0.051
+  },
+  "--tone-1198": {
+    "role": "muted",
+    "color": "#9a81ac",
+    "alpha": 1
+  },
+  "--tone-1199": {
+    "role": "secondary",
+    "color": "#e4d2ef",
+    "alpha": 1
+  },
+  "--tone-1200": {
+    "role": "secondary",
+    "color": "#f1e7fa",
+    "alpha": 0.2706
+  },
+  "--tone-1201": {
+    "role": "secondary",
+    "color": "#dac3ec",
+    "alpha": 1
+  },
+  "--tone-1202": {
+    "role": "text",
+    "color": "#60377f",
+    "alpha": 1
+  },
+  "--tone-1203": {
+    "role": "secondary",
+    "color": "#d6bde7",
+    "alpha": 0.4706
+  },
+  "--tone-1204": {
+    "role": "muted",
+    "color": "#764d95",
+    "alpha": 1
+  },
+  "--tone-1205": {
+    "role": "text",
+    "color": "#61279a",
+    "alpha": 1
+  },
+  "--tone-1206": {
+    "role": "secondary",
+    "color": "#dbc3eb",
+    "alpha": 1
+  },
+  "--tone-1207": {
+    "role": "secondary",
+    "color": "#e5d0f5",
+    "alpha": 0.7098
+  },
+  "--tone-1208": {
+    "role": "text",
+    "color": "#67259c",
+    "alpha": 1
+  },
+  "--tone-1209": {
+    "role": "secondary",
+    "color": "#cfa8e9",
+    "alpha": 1
+  },
+  "--tone-1210": {
+    "role": "secondary",
+    "color": "#c7a4df",
+    "alpha": 1
+  },
+  "--tone-1211": {
+    "role": "muted",
+    "color": "#aa8fbd",
+    "alpha": 1
+  },
+  "--tone-1212": {
+    "role": "text",
+    "color": "#5e3285",
+    "alpha": 1
+  },
+  "--tone-1213": {
+    "role": "muted",
+    "color": "#9777ac",
+    "alpha": 1
+  },
+  "--tone-1214": {
+    "role": "secondary",
+    "color": "#e6d7ef",
+    "alpha": 0.5608
+  },
+  "--tone-1215": {
+    "role": "muted",
+    "color": "#a38bb4",
+    "alpha": 1
+  },
+  "--tone-1216": {
+    "role": "secondary",
+    "color": "#faf5ff",
+    "alpha": 0.3333
+  },
+  "--tone-1217": {
+    "role": "danger",
+    "color": "#b12d70",
+    "alpha": 1
+  },
+  "--tone-1218": {
+    "role": "muted",
+    "color": "#997aad",
+    "alpha": 1
+  },
+  "--tone-1219": {
+    "role": "secondary",
+    "color": "#f4e3f8",
+    "alpha": 1
+  },
+  "--tone-1220": {
+    "role": "secondary",
+    "color": "#f6effb",
+    "alpha": 1
+  },
+  "--tone-1221": {
+    "role": "secondary",
+    "color": "#dfc8ed",
+    "alpha": 1
+  },
+  "--tone-1222": {
+    "role": "text",
+    "color": "#6e408b",
+    "alpha": 1
+  },
+  "--tone-1223": {
+    "role": "secondary",
+    "color": "#ceb0e4",
+    "alpha": 1
+  },
+  "--tone-1224": {
+    "role": "secondary",
+    "color": "#754496",
+    "alpha": 1
+  },
+  "--tone-1225": {
+    "role": "secondary",
+    "color": "#8133bc",
+    "alpha": 1
+  },
+  "--tone-1226": {
+    "role": "secondary",
+    "color": "#8a3dbd",
+    "alpha": 1
+  },
+  "--tone-1227": {
+    "role": "accent",
+    "color": "#ae316b",
+    "alpha": 1
+  },
+  "--tone-1228": {
+    "role": "secondary",
+    "color": "#be64e2",
+    "alpha": 1
+  },
+  "--tone-1229": {
+    "role": "accent",
+    "color": "#ed9dc9",
+    "alpha": 1
+  },
+  "--tone-1230": {
+    "role": "secondary",
+    "color": "#e8dcf6",
+    "alpha": 1
+  },
+  "--tone-1231": {
+    "role": "muted",
+    "color": "#857095",
+    "alpha": 1
+  },
+  "--tone-1232": {
+    "role": "secondary",
+    "color": "#ad3fce",
+    "alpha": 1
+  },
+  "--tone-1233": {
+    "role": "secondary",
+    "color": "#b640dc",
+    "alpha": 1
+  },
+  "--tone-1234": {
+    "role": "muted",
+    "color": "#6c4b87",
+    "alpha": 1
+  },
+  "--tone-1235": {
+    "role": "secondary",
+    "color": "#9136d2",
+    "alpha": 1
+  },
+  "--tone-1236": {
+    "role": "accent",
+    "color": "#ee78bd",
+    "alpha": 1
+  },
+  "--tone-1237": {
+    "role": "secondary",
+    "color": "#c9a0ee",
+    "alpha": 1
+  },
+  "--tone-1238": {
+    "role": "secondary",
+    "color": "#7952c2",
+    "alpha": 1
+  },
+  "--tone-1239": {
+    "role": "muted",
+    "color": "#ac97bf",
+    "alpha": 1
+  },
+  "--tone-1240": {
+    "role": "secondary",
+    "color": "#eadff3",
+    "alpha": 1
+  },
+  "--tone-1241": {
+    "role": "text",
+    "color": "#1e0c39",
+    "alpha": 0.62
+  },
+  "--tone-1242": {
+    "role": "accent",
+    "color": "#ffc7e6",
+    "alpha": 1
+  },
+  "--tone-1243": {
+    "role": "accent",
+    "color": "#ffdaee",
+    "alpha": 1
+  },
+  "--tone-1244": {
+    "role": "accent",
+    "color": "#edbce7",
+    "alpha": 1
+  }
+}

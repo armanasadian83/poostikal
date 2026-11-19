@@ -1,0 +1,396 @@
+{
+  "branding": {
+    "logo": "/brand/poostikal-wordmark-transparent.png",
+    "logoAlt": "لوگوی پوستیکال",
+    "favicon": "/brand/poostikal-lips-transparent.png",
+    "tagline": "مراقبت از پوست، به انتخاب تو",
+    "footerTagline": "مراقبت از پوست، به زبان ساده.",
+    "seoTitle": "پوستیکال | مراقبت تخصصی پوست، مو و زیبایی",
+    "seoDescription": "محصولات مراقبت خانگی، محصولات سالنی و تجهیزات زیبایی پوستیکال.",
+    "searchIndexing": true
+  },
+  "navbar": {
+    "announcement": "پوستیکال؛ مراقبت تخصصی پوست، مو و زیبایی",
+    "announcementVisible": true,
+    "searchPlaceholder": "دنبال چی میگردی عزیزم؟",
+    "accountLabel": "حساب من",
+    "categoriesLabel": "دسته‌بندی محصولات",
+    "askLabel": "از پوستیکال بپرس",
+    "showCategories": true,
+    "showSearch": true,
+    "showFavorites": true,
+    "showAsk": true,
+    "sticky": true,
+    "links": [
+      {
+        "label": "فروشگاه",
+        "href": "/shop"
+      },
+      {
+        "label": "برندها",
+        "href": "/brands"
+      },
+      {
+        "label": "درباره ما",
+        "href": "/about-us"
+      }
+    ],
+    "mobileDescription": "انتخاب‌های خوب، از شناخت پوستت شروع می‌شن.",
+    "quizTitle": "روتین پوست مناسب تو چیه؟",
+    "quizDescription": "با چند سؤال ساده، انتخاب‌های خودت رو پیدا کن.",
+    "quizButton": "شروع آزمون پوست"
+  },
+  "footer": {
+    "visible": true,
+    "title": "یه کم توجه،\nکلی دلبری.",
+    "description": "از مراقبت روزانه تا انتخاب‌های حرفه‌ای؛ اینجا می‌تونی برای پوستت، با سلیقه خودت انتخاب کنی.",
+    "analysisLabel": "آنالیز پوست و مو با هوش مصنوعی",
+    "showAnalysis": true,
+    "shopTitle": "دنیای مراقبت",
+    "shopLinks": [
+      {
+        "label": "همه محصولات",
+        "href": "/shop"
+      },
+      {
+        "label": "مراقبت خانگی",
+        "href": "/shop?category=home-care"
+      },
+      {
+        "label": "محصولات سالنی",
+        "href": "/shop?category=salon"
+      },
+      {
+        "label": "تجهیزات زیبایی",
+        "href": "/shop?category=equipment"
+      }
+    ],
+    "discoverTitle": "کنار پوستیکال",
+    "discoverLinks": [
+      {
+        "label": "برندها",
+        "href": "/brands"
+      },
+      {
+        "label": "علاقه‌مندی‌های من",
+        "href": "#saved"
+      },
+      {
+        "label": "حساب من",
+        "href": "/account"
+      },
+      {
+        "label": "درباره پوستیکال",
+        "href": "/about-us"
+      }
+    ],
+    "showAsk": true,
+    "askTitle": "یه سؤال توی ذهنته؟",
+    "askDescription": "درباره انتخاب‌هات گپ بزن؛ پوستیکال برای شنیدن حرف‌هات اینجاست.",
+    "askLabel": "از پوستیکال بپرس",
+    "askCaption": "گفتگو با مشاور هوشمند",
+    "signature": "پوست تو. انتخاب تو. پوستیکال.",
+    "backTopLabel": "برگردیم بالا",
+    "notice": ""
+  },
+  "home": {
+    "heroTitle": "یه کم شیطنت روی پوست ،\nیه عالمه دلبری",
+    "heroDescription": "از مراقبت روزانه تا محصولات اتاق پوست،\nانتخاب‌های تخصصی پوستیکال رو کشف کن.",
+    "primaryLabel": "محصولات خانگی",
+    "primaryHref": "/shop?category=home-care",
+    "secondaryLabel": "محصولات سالنی",
+    "secondaryHref": "/shop?category=salon",
+    "showHero": true,
+    "showOrbit": true,
+    "showBrands": true,
+    "showCollection": true,
+    "collectionTitle": "انتخاب‌های تخصصی پوستیکال",
+    "moreLabel": "مشاهده همه",
+    "productLimit": 8,
+    "categoryLimit": 8,
+    "showQuiz": true,
+    "quizTitle": "نمیدونی چه محصولی استفاده کنی؟",
+    "quizDescription": "نوع پوستت و اولویت‌هات رو بگو؛ با دو سؤال کوچولو، چند پیشنهاد برای ناز کشیدن از پوستت ببین.",
+    "quizButton": "آنالیز پوست و مو با هوش مصنوعی",
+    "showStory": true,
+    "brands": [
+      {
+        "id": "biohyalux",
+        "name": "BIOHYALUX",
+        "image": "/images/poostikal/brand-biohyalux.png",
+        "href": "/shop?brand=Biohyalux"
+      },
+      {
+        "id": "mad",
+        "name": "M.A.D",
+        "image": "/images/poostikal/brand-mad.png",
+        "href": "/shop?brand=M.A.D"
+      },
+      {
+        "id": "genosys",
+        "name": "GENOSYS",
+        "image": "/images/poostikal/brand-genosys.png",
+        "href": "/shop?brand=ژنوسیس"
+      },
+      {
+        "id": "ribeskin",
+        "name": "RIBESKIN",
+        "image": "/images/poostikal/brand-ribeskin.png",
+        "href": "/shop?brand=ریب اسکین"
+      },
+      {
+        "id": "fusion",
+        "name": "FUSION",
+        "image": "/images/poostikal/brand-fusion.png",
+        "href": "/shop?brand=فیوژن"
+      }
+    ]
+  },
+  "story": {
+    "image": "/images/poostikal/skin-treatment-scene.png",
+    "alt": "راهنمای انتخاب محصول با آنالیز و چت هوش مصنوعی پوستیکال",
+    "chapters": [
+      {
+        "title": "از یه سؤال شروع کن",
+        "steps": [
+          {
+            "icon": "sun",
+            "title": "بعد از شستن صورتت چه حسی داری؟",
+            "copy": "فرض کن صورتت بعد از شستن کش میاد. برای شروع همین رو بگو، حتی اگه هنوز نمی‌دونی دنبال چه محصولی بگردی."
+          },
+          {
+            "icon": "sparkles",
+            "title": "آنالیز پوست رو باز کن",
+            "copy": "روی «آنالیز پوست و مو با هوش مصنوعی» بزن. اول بگو برای خونه محصول می‌خوای یا برای کار توی سالن و کلینیک."
+          },
+          {
+            "icon": "lips",
+            "title": "پوست یا مو و اسکالپ؟",
+            "copy": "برای کشیدگی صورت، «پوست» رو انتخاب کن. اگه سؤالت درباره‌ی موهات یا پوست سرته، برو سراغ «مو و اسکالپ»."
+          }
+        ]
+      },
+      {
+        "title": "از پوستت بگو",
+        "steps": [
+          {
+            "icon": "leaf",
+            "title": "پوستت معمولاً چطوره؟",
+            "copy": "مثلاً اگه بیشتر روزها پوستت خشکه، «خشک» رو بزن. اگه هیچ گزینه‌ای دقیق نیست، با حرف‌های خودت توضیح بده."
+          },
+          {
+            "icon": "search",
+            "title": "چی بیشتر اذیتت می‌کنه؟",
+            "copy": "اینجا می‌تونی «کشیدگی بعد از شست‌وشو» رو انتخاب کنی. اگه خشکی یا پوسته‌پوسته شدن هم اذیتت می‌کنه، اون رو هم بزن."
+          }
+        ]
+      },
+      {
+        "title": "از جواب‌هات به پیشنهاد برس",
+        "steps": [
+          {
+            "icon": "clipboard",
+            "title": "چه بسته‌ای بهت می‌خوره؟",
+            "copy": "اگه قیمت برات مهمه، «اقتصادی» رو بزن. اگه می‌خوای گزینه‌های بیشتری ببینی، «پیشرفته» رو انتخاب کن."
+          },
+          {
+            "icon": "pump",
+            "title": "نشون بده کجا درگیره",
+            "copy": "برای این مثال «صورت» رو بزن. توی مرحله‌ی بعد، اگه دوست داشتی، می‌تونی یه عکس هم برای بررسی تیم پوستیکال بفرستی."
+          },
+          {
+            "icon": "drop",
+            "title": "پیشنهادهای آنالیز رو ببین",
+            "copy": "توی پیش‌نمایش آنالیز با هوش مصنوعی، بر اساس جواب‌هات چند محصول نمونه می‌بینی، مثل شوینده یا مرطوب‌کننده."
+          },
+          {
+            "icon": "cream",
+            "title": "چرا این محصول پیشنهاد شده؟",
+            "copy": "نمودار زیر کارت‌ها رو نگاه کن. جلوی هر محصول می‌بینی کدوم جوابت، مثل نوع پوست یا دغدغه‌ات، با اون محصول جور درمیاد."
+          }
+        ]
+      },
+      {
+        "title": "پیشنهادها رو به سبدت ببر",
+        "steps": [
+          {
+            "icon": "pipette",
+            "title": "با یه دکمه اضافه‌شون کن",
+            "copy": "توی صفحه‌ی نتیجه، «افزودن محصولات به سبد خرید» رو بزن. اگه وارد حسابت نشدی، اول با شماره موبایلت وارد شو."
+          },
+          {
+            "icon": "grid",
+            "title": "سبدت رو به سلیقه‌ی خودت بچین",
+            "copy": "مثلاً اگه مرطوب‌کننده داری و فقط شوینده می‌خوای، مرطوب‌کننده رو از سبدت بردار. تعداد هر محصول رو هم می‌تونی عوض کنی."
+          }
+        ]
+      },
+      {
+        "title": "بین دو محصول موندی؟",
+        "steps": [
+          {
+            "icon": "sun",
+            "title": "«از پوستیکال بپرس» رو باز کن",
+            "copy": "توی چت با دستیار هوش مصنوعی پوستیکال، سؤالت رو با حرف‌های خودت بپرس. مثلاً «صورتم بعد از شستن کش میاد. موقع خرید شوینده به چی دقت کنم؟»"
+          },
+          {
+            "icon": "refresh",
+            "title": "دو گزینه رو مقایسه کن",
+            "copy": "اسم هر دو محصول رو توی چت بنویس و بپرس «فرق این دوتا از نظر بافت و روش استفاده چیه؟»"
+          },
+          {
+            "icon": "leaf",
+            "title": "سؤالت رو ادامه بده",
+            "copy": "همون‌جا بپرس «اگه بافت سبک بخوام، کدومشون مناسب‌تره؟» اگه توی جواب کارت محصول دیدی، روش بزن تا جزئیاتش رو بخونی."
+          },
+          {
+            "icon": "lips",
+            "title": "انتخابت رو نهایی کن",
+            "copy": "حالا برگرد به سبدت و ببین همون محصولی که می‌خواستی توشه. وقتی از انتخابت راضی بودی، برو سراغ ثبت سفارش."
+          }
+        ]
+      }
+    ]
+  },
+  "login": {
+    "intro": "شمارتو وارد کن عزیزم تا حساب کاربریتو برات بسازم.",
+    "codeIntro": "کد ۶ رقمی رو اینجا وارد کن عزیزم.",
+    "phoneLabel": "شماره موبایل",
+    "phonePlaceholder": "0912 345 6789",
+    "sendLabel": "دریافت کد",
+    "verifyLabel": "تأیید کد",
+    "editLabel": "ویرایش شماره",
+    "codeLabel": "کد ۶ رقمی",
+    "help": "کد ورود فقط برای شمارهٔ خودت ارسال می‌شود.",
+    "showLips": true
+  },
+  "shop": {
+    "title": "مراقبت از پوست، به انتخاب تو.",
+    "description": "محصولات رو کشف کن و روتین خودت رو بساز.",
+    "pageSize": 24,
+    "showAudio": true,
+    "audioTitle": "در یک دقیقه با محصول آشنا شو:",
+    "showRelated": true,
+    "relatedTitle": "چند انتخاب دیگه برای روتینت",
+    "showQuiz": true,
+    "quizLabel": "هنوز مطمئن نیستی؟ پوستت رو بهتر بشناس."
+  },
+  "checkout": {
+    "title": "تکمیل سفارش",
+    "description": "نشانی تو، روش ارسال تو؛ آخرین قدم برای ثبت انتخاب‌هات.",
+    "recipientTitle": "سفارشت رو کجا بفرستیم؟",
+    "recipientDescription": "مشخصات گیرنده و نشانی دقیق تحویل را وارد کن.",
+    "submitLabel": "ثبت سفارش",
+    "successTitle": "سفارشت ثبت شد",
+    "successDescription": "انتخاب‌هات یک قدم به تو نزدیک‌تر شدن.",
+    "note": ""
+  },
+  "chat": {
+    "title": "از پوستیکال بپرس",
+    "welcome": "عزیزم، چی توی ذهنته؟",
+    "description": "از انتخاب محصول تا یک شروع تازه برای روتینت.",
+    "placeholder": "بپرس عزیزم، پوستیکال گوش می‌ده…",
+    "newChatLabel": "گفتگوی تازه",
+    "suggestions": [
+      {
+        "text": "از کجا شروع کنم؟"
+      },
+      {
+        "text": "محصولات ژنوسیس"
+      },
+      {
+        "text": "چه برندهایی دارید؟"
+      }
+    ]
+  },
+  "contact": {
+    "aboutTitle": "درباره پوستیکال",
+    "aboutDescription": "پوستیکال فروشگاه تخصصی مراقبت از پوست و مو است. مجموعهٔ ما هم برای کسانی است که روتین روزانهٔ خود را می‌سازند و هم برای متخصصانی که برای اتاق پوست به دنبال محصولات حرفه‌ای هستند؛ از شوینده و آبرسان تا ماسک، سرم و تجهیزات مراقبتی.\n\nدر پوستیکال، انتخاب از شناخت محصول شروع می‌شود. در هر صفحه می‌توانید کاربرد محصول، ویژگی‌ها و گزینه‌های بسته‌بندی آن را بررسی کنید و پیش از خرید، انتخاب‌هایتان را با هم بسنجید. اگر دربارهٔ یک محصول یا سفارشتان پرسشی دارید، از راه‌های زیر با ما در تماس باشید.",
+    "phone": "09363385950",
+    "email": "poostikal@gmail.com",
+    "address": "تهران، خیابان شریعتی",
+    "socialLinks": [
+      {"label": "واتساپ", "href": "https://api.whatsapp.com/send/?phone=989128901804&text&type=phone_number&app_absent=0"},
+      {"label": "تلگرام", "href": "https://t.me/nimaghasedi"},
+      {"label": "اینستاگرام", "href": "https://www.instagram.com/poostikal"}
+    ]
+  },
+  "effects": {
+    "cursor": true,
+    "waves": true,
+    "lipTransition": true
+  },
+  "orbit": {
+    "items": [
+      {
+        "id": "biohyalux-soothing",
+        "name": "ویال بایوهیالوکس",
+        "image": "/images/poostikal/banner-biohyalux-soothing.webp"
+      },
+      {
+        "id": "genosys-snow-o2",
+        "name": "شوینده ژنوسیس",
+        "image": "/images/poostikal/banner-snow-o2.webp"
+      },
+      {
+        "id": "ribeskin-mini-carboxy",
+        "name": "کربوکسی ریب اسکین",
+        "image": "/images/poostikal/banner-ribeskin-mini.webp"
+      },
+      {
+        "id": "oabes-carbon",
+        "name": "دستگاه کربن OABES",
+        "image": "/images/poostikal/banner-products/oabes-carbon.png"
+      },
+      {
+        "id": "scalp-defence-shampoo",
+        "name": "شامپو اسکالپ دیفنس بی‌پیور",
+        "image": "/images/poostikal/banner-products/scalp-defence-shampoo.png"
+      },
+      {
+        "id": "black-anti-dandruff",
+        "name": "شامپو ضدشوره بلک",
+        "image": "/images/poostikal/banner-products/black-anti-dandruff.png"
+      },
+      {
+        "id": "paul-rivera-perfect-all",
+        "name": "پرفکت آل پل ریورا",
+        "image": "/images/poostikal/banner-products/paul-rivera-perfect-all.png"
+      },
+      {
+        "id": "genosys-powder-mask",
+        "name": "ماسک پودری بایوفرمنت ژنوسیس",
+        "image": "/images/poostikal/banner-products/genosys-powder-mask.png"
+      },
+      {
+        "id": "lucamar-cc-cream",
+        "name": "سی‌سی کرم لوکامر",
+        "image": "/images/poostikal/banner-products/lucamar-cc-cream.png"
+      },
+      {
+        "id": "novoselix-scalp-scaler",
+        "name": "لایه‌بردار پوست سر نووسلیکس",
+        "image": "/images/poostikal/banner-products/novoselix-scalp-scaler.png"
+      },
+      {
+        "id": "ottienovex-r20",
+        "name": "ژل ماسک R20 اتینووکس",
+        "image": "/images/poostikal/banner-products/ottienovex-r20.png"
+      }
+    ]
+  },
+  "cart": {
+    "title": "سبد خریدت",
+    "description": "انتخاب‌های قشنگت، یک قدم تا روتین تو.",
+    "continueLabel": "ادامه خرید",
+    "itemsTitle": "انتخاب‌های تو",
+    "summaryTitle": "خلاصه سبد خرید",
+    "checkoutLabel": "ادامه و تکمیل سفارش",
+    "paymentNote": "در مرحله بعد، آدرس و روش ارسال را انتخاب و سفارشت را ثبت می‌کنی.",
+    "emptyTitle": "جای انتخاب‌های تو اینجا خالیه!",
+    "emptyDescription": "یه کم مراقبت، یه عالمه دلبری.\nمحصولات دلخواهت رو پیدا کن و سبدت رو بچین.",
+    "emptyLabel": "دیدن محصولات",
+    "assistanceText": "برای انتخاب‌هات یه راهنما می‌خوای؟",
+    "showAssistance": true
+  }
+}

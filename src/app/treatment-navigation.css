@@ -1,0 +1,160 @@
+/* The existing glass layer samples only the pixels underneath the navbar.
+   The photo itself remains untouched outside this rounded surface. */
+.home-shell .poostikal-header {
+  transition: color .3s ease, border-color .3s ease, box-shadow .3s ease;
+}
+
+.home-shell .poostikal-header:before {
+  transition: background-color .3s ease, backdrop-filter .3s ease;
+  -webkit-backdrop-filter: blur(18px) saturate(1.15);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] {
+  color: var(--theme-on-primary);
+  border-color: var(--tone-0756);
+  box-shadow: 0 14px 42px var(--tone-0757), inset 0 1px 0 var(--tone-0030);
+}
+
+.home-shell .poostikal-header[data-over-photo=true]:before {
+  background-color: var(--tone-0758);
+  -webkit-backdrop-filter: blur(14px) brightness(.96) saturate(1.1);
+  backdrop-filter: blur(14px) brightness(.96) saturate(1.1);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .poostikal-brand,
+.home-shell .poostikal-header[data-over-photo=true] .mobile-menu {
+  color: var(--theme-on-primary);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .brand-description {
+  color: var(--tone-0759);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .brand-identity {
+  border-right-color: var(--tone-0760);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .header-navigation-row {
+  border-top-color: var(--tone-0761);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .nav-search {
+  background: var(--tone-0762);
+  border-color: var(--tone-0763);
+  box-shadow: inset 0 1px 0 var(--tone-0764);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .nav-search>span:nth-child(2) {
+  color: var(--tone-0765);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .nav-search .nav-search-hint {
+  color: var(--tone-0766);
+  border-right-color: var(--tone-0767);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .nav-account {
+  background: var(--tone-0768);
+  border-color: var(--tone-0769);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .nav-search:hover,
+.home-shell .poostikal-header[data-over-photo=true] .nav-account:hover,
+.home-shell .poostikal-header[data-over-photo=true] .mobile-menu:hover,
+.home-shell .poostikal-header[data-over-photo=true] .nav-saved:hover {
+  background: var(--tone-0770);
+  color: var(--theme-on-primary);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .cart-button {
+  background: var(--tone-0771);
+  color: var(--tone-0772);
+  box-shadow: 0 3px 14px var(--tone-0773);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .cart-button:hover {
+  background: var(--tone-0774);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .cart-count {
+  border-color: var(--tone-0775);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .desktop-nav .category-disclosure {
+  background: var(--tone-0776);
+  border-color: var(--tone-0777);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .desktop-nav .category-disclosure:hover,
+.home-shell .poostikal-header[data-over-photo=true] .desktop-nav .category-disclosure.is-expanded {
+  background: var(--tone-0778);
+  border-color: var(--tone-0779);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .nav-routine {
+  background: var(--tone-0780);
+  color: var(--tone-0781);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .nav-routine>svg {
+  color: var(--tone-0782);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .nav-routine:hover {
+  background: var(--tone-0783);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .category-mega-panel {
+  background: var(--tone-0784);
+  border-color: var(--tone-0785);
+  box-shadow: inset 0 1px 0 var(--tone-0778), 0 18px 45px var(--tone-0786);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .nav-category-link {
+  color: var(--theme-on-primary);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .nav-category-link:hover {
+  background: var(--tone-0787);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .nav-category-icon,
+.home-shell .poostikal-header[data-over-photo=true] .mega-quiz-icon {
+  background: var(--tone-0762);
+  border-color: var(--tone-0788);
+  box-shadow: inset 0 1px 0 var(--tone-0789);
+  color: var(--tone-0790);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .mega-quiz {
+  border-right-color: var(--tone-0791);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .mega-quiz p {
+  color: var(--tone-0792);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .mega-quiz button {
+  background: var(--tone-0793);
+  color: var(--tone-0794);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] .mega-quiz button:hover {
+  background: var(--tone-0774);
+}
+
+.home-shell .poostikal-header[data-over-photo=true] :focus-visible {
+  outline-color: var(--tone-0781);
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .home-shell .poostikal-header[data-over-photo=true] { background: var(--tone-0795); }
+  .home-shell .poostikal-header[data-over-photo=true]:before { background: var(--tone-0795); }
+  .home-shell .poostikal-header[data-over-photo=true] .category-mega-panel { background: var(--tone-0796); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-shell .poostikal-header,
+  .home-shell .poostikal-header:before,
+  .home-shell .poostikal-header .poostikal-logo { transition: none; }
+}

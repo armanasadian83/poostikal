@@ -1,0 +1,46 @@
+import type { SVGProps } from 'react';
+
+export type IconName = 'pin' | 'pushpin' | 'logout' | 'search' | 'bag' | 'user' | 'heart' | 'lips' | 'arrow-left' | 'arrow-right' | 'plus' | 'minus' | 'close' | 'menu' | 'check' | 'leaf' | 'sliders' | 'trash' | 'chevron' | 'sun' | 'drop' | 'sparkles' | 'refresh' | 'grid' | 'pump' | 'cream' | 'pipette' | 'bottle' | 'clipboard' | 'chevron-down' | 'device' | 'pause' | 'play' | 'send' | 'stop' | 'message' | 'headset' | 'smile' | 'reply';
+const paths: Record<IconName, React.ReactNode> = {
+  pushpin: <g transform="rotate(35 12 12)"><path d="M8 3h8l-1 7 3 4v1H6v-1l3-4-1-7ZM12 15v6"/></g>,
+  smile: <><circle cx="12" cy="12" r="9"/><path d="M8 14a4.5 4.5 0 0 0 8 0"/><path d="M8.7 9h.1m6.4 0h.1" strokeWidth="2.5"/></>,
+  reply: <><path d="m15 4 6 6-6 6M21 10h-8c-6 0-9 3-10 9"/></>,
+  headset: <><path d="M4 13v-2a8 8 0 0 1 16 0v5a4 4 0 0 1-4 4h-2"/><rect x="3" y="10" width="4" height="7" rx="2"/><rect x="17" y="10" width="4" height="7" rx="2"/><path d="M11 20h3"/></>,
+  pin: <><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></>,
+  logout: <><path d="M10 4H5v16h5M9 12h12m-4-4 4 4-4 4"/></>,
+  send: <><path d="m21 3-6 18-4-8-8-4L21 3Z"/><path d="m11 13 10-10"/></>,
+  stop: <rect x="6" y="6" width="12" height="12" rx="2" fill="currentColor" stroke="none"/>,
+  message: <><path d="M20 11.5a8 8 0 0 1-8 8H5l-3 2 1.8-5.4A8 8 0 1 1 20 11.5Z"/><path d="M7 11.5h.1m4-.0h.1m4-.0h.1" strokeWidth="2.5"/></>,
+  search: <><circle cx="10.8" cy="10.8" r="7.3"/><path d="m16.2 16.2 4.6 4.6"/></>,
+  bag: <><path d="M5 7.5h14l1 13H4l1-13Z"/><path d="M8.5 8V6a3.5 3.5 0 0 1 7 0v2"/></>,
+  user: <><circle cx="12" cy="7.5" r="3.5"/><path d="M4.5 21v-2a7.5 7.5 0 0 1 15 0v2"/></>,
+  heart: <path d="M20.8 5.7a5.2 5.2 0 0 0-7.3 0L12 7.2l-1.5-1.5a5.2 5.2 0 0 0-7.3 7.4L12 22l8.8-8.9a5.2 5.2 0 0 0 0-7.4Z"/>,
+  lips: <><path d="M1.8 12c2.5-1.8 4.8-6.6 7.1-6.6 1.2 0 2.3.9 3.1 1.8.8-.9 1.9-1.8 3.1-1.8 2.3 0 4.6 4.8 7.1 6.6-2.6 3.4-5 6.6-10.2 6.6S4.4 15.4 1.8 12Z"/><path d="M2 12.1c2.7.8 4.4-1.7 7.1-.7 1.1.4 1.8.8 2.9.8s1.8-.4 2.9-.8c2.7-1 4.4 1.5 7.1.7-2.4 1.2-4-.2-6.4.6-1.4.5-2.4 1.2-3.6 1.2s-2.2-.7-3.6-1.2c-2.4-.8-4 .6-6.4-.6Z" strokeWidth={1.1}/></>,
+  'arrow-left': <><path d="M20 12H4m6-6-6 6 6 6"/></>,
+  'arrow-right': <><path d="M4 12h16m-6-6 6 6-6 6"/></>,
+  plus: <path d="M12 5v14M5 12h14"/>, minus: <path d="M5 12h14"/>,
+  close: <path d="m6 6 12 12M6 18 18 6"/>,
+  pause: <path d="M8 5v14M16 5v14"/>,
+  play: <path d="m8 4 12 8-12 8V4Z"/>,
+  menu: <path d="M4 6h16M4 12h16M4 18h16"/>,
+  check: <path d="m5 12 4 4L19 6"/>,
+  leaf: <><path d="M20 3C10 2 3 7 4 14c1 7 13 9 16-11Z"/><path d="M4 21 16 8M9 15V9m0 6h6"/></>,
+  sliders: <><path d="M4 6h9m4 0h3M4 12h3m4 0h9M4 18h9m4 0h3"/><circle cx="15" cy="6" r="2"/><circle cx="9" cy="12" r="2"/><circle cx="15" cy="18" r="2"/></>,
+  trash: <><path d="M3 6h18M9 6V3h6v3M6 6l1 15h10l1-15M10 10v7m4-7v7"/></>,
+  chevron: <path d="m9 5 7 7-7 7"/>,
+  sun: <><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></>,
+  drop: <path d="M12 2S5 10 5 15a7 7 0 0 0 14 0c0-5-7-13-7-13Zm-3 13a3 3 0 0 0 3 3"/>,
+  sparkles: <><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5L12 3ZM21 2v4m-2-2h4"/></>,
+  refresh: <><path d="M20 7v5h-5M4 17v-5h5"/><path d="M6 6a8 8 0 0 1 13 2M5 16a8 8 0 0 0 13 2"/></>,
+  grid: <><rect x="3.5" y="3.5" width="6" height="6" rx="1.4"/><rect x="14.5" y="3.5" width="6" height="6" rx="1.4"/><rect x="3.5" y="14.5" width="6" height="6" rx="1.4"/><rect x="14.5" y="14.5" width="6" height="6" rx="1.4"/></>,
+  pump: <><rect x="6" y="9" width="12" height="12" rx="2.4"/><path d="M10 9V5h4v4M12 5V2h7v2M10 13h4"/></>,
+  cream: <><path d="M5 11h14v7a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3v-7ZM4 11h16M6 8h12v3H6zM9 8c-1-3 4-2 3-6 4 2 5 5 2 6"/><path d="M5 15h14"/></>,
+  pipette: <><path d="m14 4 6 6M13 5l3-3a2 2 0 0 1 3 0l3 3a2 2 0 0 1 0 3l-3 3M15 7 5 17l-1 4 4-1L18 10M9 13l2 2"/><path d="M3 10c-2 3-2 4 0 5 2-1 2-2 0-5Z"/></>,
+  bottle: <><rect x="7" y="8" width="10" height="13" rx="2.5"/><path d="M9 8V3h6v5M10 13h4"/></>,
+  clipboard: <><rect x="5" y="5" width="14" height="16" rx="2"/><rect x="9" y="2" width="6" height="5" rx="1.4"/><path d="m8 12 1 1 2-2m2 1h3m-8 5 1 1 2-2m2 1h3"/></>,
+  'chevron-down': <path d="m6 9 6 6 6-6"/>,
+  device: <><rect x="5" y="5" width="12" height="15" rx="3"/><rect x="8" y="8" width="6" height="4" rx="1"/><path d="M8 20v2m6-2v2m3-12h2a2 2 0 0 0 2-2V4m-2-2h4v3h-4zM9 16h4"/></>,
+};
+export function Icon({ name, size = 22, ...props }: SVGProps<SVGSVGElement> & { name: IconName; size?: number }) {
+  return <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>{paths[name]}</svg>;
+}

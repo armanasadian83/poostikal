@@ -1,0 +1,18 @@
+[
+  {"id":"welcome","label":"سلام، خوش اومدی!","image":"/images/support/welcome.webp"},
+  {"id":"thank-you","label":"مرسی که کنارمونی!","image":"/images/support/thank-you.webp"},
+  {"id":"listening","label":"بگو، گوش می‌دم","image":"/images/support/listening.webp"},
+  {"id":"checking","label":"دارم برات بررسی می‌کنم","image":"/images/support/checking.webp"},
+  {"id":"one-moment","label":"یه لحظه بهم فرصت بده","image":"/images/support/one-moment.webp"},
+  {"id":"confirmed","label":"سفارشت تأیید شد","image":"/images/support/confirmed.webp"},
+  {"id":"packing","label":"داریم سفارشت رو می‌چینیم","image":"/images/support/packing.webp"},
+  {"id":"on-the-way","label":"بسته‌ات راه افتاد!","image":"/images/support/on-the-way.webp"},
+  {"id":"send-photo","label":"یه عکس برام می‌فرستی؟","image":"/images/support/send-photo.webp"},
+  {"id":"routine-help","label":"با هم روتینت رو بچینیم","image":"/images/support/routine-help.webp"},
+  {"id":"all-set","label":"حله، انجام شد!","image":"/images/support/all-set.webp"},
+  {"id":"goodnight","label":"شبت آروم!","image":"/images/support/goodnight.webp"},
+  {"id":"kiss","label":"یه بوس","image":"/brand/poostikal-lips-transparent.png"},
+  {"id":"sunshine","label":"روزت آفتابی","image":"/images/analysis/sun.webp"},
+  {"id":"fresh","label":"یه قطره طراوت","image":"/images/analysis/drop.webp"},
+  {"id":"care","label":"مراقب خودت باش","image":"/images/analysis/routine.webp"}
+]
